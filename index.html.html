@@ -1,0 +1,2687 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>부산 소상공인 지원금 대조표</title>
+<meta name="description" content="업종과 규모를 입력하면 부산 지역 소상공인 지원사업 자격 요건을 항목별로 대조하고, 필요 서류와 작성 체크리스트를 안내합니다.">
+<meta name="theme-color" content="#2F5CFF">
+<meta name="robots" content="index, follow">
+
+<!-- 카카오톡·문자로 링크를 보낼 때 뜨는 미리보기 -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="부산 소상공인 지원금 대조표">
+<meta property="og:title" content="부산 소상공인 지원금 대조표 — 내 가게가 받을 수 있는 지원금 찾기">
+<meta property="og:description" content="업종과 지역, 규모를 입력하면 지금 접수 중인 부산 소상공인 지원사업 중 신청 가능한 것을 골라드려요. 필요 서류와 발급처, 체크리스트까지 한눈에.">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="부산 소상공인 지원금 대조표">
+<meta name="twitter:description" content="업종과 지역을 입력하면 신청 가능한 부산 소상공인 지원사업을 골라드려요.">
+
+<!-- 브라우저 탭 아이콘 : 외부 파일 없이 SVG를 그대로 심는다 -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232F5CFF'/%3E%3Cpath d='M18 33.5l9.5 9.5L46 24.5' stroke='%23fff' stroke-width='7' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232F5CFF'/%3E%3Cpath d='M18 33.5l9.5 9.5L46 24.5' stroke='%23fff' stroke-width='7' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
+<style>
+:root{
+  --bg:#F4F7FF;
+  --card:#FFFFFF;
+  --ink:#0B1220;
+  --ink-soft:#5B6478;
+  --line:#E3E8F7;
+  --blue:#2F5CFF;
+  --blue-deep:#1738C4;
+  --teal:#0FBFA8;
+  --coral:#FF5D6C;
+  --pass-bg:#E4F9EF; --pass:#0F9D58;
+  --fail-bg:#FFE9EA; --fail:#E23744;
+  --check-bg:#FFF3DE; --check:#B4740E;
+  --shadow: 0 10px 30px -12px rgba(23,56,196,.18);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+html,body{margin:0;padding:0}
+body{
+  background:
+    radial-gradient(1100px 480px at 82% -8%, #E3ECFF 0%, transparent 60%),
+    radial-gradient(900px 420px at -10% 8%, #E1FBF6 0%, transparent 55%),
+    var(--bg);
+  color:var(--ink);
+  font-family:"Pretendard Variable",Pretendard,-apple-system,sans-serif;
+  font-size:16px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit}
+.wrap{max-width:820px;margin:0 auto;padding:0 20px}
+:focus-visible{outline:2px solid var(--blue-deep);outline-offset:2px}
+.disp{font-family:"Space Grotesk","Pretendard Variable",sans-serif}
+
+.nav{position:sticky;top:0;z-index:20;background:rgba(244,247,255,.78);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav-in{max-width:820px;margin:0 auto;padding:15px 20px;display:flex;justify-content:space-between;align-items:center}
+.brand{display:flex;align-items:center;gap:8px;text-decoration:none}
+.brand .dot{width:9px;height:9px;border-radius:50%;background:linear-gradient(135deg,var(--blue),var(--teal))}
+.brand span{font-family:"Space Grotesk";font-weight:700;font-size:16.5px;letter-spacing:-.01em}
+.nav a.cta{font-size:13.5px;font-weight:700;text-decoration:none;background:var(--ink);color:#fff;padding:10px 18px;border-radius:100px}
+.nav-links{display:flex;align-items:center;gap:16px}
+.nav-plain{font-size:13.5px;font-weight:700;text-decoration:none;color:var(--ink-soft)}
+.nav-plain:hover{color:var(--blue-deep)}
+.nav-links a{position:relative}
+.nav-plain.on{color:var(--ink)}
+.nav-plain.on::after{content:"";position:absolute;left:0;right:0;bottom:-8px;height:2.5px;border-radius:2px;background:var(--blue)}
+.nav a.cta.on{background:#fff;color:var(--ink);box-shadow:inset 0 0 0 1.5px var(--ink)}
+.nav a.cta.on:hover{background:#fff}
+.nav-links a.on .here{display:inline-block}
+.here{display:none;width:6px;height:6px;border-radius:50%;background:var(--blue);margin-right:6px;vertical-align:1px}
+.nav a.cta.on .here{background:var(--ink)}
+@media(max-width:560px){.nav-links{gap:12px}.nav-plain{font-size:12.5px}}
+.nav a.cta:hover{background:var(--blue-deep)}
+
+.hero{padding:72px 0 46px}
+.chip{display:inline-flex;align-items:center;gap:7px;background:#fff;border:1px solid var(--line);border-radius:100px;padding:7px 14px;font-size:12.5px;font-weight:700;color:var(--blue-deep);margin:0 0 22px;box-shadow:var(--shadow)}
+.chip .pulse{width:7px;height:7px;border-radius:50%;background:var(--teal);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+h1{font-family:"Space Grotesk";font-weight:700;font-size:clamp(34px,6.6vw,54px);line-height:1.18;margin:0 0 18px;letter-spacing:-.02em}
+h1 .grad{background:linear-gradient(100deg,var(--blue) 10%,var(--teal) 90%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lede{margin:0 0 28px;color:var(--ink-soft);font-size:16.5px;max-width:48ch}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+.btn{font:inherit;font-size:15px;font-weight:700;padding:14px 24px;border-radius:100px;text-decoration:none;cursor:pointer;border:1px solid transparent;transition:transform .15s ease}
+.btn:hover{transform:translateY(-1px)}
+.btn-solid{background:var(--ink);color:#fff}
+.btn-solid:hover{background:var(--blue-deep)}
+.btn-line{background:#fff;color:var(--ink);border-color:var(--line);box-shadow:var(--shadow)}
+
+.stripe{margin-top:48px;display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media(max-width:560px){.stripe{grid-template-columns:1fr}}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 18px;box-shadow:var(--shadow)}
+.stat .num{font-family:"Space Grotesk";font-size:24px;font-weight:700;color:var(--blue-deep)}
+.stat .lbl{font-size:12.5px;color:var(--ink-soft);margin-top:3px}
+a.stat{display:block;text-decoration:none;transition:transform .12s ease,border-color .12s ease}
+a.stat:hover{transform:translateY(-2px);border-color:var(--blue)}
+a.stat .go-all{display:inline-block;margin-top:8px;font-size:12px;font-weight:700;color:var(--blue)}
+.countlink{font-weight:700;color:var(--blue-deep);text-decoration:underline;text-underline-offset:3px}
+
+.allview{padding:56px 0 70px}
+.backlink{display:inline-block;font-size:13.5px;font-weight:700;color:var(--blue-deep);text-decoration:none;margin:0 0 18px}
+.backlink:hover{text-decoration:underline}
+.pagenote{font-size:13.5px;color:var(--ink-soft);margin:0 0 20px;font-weight:600}
+
+/* 화면 전환 효과 */
+@keyframes viewIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+@keyframes cardIn{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+.view-anim{animation:viewIn .32s cubic-bezier(.22,.8,.3,1) both}
+.stagger>*{animation:cardIn .38s cubic-bezier(.22,.8,.3,1) both}
+.stagger>*:nth-child(1){animation-delay:.03s}
+.stagger>*:nth-child(2){animation-delay:.06s}
+.stagger>*:nth-child(3){animation-delay:.09s}
+.stagger>*:nth-child(4){animation-delay:.12s}
+.stagger>*:nth-child(5){animation-delay:.15s}
+.stagger>*:nth-child(6){animation-delay:.18s}
+.stagger>*:nth-child(7){animation-delay:.21s}
+.stagger>*:nth-child(8){animation-delay:.24s}
+.stagger>*:nth-child(9){animation-delay:.27s}
+.stagger>*:nth-child(n+10){animation-delay:.3s}
+@media(prefers-reduced-motion:reduce){.view-anim,.stagger>*{animation:none}}
+
+/* 발급처별 준비 묶음 */
+.plan{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px 22px;margin:0 0 22px;box-shadow:var(--shadow)}
+.plan h3{font-size:16.5px;margin:0 0 5px}
+.plan .plead{font-size:13px;color:var(--ink-soft);margin:0 0 15px;line-height:1.6}
+.pbar{height:9px;border-radius:100px;background:#EDEFF5;overflow:hidden;margin:0 0 6px}
+.pbar i{display:block;height:100%;border-radius:100px;background:linear-gradient(90deg,var(--blue),var(--teal));transition:width .35s ease}
+.pnum{font-size:12.5px;font-weight:700;color:var(--ink-soft);margin:0 0 16px}
+.pnum b{font-family:"Space Grotesk","Pretendard Variable",sans-serif;color:var(--blue-deep)}
+.pstop{border-top:1px solid var(--line);padding:13px 0 0;margin:13px 0 0}
+.pstop:first-of-type{border-top:0;padding-top:0;margin-top:0}
+.pstop-h{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 10px}
+.pstop-h b{font-size:14.5px}
+.pstop-h a{font-size:12.5px;font-weight:700;color:var(--blue-deep)}
+.pstop-h .cnt{font-size:12px;font-weight:700;color:var(--blue-deep);background:#EEF2FF;padding:3px 9px;border-radius:100px}
+.pstop-h .done{background:var(--pass-bg);color:var(--pass)}
+.pitems{display:flex;flex-wrap:wrap;gap:6px;margin:9px 0 0}
+.pitem{font-size:12.5px;font-weight:600;padding:5px 11px;border-radius:8px;background:#F3F5FA;color:var(--ink-soft)}
+.pitem.got{background:var(--pass-bg);color:var(--pass)}
+.pitem.got::before{content:"✓ "}
+
+/* 공고 카드의 서류 준비 상태 */
+.prep{display:flex;flex-wrap:wrap;align-items:center;gap:8px;background:#F6F8FC;border-radius:10px;padding:10px 13px;margin:0 0 12px}
+.prep .pbadge{font-family:"Space Grotesk","Pretendard Variable",sans-serif;font-size:12.5px;font-weight:700;padding:4px 10px;border-radius:8px;background:#EEF2FF;color:var(--blue-deep);white-space:nowrap}
+.prep.all{background:var(--pass-bg)}
+.prep.all .pbadge{background:var(--pass);color:#fff}
+.prep .ptext{font-size:12.5px;color:var(--ink-soft);line-height:1.55}
+.prep .ptext b{color:var(--ink)}
+.prep .pold{color:var(--fail);font-weight:700}
+.prep a{font-weight:700;color:var(--blue-deep)}
+
+.docrow{display:flex;flex-wrap:wrap;align-items:center;gap:9px;margin:12px 0 0;padding:11px 13px;background:var(--bg-soft);border-radius:11px}
+.docrow label{font-size:12.5px;font-weight:700;color:var(--ink-soft)}
+.docrow input[type=date]{font:inherit;font-size:13px;padding:7px 10px;border:1px solid var(--line);border-radius:9px;background:#fff;color:var(--ink)}
+.docrow .clr{font:inherit;font-size:12px;font-weight:700;padding:6px 11px;border-radius:8px;border:1px solid var(--line);background:#fff;color:var(--ink-soft);cursor:pointer}
+.docrow .clr:hover{border-color:var(--coral);color:var(--coral)}
+.dstate{font-size:12.5px;font-weight:700}
+.dstate.ok{color:var(--pass)}
+.dstate.old{color:var(--fail)}
+.dstate.none{color:var(--ink-soft);font-weight:600}
+.docmeta{display:flex;flex-wrap:wrap;gap:6px;margin:9px 0 0}
+.docmeta span{font-size:11.5px;font-weight:700;padding:4px 10px;border-radius:100px;background:#EEF2FF;color:var(--blue-deep)}
+.docmeta span.off{background:var(--check-bg);color:var(--check)}
+.docpath{font-size:13px;line-height:1.6;background:#fff;border:1px dashed var(--line);border-radius:11px;padding:12px 14px;margin:0 0 12px}
+.docpath b{color:var(--blue-deep)}
+.chklist{margin:14px 0 0}
+.chklist h4{margin:0 0 10px}
+.chklist ul{margin:0;padding:0;list-style:none;font-size:13.5px;color:#3A4258}
+.chklist li{position:relative;padding:0 0 0 22px;margin:0 0 7px;line-height:1.6}
+.chklist li::before{content:"\2713";position:absolute;left:0;top:0;font-weight:700;color:var(--teal)}
+
+.freshbar{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:13px 16px;margin:0 0 20px;box-shadow:var(--shadow)}
+.freshbar .fdot{width:8px;height:8px;border-radius:50%;background:var(--teal);flex:none;animation:pulse 2s infinite}
+.freshbar .fmain{font-size:13.5px;font-weight:700;color:var(--ink)}
+.freshbar .fsub{font-size:12.5px;color:var(--ink-soft);line-height:1.5}
+.freshbar .fdate{font-family:"Space Grotesk","Pretendard Variable",sans-serif;color:var(--blue-deep)}
+.pager{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:7px;margin:30px 0 0}
+.pbtn{font:inherit;font-family:"Space Grotesk","Pretendard Variable",sans-serif;font-size:14px;font-weight:700;min-width:42px;height:42px;padding:0 12px;border-radius:12px;border:1px solid var(--line);background:#fff;color:var(--ink-soft);cursor:pointer;box-shadow:var(--shadow)}
+.pbtn:hover:not(:disabled){border-color:var(--blue);color:var(--blue-deep)}
+.pbtn.on{background:var(--ink);border-color:var(--ink);color:#fff}
+.pbtn:disabled{opacity:.35;cursor:default;box-shadow:none}
+.pbtn.arrow{font-size:15px}
+
+.how{padding:56px 0 20px}
+.section-tag{display:inline-block;font-size:12px;letter-spacing:.14em;color:var(--blue-deep);text-transform:uppercase;font-weight:700;margin:0 0 10px;background:#fff;padding:5px 12px;border-radius:100px;border:1px solid var(--line)}
+h2{font-family:"Space Grotesk";font-size:26px;font-weight:700;margin:0 0 28px;letter-spacing:-.01em}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+@media(max-width:640px){.steps{grid-template-columns:1fr}}
+.step{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:var(--shadow)}
+.step .ico{width:38px;height:38px;border-radius:11px;display:flex;align-items:center;justify-content:center;font-family:"Space Grotesk";font-weight:700;font-size:15px;color:#fff;margin:0 0 14px}
+.step:nth-child(1) .ico{background:linear-gradient(135deg,var(--blue),#6C8CFF)}
+.step:nth-child(2) .ico{background:linear-gradient(135deg,var(--teal),#5FE0CB)}
+.step:nth-child(3) .ico{background:linear-gradient(135deg,var(--coral),#FF8A96)}
+.step h3{font-size:15.5px;font-weight:700;margin:0 0 6px}
+.step p{font-size:13.5px;color:var(--ink-soft);margin:0}
+
+.scope{margin-top:28px;padding:18px 20px;background:#fff;border:1px solid var(--line);border-radius:16px;font-size:13.5px;box-shadow:var(--shadow)}
+.scope b{color:var(--blue-deep)}
+
+.form-sec{padding:56px 0 8px}
+.notice{margin:0 0 26px;padding:13px 16px;background:var(--check-bg);border-radius:14px;font-size:13px;color:#7A4E0A;font-weight:600}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:26px;box-shadow:var(--shadow)}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px 18px}
+@media(max-width:560px){.grid{grid-template-columns:1fr}}
+.field label{display:block;font-size:13px;font-weight:700;color:var(--ink-soft);margin:0 0 7px;letter-spacing:.01em}
+.field select,.field input{width:100%;padding:12px 14px;font:inherit;font-size:15px;background:#F8F9FE;color:var(--ink);border:1.5px solid var(--line);border-radius:12px}
+.field select:focus,.field input:focus{outline:none;border-color:var(--blue);background:#fff}
+.hint{font-size:12px;color:var(--ink-soft);margin:5px 0 0}
+button.go{margin-top:22px;width:100%;padding:16px;background:linear-gradient(100deg,var(--blue),var(--blue-deep));color:#fff;border:0;border-radius:14px;font:inherit;font-size:16px;font-weight:700;letter-spacing:.01em;cursor:pointer;box-shadow:0 12px 24px -10px rgba(23,56,196,.5)}
+.softlink{display:block;width:100%;margin:14px 0 0;padding:6px 0;background:none;border:0;font:inherit;font-size:13px;color:var(--ink-soft);text-align:center;cursor:pointer;text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--line);transition:color .18s}
+.softlink:hover,.softlink:focus-visible{color:var(--blue-deep);text-decoration-color:var(--blue)}
+.softbox{margin-top:16px;padding:18px;border:1px solid var(--line);border-radius:14px;background:#FBFCFF}
+.softbox .softlead{margin:0 0 4px;font-size:14.5px;font-weight:700;color:var(--ink)}
+.softbox .softsub{margin:0 0 16px;font-size:13px;line-height:1.65;color:var(--ink-soft)}
+.softbox .card{box-shadow:none}
+.softclose{display:block;width:100%;margin-top:14px;padding:8px 0;background:none;border:0;font:inherit;font-size:13px;color:var(--ink-soft);cursor:pointer}
+.softclose:hover{color:var(--blue-deep)}
+button.go:hover{filter:brightness(1.06)}
+
+.results{padding:38px 0 70px}
+.tally{font-size:13.5px;color:var(--ink-soft);margin:0 0 20px;font-weight:600;border-radius:9px}
+button.go:disabled{cursor:default;opacity:.85}
+button.go .spin{display:none;width:15px;height:15px;margin-right:9px;vertical-align:-2px;border:2.5px solid rgba(255,255,255,.35);border-top-color:#fff;border-radius:50%;animation:spin .6s linear infinite}
+button.go.busy .spin{display:inline-block}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes tallyPop{0%{background:#DDE6FF;box-shadow:0 0 0 8px #DDE6FF}100%{background:transparent;box-shadow:0 0 0 8px transparent}}
+.tally.fresh{animation:tallyPop 1.1s ease-out both}
+@media(prefers-reduced-motion:reduce){.tally.fresh{animation:none}button.go .spin{animation:none}}
+.card{background:var(--card);border:1px solid var(--line);margin:0 0 16px;border-radius:20px;overflow:hidden;box-shadow:var(--shadow)}
+.card.no{opacity:.68}
+.card-head{padding:20px 22px;display:flex;gap:14px;align-items:flex-start}
+.verdict{flex:none;padding:7px 14px;border-radius:100px;font-size:12px;font-weight:700;line-height:1.3;letter-spacing:.01em;white-space:nowrap}
+.v-pass{background:var(--pass-bg);color:var(--pass)}
+.v-check{background:var(--check-bg);color:var(--check)}
+.v-fail{background:var(--fail-bg);color:var(--fail)}
+.card-title{font-size:16.5px;font-weight:700;margin:0 0 4px;line-height:1.4}
+.card-meta{font-size:13px;color:var(--ink-soft);margin:0}
+
+.dline{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:10px 0 0}
+.dbadge{flex:none;font-family:"Space Grotesk","Pretendard Variable",sans-serif;font-size:12.5px;font-weight:700;letter-spacing:.01em;padding:5px 11px;border-radius:9px;white-space:nowrap;line-height:1.35}
+.dtext{font-size:12.5px;color:var(--ink-soft);line-height:1.45}
+.fitchip{display:inline-flex;align-items:center;gap:5px;font-size:11.5px;font-weight:700;line-height:1.3;padding:4px 10px;border-radius:100px;background:linear-gradient(100deg,var(--blue),var(--teal));color:#fff;margin:9px 0 0}
+.d-today .dbadge{background:var(--coral);color:#fff;animation:pulse 1.6s infinite}
+.d-today .dtext{color:var(--coral);font-weight:700}
+.d-soon .dbadge{background:var(--fail-bg);color:var(--fail)}
+.d-soon .dtext{color:var(--fail);font-weight:600}
+.d-ok .dbadge{background:var(--pass-bg);color:var(--pass)}
+.d-open .dbadge{background:#EEF2FF;color:var(--blue-deep)}
+.d-ask .dbadge{background:var(--check-bg);color:var(--check)}
+.d-over .dbadge{background:#EDEFF5;color:#8A93A6}
+.v-gone{background:#EDEFF5;color:#8A93A6}
+.card.gone{opacity:.6}
+.dgone{display:block;width:100%;font-size:12px;font-weight:700;color:#7A8399;background:#F3F5FA;border-radius:8px;padding:8px 11px;margin:3px 0 0}
+.toggle{width:100%;text-align:left;background:#F8F9FE;border:0;border-top:1px solid var(--line);padding:13px 22px;font:inherit;font-size:13.5px;font-weight:700;color:var(--blue-deep);cursor:pointer}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin:9px 0 0}
+.tag{font-size:11.5px;font-weight:700;line-height:1.3;padding:4px 10px;border-radius:100px;border:1px solid var(--line);background:#F8F9FE;color:var(--ink-soft);white-space:nowrap}
+.tag.g-type{background:#EEF2FF;border-color:#D6DEFF;color:var(--blue-deep)}
+.tag.g-good{background:var(--pass-bg);border-color:#BFEFD6;color:var(--pass)}
+.tag.g-warn{background:var(--check-bg);border-color:#F3DFB8;color:var(--check)}
+.v-idx{background:#EEF2FF;color:var(--blue-deep);font-family:"Space Grotesk"}
+.body{display:none;padding:22px;border-top:1px solid var(--line)}
+.body.open{display:block}
+
+.ledger{width:100%;border-collapse:collapse;font-size:14px;margin:0 0 24px}
+.ledger caption{text-align:left;font-size:12px;letter-spacing:.1em;color:var(--ink-soft);font-weight:700;padding:0 0 10px;text-transform:uppercase}
+.ledger th,.ledger td{padding:10px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.ledger th{font-weight:600;color:var(--ink-soft);width:82px;font-size:13px}
+.ledger td.mine{color:var(--ink);font-weight:700;width:34%}
+.mark{font-weight:700;font-size:12.5px;padding:3px 9px;border-radius:100px;display:inline-block}
+.m-pass{background:var(--pass-bg);color:var(--pass)}
+.m-fail{background:var(--fail-bg);color:var(--fail)}
+.m-check{background:var(--check-bg);color:var(--check)}
+
+.flagnote{background:var(--check-bg);color:#7A4E0A;border-radius:14px;padding:14px 16px;font-size:13.5px;font-weight:600;margin:0 0 22px;line-height:1.6}
+
+.flags{margin:0 0 22px}
+.flags h5{font-family:"Space Grotesk";font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);margin:0 0 10px;font-weight:700}
+.flag{display:flex;gap:10px;border-radius:12px;padding:12px 14px;margin:0 0 8px;font-size:13.5px;line-height:1.68}
+.flag i{flex:none;font-style:normal;font-size:14px;line-height:1.5}
+.flag.warn{background:var(--fail-bg);color:#7C1D2B}
+.flag.tip{background:var(--check-bg);color:#7A4E0A}
+.flag.hide{display:none}
+.flags.open .flag.hide{display:flex}
+.flagmore{font:inherit;font-size:12.5px;font-weight:700;color:var(--blue-deep);background:#fff;border:1px solid var(--line);border-radius:100px;padding:8px 15px;cursor:pointer;margin:2px 0 0}
+.flagmore:hover{border-color:var(--blue)}
+.docs h4{font-family:"Space Grotesk";font-size:15px;margin:0 0 12px;font-weight:700}
+.doc{background:#F8F9FE;border:1px solid var(--line);padding:15px 17px;margin:0 0 10px;border-radius:14px}
+.doc-name{font-weight:700;font-size:14.5px;margin:0 0 3px}
+.doc-src{font-size:12.5px;color:var(--ink-soft);margin:0 0 8px}
+.doc-links{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px}
+.doc-links a{font-size:12px;font-weight:700;color:var(--blue-deep);background:#fff;border:1px solid #CFD9FB;padding:5px 10px;border-radius:100px;text-decoration:none;line-height:1}
+.doc-links a:hover{background:var(--blue);border-color:var(--blue);color:#fff}
+.doc ul{margin:0;padding-left:18px;font-size:13.5px;color:#3A4258}
+.doc li{margin:0 0 5px}
+.apply-link{display:inline-flex;align-items:center;gap:6px;margin-top:8px;font-size:13.5px;font-weight:700;color:#fff;background:var(--ink);text-decoration:none;padding:11px 18px;border-radius:100px}
+.apply-link:hover{background:var(--blue-deep)}
+.empty{padding:44px 20px;text-align:center;color:var(--ink-soft);border:1.5px dashed var(--line);border-radius:18px;background:#fff}
+.empty a{color:var(--blue-deep);font-weight:700}
+
+/* ── 좁은 화면 ── */
+@media(max-width:600px){
+  .wrap{padding:0 15px}
+  .ledger{font-size:13.5px;margin:0 0 18px}
+  .ledger tr.thead{display:none}                       /* 대조표 머리글만 숨김 */
+  .ledger tr{display:block;border:1px solid var(--line);border-radius:12px;padding:11px 13px;margin:0 0 9px;background:#fff}
+  .ledger th,.ledger td{display:block;width:auto;border:0;padding:0}
+  .ledger th{font-size:11.5px;letter-spacing:.04em;color:var(--ink-soft);margin:0 0 5px}
+  .ledger td.mine{font-size:15px;margin:0 0 3px}
+  .ledger td.mine::before{content:"내 가게 · "; font-weight:600; color:var(--ink-soft); font-size:12.5px}
+  .ledger td:nth-child(3)::before{content:"공고 요건 · "; font-weight:600; color:var(--ink-soft); font-size:12.5px}
+  .ledger td:nth-child(3){font-size:13px;color:var(--ink-soft);margin:0 0 8px}
+  .card{padding:18px 16px}
+  .card-head{gap:11px}
+  .verdict{font-size:11.5px;padding:6px 10px}
+  .card-title{font-size:15px}
+  .flagnote{padding:13px 14px;font-size:13px}
+  .doc{padding:13px 14px}
+  .apply-link{width:100%;justify-content:center}
+  button.go{padding:15px}
+  .dline{gap:6px}
+  .pager{gap:5px}
+  .pbtn{min-width:38px;height:38px;padding:0 9px;font-size:13px}
+  .docrow{gap:7px}
+  .docrow input[type=date]{flex:1;min-width:130px}
+}
+
+footer{padding:40px 0 60px;font-size:12.5px;color:var(--ink-soft)}
+footer .fline{border-top:1px solid var(--line);padding-top:20px}
+footer .fblock{margin:0 0 14px;line-height:1.75}
+footer .fblock:last-child{margin-bottom:0}
+footer .fblock b{display:block;margin-bottom:4px;font-size:12.5px;color:var(--ink)}
+footer .fsrc{display:flex;flex-wrap:wrap;gap:6px 8px;margin-top:6px}
+footer .fsrc a,footer .fsrc span{font-size:12px;padding:4px 10px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink-soft);text-decoration:none}
+footer .fsrc a:hover{border-color:var(--blue);color:var(--blue-deep)}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-in">
+    <a class="brand" href="#top"><span class="dot"></span><span>BUSAN FIT</span></a>
+    <div class="nav-links">
+      <a class="nav-plain" href="#all"><i class="here"></i>전체 공고</a>
+      <a class="nav-plain" href="#docs"><i class="here"></i>서류 사전</a>
+      <a class="cta" href="#form"><i class="here"></i>내 조건 확인하기</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap" id="top">
+
+<div id="main-view">
+
+<section class="hero">
+  <div class="chip"><span class="pulse"></span>부산 16개 구·군 지원사업 대조</div>
+  <h1>내 가게가 될지,<br>넣기 전에 <span class="grad">먼저 아세요</span></h1>
+  <p class="lede">업종과 규모 몇 가지만 입력하면 자격 요건을 항목별로 대조해 드리고, 해당되는 공고의 필요 서류와 작성 체크리스트까지 한 번에 안내합니다.</p>
+  <div class="hero-actions">
+    <a class="btn btn-solid" href="#form">지금 대조해보기</a>
+    <a class="btn btn-line" href="#how">어떻게 도와주는지 보기</a>
+  </div>
+  <div class="stripe">
+    <a class="stat" href="#all"><div class="num disp"><span id="hero-count">-</span>건 등록</div><div class="lbl">부산 소상공인이 넣을 수 있는 공고</div><span class="go-all">전체 공고 보기 →</span></a>
+    <div class="stat"><div class="num disp">서류 · 양식</div><div class="lbl">받는 곳과 체크리스트까지</div></div>
+    <div class="stat"><div class="num disp">무료</div><div class="lbl">신청은 원문에서 직접</div></div>
+  </div>
+</section>
+
+<section class="how" id="how">
+  <span class="section-tag">이렇게 도와드려요</span>
+  <h2>세 단계면 끝나요</h2>
+  <div class="steps">
+    <div class="step">
+      <div class="ico">01</div>
+      <h3>가게 정보 입력</h3>
+      <p>소재지, 업종, 근로자 수, 매출, 업력 — 여섯 가지면 충분해요.</p>
+    </div>
+    <div class="step">
+      <div class="ico">02</div>
+      <h3>자격 요건 대조</h3>
+      <p>공고별 조건과 내 가게를 항목별로 나란히 비교해 보여드려요.</p>
+    </div>
+    <div class="step">
+      <div class="ico">03</div>
+      <h3>서류 준비</h3>
+      <p>필요 서류 양식과, 꼭 들어가야 할 내용의 체크리스트를 드려요.</p>
+    </div>
+  </div>
+  <div class="scope">
+    <b>딱 여기까지만 도와드려요.</b> 서류를 대신 작성하거나 신청을 대신 제출하지는 않습니다. 준비가 끝나면 공고 원문 페이지로 연결해 드리고, 실제 신청은 사장님이 직접 하시는 구조예요.
+  </div>
+</section>
+
+<section class="form-sec" id="form">
+  <span class="section-tag">대조 시작</span>
+  <h2>가게 정보를 알려주세요</h2>
+  <p class="notice">현재 실제 공고 <a class="countlink" href="#all"><span id="notice-count">-</span>건</a>이 등록돼 있어요. 공고문 원문을 확인해 정리한 자료이며, 여기 없는 공고도 있으니 참고용으로 봐주세요.</p>
+  <div class="freshbar">
+    <span class="fdot"></span>
+    <span class="fmain">마지막 확인 <span class="fdate" id="fresh-date">-</span></span>
+    <span class="fsub">일주일에 한 번 전체 공고를 다시 확인하고 새 공고를 추가해요. 접수가 끝난 공고는 일주일 동안 '마감됨'으로 남겨뒀다가 목록에서 내려갑니다. 예산 소진으로 조기 마감되는 공고는 그사이 닫혔을 수 있으니, 신청 전 원문이나 담당 기관에 한 번 더 확인해 주세요.</span>
+  </div>
+  <div class="panel">
+    <div class="grid">
+      <div class="field">
+        <label for="gu">소재지</label>
+        <select id="gu"></select>
+      </div>
+      <div class="field">
+        <label for="up">업종</label>
+        <select id="up"></select>
+      </div>
+      <div class="field">
+        <label for="emp">상시근로자 수</label>
+        <input id="emp" type="number" min="0" value="2">
+        <p class="hint">대표자 본인은 제외하고 세는 게 일반적이에요</p>
+      </div>
+      <div class="field">
+        <label for="sales">연 매출액 (만원)</label>
+        <input id="sales" type="number" min="0" value="12000">
+        <p class="hint">1억 2천만원이면 12000</p>
+      </div>
+      <div class="field">
+        <label for="yr">업력 (년)</label>
+        <input id="yr" type="number" min="0" step="0.5" value="2">
+        <p class="hint">개업일 기준. 아직 개업 전이면 0</p>
+      </div>
+      <div class="field">
+        <label for="age">대표자 나이 (선택)</label>
+        <input id="age" type="number" min="0" placeholder="비워둬도 돼요">
+      </div>
+    </div>
+    <button class="go" id="run"><i class="spin"></i><span id="run-label">대조하기</span></button>
+    <button class="softlink" id="closing-link" aria-expanded="false" aria-controls="closing-box">가게가 조금 어려우신 상황일까요?</button>
+    <div class="softbox" id="closing-box" hidden>
+      <p class="softlead">가게를 접는 것도 하나의 선택입니다</p>
+      <p class="softsub">폐업을 했거나 생각 중인 사장님을 위한 지원도 따로 있어요. 교육을 듣고 취업을 준비하는 동안 수당을 받거나, 마음을 추스르는 프로그램에 참여할 수 있습니다. 지금 결정하지 않아도 되니, 어떤 게 있는지만 편하게 보고 가세요.</p>
+      <div id="closing-out"></div>
+      <button class="softclose" id="closing-close">▲ 접어두기</button>
+    </div>
+  </div>
+</section>
+
+<section class="results">
+  <p class="tally" id="tally"></p>
+  <div id="out"></div>
+</section>
+
+</div>
+
+<section class="allview" id="docs-view" hidden>
+  <a class="backlink" href="#top">← 대조 화면으로 돌아가기</a>
+  <span class="section-tag">서류 사전</span>
+  <h2>미리 떼두면 되는 서류 <span id="docs-count">-</span>종</h2>
+  <p class="notice" id="docs-lead"></p>
+  <div class="freshbar" id="storenote" hidden>
+    <span class="fdot" style="background:var(--coral)"></span>
+    <span class="fmain">발급일 저장이 안 되는 환경이에요</span>
+    <span class="fsub">이 파일을 내려받아 브라우저에서 직접 열면 발급일이 저장됩니다. 지금은 입력해도 새로고침하면 지워져요.</span>
+  </div>
+  <div class="plan" id="docs-plan"></div>
+  <div id="docs-out"></div>
+</section>
+
+<section class="allview" id="all-view" hidden>
+  <a class="backlink" href="#top">← 대조 화면으로 돌아가기</a>
+  <span class="section-tag">전체 목록</span>
+  <h2>등록된 공고 <span id="all-count">-</span>건</h2>
+  <p class="notice">조건 대조 없이 등록된 공고를 전부 보여드려요. 카드를 펼치면 자격 요건과 제출 서류·체크리스트를 확인할 수 있어요. 내 가게가 해당되는지 판정받으려면 대조 화면으로 돌아가 주세요.</p>
+  <div class="freshbar">
+    <span class="fdot"></span>
+    <span class="fmain">마지막 확인 <span class="fdate" id="fresh-date-all">-</span></span>
+    <span class="fsub">일주일에 한 번 갱신돼요. 접수가 끝난 공고는 일주일 뒤 목록에서 내려가고, 예산 소진형 공고는 그사이 마감됐을 수 있어요.</span>
+  </div>
+  <p class="pagenote" id="pagenote"></p>
+  <div id="all-out"></div>
+  <nav class="pager" id="pager" aria-label="공고 목록 페이지"></nav>
+</section>
+
+</div>
+
+<footer>
+  <div class="wrap fline">
+    <p class="fblock">
+      <b>이 자료는 어디서 왔나요</b>
+      아래 기관이 공개한 공고문 원문을 읽고 자격 요건·제출 서류·마감일을 항목별로 정리한 것입니다.
+      공공기관이 배포한 공고문을 정리한 자료이며, 각 기관과는 아무 관계가 없는 개인이 만들어 운영합니다.
+      <span class="fsrc">
+        <a href="https://www.sbiz24.kr" target="_blank" rel="noopener">소상공인24 ↗</a>
+        <a href="https://www.semas.or.kr" target="_blank" rel="noopener">소상공인시장진흥공단 ↗</a>
+        <a href="https://www.bepa.kr" target="_blank" rel="noopener">부산경제진흥원 ↗</a>
+        <a href="https://bsbsc.kr" target="_blank" rel="noopener">부산 소상공인종합지원센터 ↗</a>
+        <a href="https://www.busan.go.kr" target="_blank" rel="noopener">부산광역시 ↗</a>
+        <a href="https://www.busansinbo.or.kr" target="_blank" rel="noopener">부산신용보증재단 ↗</a>
+        <a href="https://www.mss.go.kr" target="_blank" rel="noopener">중소벤처기업부 ↗</a>
+        <span>각 구청·소공인특화지원센터</span>
+      </span>
+    </p>
+    <p class="fblock">
+      <b>참고용입니다</b>
+      공고 정보는 일주일에 한 번 갱신됩니다. 자격 요건은 공고문 원문이 기준이며, 이 화면의 결과는 참고용입니다.
+      신청 전 반드시 원문을 확인하세요. 정리 과정에서 빠지거나 잘못된 내용이 있을 수 있고,
+      예산 소진형 공고는 표시된 마감일 전에 끝났을 수 있습니다.
+      서류 작성 대행이나 신청 대리는 하지 않으며, 신청 결과에 대해 책임지지 않습니다.
+    </p>
+    <p class="fblock">
+      <b>개인정보를 수집하지 않습니다</b>
+      입력하신 업종·지역·매출과 서류 발급일은 사용자 브라우저 안에만 저장되며 서버로 전송되지 않습니다.
+      회원가입도, 로그인도 없습니다. 브라우저 기록을 지우면 함께 사라집니다.
+    </p>
+  </div>
+</footer>
+
+<script>
+const 공고목록 = [
+  {
+    이름: "2026년 해외 온라인 플랫폼 물류지원 사업",
+    태그: ["자금·현물지원","온라인 신청만","해외 판매중이어야 함"],
+    업종적합: ["도소매업","제조업"],
+    기관: "소상공인시장진흥공단 (수행기관: 한진)",
+    마감: "2026-07-24 ~ 2026-08-07 18:00",
+    마감유형: "날짜",
+    마감일: "2026-08-07",
+    신청링크: "https://www.sbiz24.kr",
+    요건: {
+      구군: ["전역"],
+      업종: null,
+      근로자: null,
+      매출: null,
+      업력: null,
+      연령: null,
+      특이조건: "해외 온라인 플랫폼(미국 아마존·이베이 / 일본 아마존재팬·큐텐재팬·라쿠텐 / 동남아 쇼피·라자다)에서 이미 판매 중이며, 전년도 주문량이 월평균 40건 이상이거나 전년도 해외 물류비가 600만원 이상이어야 신청 가능합니다. 이 조건은 업종·근로자수·매출액·업력으로 표현되지 않아 위 대조표에는 반영돼 있지 않습니다. 해당 여부를 직접 확인하세요. 또한 소상공인정책자금 지원제외업종(유흥주점·사행성 오락·금융보험업·부동산업 일부·법무회계세무서비스·보건업 일부·성인용품·가상자산업 등)은 신청 불가하며, 정확한 판단은 공고 원문의 업종 목록을 확인하세요."
+    },
+    서류: [
+      { 이름: "신청서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["신청 플랫폼을 실제 주문 발생 가능한 곳으로 정확히 체크했는지", "신청한 제품은 선정 시 반드시 지원받아야 하므로 단종 예정 제품은 피할 것"] },
+      { 이름: "개인정보 수집·이용 및 제공 동의서", 출처: "온라인 작성",
+        체크: ["별도 준비 서류 없음, 온라인에서 바로 동의"] },
+      { 이름: "중소기업확인서(소상공인)", 출처: "중소기업현황정보시스템에서 발급",
+        체크: ["유효기간 내 발급본인지 확인", "개인사업자는 마이데이터 동의 시 생략 가능하나 법인은 필수 제출"] },
+      { 이름: "사업자등록증명원", 출처: "홈택스에서 발급",
+        체크: ["1개월 이내 발급본인지 확인"] },
+      { 이름: "부가가치세과세표준증명", 출처: "홈택스에서 발급",
+        체크: ["2023·2024·2025년 3개년분을 모두 준비했는지"] },
+      { 이름: "건강보험료자격득실확인서 (대표자)", 출처: "국민건강보험공단 또는 정부24",
+        체크: ["1개월 이내 발급본인지 확인"] },
+      { 이름: "국세완납증명서 (대표자·법인)", 출처: "홈택스",
+        체크: ["법인 신청 시 대표자분과 법인분 둘 다 필요한지 확인"] },
+      { 이름: "지방세완납증명서 (대표자·법인)", 출처: "위택스",
+        체크: ["국세와 발급처가 다름(위택스)", "법인 신청 시 대표자분과 법인분 둘 다 필요한지 확인"] },
+      { 이름: "4대보험료완납증명원 (법인)", 출처: "4대사회보험 정보연계센터",
+        체크: ["법인 신청 시에만 필요, 개인사업자는 제출 불필요"] },
+      { 이름: "해외 주문건수 증빙 (월평균 40건 이상)", 출처: "해외 플랫폼 판매자 페이지 캡처",
+        체크: ["'25년 전체 주문건수가 한 화면에 다 나오게 캡처했는지", "잘림 없이 전체가 보이는지"] },
+      { 이름: "해외 물류비 증빙 (600만원 이상)", 출처: "물류사 이용내역서·거래명세서·정산내역 등",
+        체크: ["금액이 600만원 기준을 충족한다는 게 서류상 명확히 보이는지"] }
+    ]
+  },
+  {
+    이름: "2026년 소상공인 플랫폼협업교육",
+    태그: ["교육","30시간 과정","특정 플랫폼 조건"],
+    업종적합: ["도소매업","제조업"],
+    기관: "소상공인시장진흥공단 (수행기관: 유디임팩트·한국마케팅진흥원·동아일보)",
+    마감: "2026-07-13 ~ 2026-08-10 18:00 (연장)",
+    마감유형: "날짜",
+    마감일: "2026-08-10",
+    신청링크: "https://www.sbiz24.kr",
+    요건: {
+      구군: ["전역"],
+      업종: null,
+      근로자: null,
+      매출: null,
+      업력: null,
+      연령: null,
+      특이조건: "자금 지원이 아니라 30시간 오프라인 교육 + 우수자 대상 1:1 컨설팅을 제공하는 사업입니다. 카카오톡딜·큐텐재팬(해당 플랫폼 입점 필수) 또는 오아시스(식품 판매자, 입점 무관) 중 하나의 트랙에 지원해야 하고, 트랙별로 우선지원(디지털특성화대학 수료생 등)·일반지원(해당 플랫폼 매출 1회 이상 등) 요건이 각각 다릅니다. 이 조건은 업종·근로자수·매출액·업력으로 표현되지 않아 대조표에는 반영돼 있지 않으니 직접 확인하세요. 또한 유흥주점·사행성 오락·금융보험업·부동산업 일부·법무회계세무서비스·보건업 일부 등 소상공인정책자금 지원제외업종은 신청 불가하며, '26년 해외 온라인 플랫폼 물류지원 사업과 중복 수혜가 불가합니다."
+    },
+    서류: [
+      { 이름: "신청서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["국내(카카오톡딜)·해외(큐텐재팬)·특화(오아시스) 중 지원 트랙을 정확히 선택했는지", "우선지원 요건에 해당되면 그 근거를 함께 준비할 것"] },
+      { 이름: "개인정보 수집·이용 및 제공 동의서", 출처: "온라인 작성",
+        체크: ["별도 준비 서류 없음, 온라인에서 바로 동의"] },
+      { 이름: "중소기업확인서(소상공인)", 출처: "중소기업현황정보시스템에서 발급",
+        체크: ["유효기간 내 발급본인지 확인", "마이데이터 동의 시 개인은 생략 가능하나 법인은 필수 제출"] },
+      { 이름: "사업자등록증명원", 출처: "홈택스에서 발급",
+        체크: ["1개월 이내 발급본인지 확인"] },
+      { 이름: "부가가치세과세표준증명", 출처: "홈택스에서 발급",
+        체크: ["2023·2024·2025년 3개년분을 모두 준비했는지"] },
+      { 이름: "건강보험료자격득실확인서 (대표자)", 출처: "국민건강보험공단 또는 정부24",
+        체크: ["1개월 이내 발급본인지 확인"] },
+      { 이름: "국세완납증명서 (대표자·법인)", 출처: "홈택스",
+        체크: ["법인 신청 시 대표자분과 법인분 둘 다 필요한지 확인"] },
+      { 이름: "지방세완납증명서 (대표자·법인)", 출처: "위택스",
+        체크: ["국세와 발급처가 다름(위택스)", "법인 신청 시 대표자분과 법인분 둘 다 필요한지 확인"] },
+      { 이름: "4대보험료완납증명원 (법인)", 출처: "4대사회보험 정보연계센터",
+        체크: ["법인 신청 시에만 필요, 개인사업자는 제출 불필요"] }
+    ]
+  },
+  {
+    이름: "2026년 소상공인 AI상생협업교육(패키지 과정) - 미리디&와디즈",
+    태그: ["교육","부산 개최","5주 과정","사전강의 필수"],
+    업종적합: ["도소매업","제조업"],
+    기관: "소상공인시장진흥공단 (수행기관: 미리디·와디즈, 한국마케팅진흥원)",
+    마감: "2026-06-12 ~ 8-12(수) 18:00 (기수별 상이)",
+    마감유형: "날짜",
+    마감일: "2026-08-12",
+    신청링크: "https://www.sbiz24.kr",
+    요건: {
+      구군: ["전역"],
+      업종: null,
+      근로자: null,
+      매출: null,
+      업력: null,
+      연령: null,
+      특이조건: "모집대상 표기가 공고문 안에서 두 곳이 다릅니다. 사업개요에는 '식품·뷰티·패션 업종 제조 또는 판매 중인 소상공인'으로, 신청대상에는 '뷰티·패션·외식·기타 업종무관'으로 적혀 있어 실제 업종 제한 여부가 불명확합니다. 이 조건은 대조표에 반영하지 않았으니 신청 전 직접 확인하세요. 오프라인 교육은 기수별로 장소가 다른데, 3기(7/28~9/8, 화요일)가 부산 중구 라이콘타운에서 진행돼 부산 소상공인에게 가장 접근성이 좋습니다(교육업종·거주지 무관하게 다른 기수 신청도 가능). 소상공인정책자금 지원제외업종 외에 프랜차이즈 가맹본부·가맹점(공정위 등록 가맹사업자 기준)도 이번 공고에서는 별도로 신청 제외 대상입니다."
+    },
+    서류: [
+      { 이름: "신청서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["참여 의무사항 확약 4개 항목(교육 참여, 3년 실태조사 응답, 정보보안, 촬영 동의) 모두 '예'로 표시했는지", "매출규모 등 판매자 정보를 정확히 기입했는지"] },
+      { 이름: "업체 소개서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["지원 배경과 참여 목적을 구체적으로 썼는지", "AI 활용 경험을 사실대로 기재했는지"] },
+      { 이름: "교육신청 자가진단서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["자가진단 항목을 빠짐없이 응답했는지"] },
+      { 이름: "사업자등록증 또는 사업자등록증명원", 출처: "세무서 또는 홈택스",
+        체크: ["공공 마이데이터 동의 시 생략 가능 - 동의 여부 먼저 확인", "미동의 시 1개월 이내 발급본 준비"] },
+      { 이름: "중소기업(소상공인)확인서", 출처: "중소기업현황정보시스템",
+        체크: ["유효기간 내 발급본인지 확인", "반드시 중소기업현황정보시스템을 통해서만 발급 (다른 경로 불인정)", "공공 마이데이터 동의 시 생략 가능"] },
+      { 이름: "대리수강 증빙자료 (해당 시)", 출처: "본인 준비",
+        체크: ["원칙은 대표자 본인 신청·수강, 가족경영 등 부득이한 경우만 가족 1인 대리수강 제한적 허용", "가족관계 증빙 + 사업장 운영 참여 확인자료 모두 필요"] }
+    ]
+  },
+  {
+    이름: "2026년 해외 온라인 플랫폼 입점지원 사업",
+    태그: ["자금·현물지원","온라인 신청만","해외 미입점이어야 함"],
+    업종적합: ["도소매업","제조업"],
+    기관: "소상공인시장진흥공단 (중진공 수출바우처 수행기관 연계)",
+    마감: "2026-08-04 ~ 2026-08-18 18:00",
+    마감유형: "날짜",
+    마감일: "2026-08-18",
+    신청링크: "https://www.sbiz24.kr",
+    요건: {
+      구군: ["전역"],
+      업종: null,
+      근로자: null,
+      매출: null,
+      업력: null,
+      연령: null,
+      특이조건: "해외 온라인 플랫폼(아마존, 쇼피, 큐텐 등)에 아직 입점하지 않은 소상공인만 신청 가능합니다 - 입점 희망 플랫폼에 이미 입점해 있으면 선정이 취소되며, 다만 기입점 상태에서 타 플랫폼으로 신규 진출하는 경우는 지원됩니다. 이 조건은 업종·근로자수·매출액·업력으로 표현되지 않아 대조표에는 반영돼 있지 않으니 직접 확인하세요. 이미 등록된 '2026년 소상공인 플랫폼협업교육' 사업 및 중진공 '글로벌쇼핑몰 활용 판매지원사업'과 중복 지원이 불가하니, 두 공고 모두 해당된다고 나오더라도 하나만 선택해야 합니다. 해외 수입 제품·대기업 제품은 지원 제외 품목이며, 소상공인정책자금 지원제외업종(유흥주점·사행성 오락·금융보험업·부동산업 일부·법무회계세무서비스·보건업 일부 등)도 신청 불가합니다."
+    },
+    서류: [
+      { 이름: "신청서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["입점 희망 플랫폼명을 정확히 기재했는지 (최대 2개)", "신청 제품은 선정 시 반드시 지원받아야 하므로 단종 예정 제품은 피할 것"] },
+      { 이름: "개인정보 수집·이용 및 제공 동의서", 출처: "온라인 작성",
+        체크: ["별도 준비 서류 없음, 온라인에서 바로 동의"] },
+      { 이름: "중소기업확인서(소상공인)", 출처: "중소기업현황정보시스템에서 발급",
+        체크: ["유효기간 내 발급본인지 확인", "개인사업자는 마이데이터 동의 시 생략 가능하나 법인은 필수 제출"] },
+      { 이름: "사업자등록증명원", 출처: "홈택스에서 발급",
+        체크: ["1개월 이내 발급본인지 확인"] },
+      { 이름: "부가가치세과세표준증명", 출처: "홈택스에서 발급",
+        체크: ["2023·2024·2025년 3개년분을 모두 준비했는지"] },
+      { 이름: "건강보험료자격득실확인서 (대표자)", 출처: "국민건강보험공단 또는 정부24",
+        체크: ["1개월 이내 발급본인지 확인"] },
+      { 이름: "국세완납증명서 (대표자·법인)", 출처: "홈택스",
+        체크: ["법인 신청 시 대표자분과 법인분 둘 다 필요한지 확인"] },
+      { 이름: "지방세완납증명서 (대표자·법인)", 출처: "위택스",
+        체크: ["국세와 발급처가 다름(위택스)", "법인 신청 시 대표자분과 법인분 둘 다 필요한지 확인"] },
+      { 이름: "4대보험료완납증명원 (법인)", 출처: "4대사회보험 정보연계센터",
+        체크: ["법인 신청 시에만 필요, 개인사업자는 제출 불필요"] }
+    ]
+  },
+  {
+    이름: "2026년 소상공인 AI상생협업교육(패키지 과정) - AI 마케팅 실전 성장 과정 with 어도비",
+    태그: ["교육","부산 개최 없음","5주 과정","사전강의 필수"],
+    기관: "소상공인시장진흥공단 (운영기관: ㈜스팩스페이스)",
+    마감: "2026-06-12 ~ 2026-09-08 (소상공인24 접수 마감 · 기수별 신청일은 이보다 이를 수 있음)",
+    마감유형: "날짜",
+    마감일: "2026-09-08",
+    신청링크: "https://www.sbiz24.kr",
+    요건: {
+      구군: ["전역"],
+      업종: null,
+      근로자: null,
+      매출: null,
+      업력: null,
+      연령: null,
+      특이조건: "⚠ 부산에서 열리는 기수가 없습니다. 오프라인 교육장 방문이 필수인데 1·2기 서울 용산, 3기 경기 부천, 4기 인천 부평, 5기 제주 서귀포, 6기 광주 서구로 편성돼 있어, 부산에서 가장 가까운 곳도 6기 광주 서구(9/30·10/7·10/14·10/21·10/28 수요일, 매회 13:00~17:00)입니다. 5주간 매주 왕복해야 하고 출석률 80% 미만이면 미수료 처리되며 이후 이 사업에 다시 참여할 수 없으니, 이동 부담을 먼저 따져보세요. 선정되지 않아도 유튜브 '공사장TV'에서 진행하는 온라인 라이브 강의(9/1·9/10·9/17·9/22, 사전신청 없음)는 누구나 무료로 들을 수 있어, 이동이 어렵다면 이쪽만 이용하는 방법도 있습니다. 신청 전 반드시 소상공인 지식배움터(edu.sbiz.or.kr) 'AI학습관' 온라인강의를 1개 이상 수강 완료해야 하며, 수강하지 않으면 신청 자체가 불가합니다. 자금 지원 사업이 아니라 교육 + Adobe Express for teams 1년권(약 20만원 상당)·월 5만 Generative Credits·디자인 템플릿 50여종을 제공하는 사업입니다. 신청은 대표자 본인이 해야 하고, 가족경영 등 부득이한 경우에만 사업장 운영에 실제 참여 중인 가족 1인의 대리수강이 증빙 제출을 조건으로 허용됩니다. 소상공인정책자금 지원제외업종(유흥주점·사행성 오락·금융보험업·부동산업 일부·법무회계세무서비스·보건업 일부·성인용품·가상자산업 등) 외에 프랜차이즈 가맹본부·가맹점(공정위 등록 가맹사업자 기준), 비영리사업자·비영리법인(고유번호증 소지자), 휴업·폐업 중인 업체도 신청할 수 없습니다. 같은 사업의 '미리디&와디즈' 과정과는 별개 공고이며, 그쪽은 3기가 부산 중구에서 열립니다."
+    },
+    서류: [
+      { 이름: "신청서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["참여 의무사항 확약 4개 항목(교육 참여, 3년 실태조사 응답, 정보보안, 촬영·제작·제공 동의) 모두 '예'로 표시했는지", "브랜드명·타겟 소비층·온라인 판매사이트 등 판매자 정보를 빠짐없이 채웠는지", "AI 활용 수준(상·중·하)은 과장 없이 사실대로 - 과정 기획에 반영되는 항목입니다"] },
+      { 이름: "업체 소개서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["교육을 신청한 이유와 우리 가게에 왜 필요한지를 구체적으로 썼는지", "업종·사업규모·대표자와 직원 현황을 적었는지", "AI 활용 경험은 없으면 없는 대로 솔직하게 (평가항목이 참여의지·지원적합성·성장가능성입니다)"] },
+      { 이름: "교육신청 자가진단서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["신청 화면의 자가진단 단계에서 바로 작성"] },
+      { 이름: "사업자등록증 또는 사업자등록증명원", 출처: "홈택스에서 발급",
+        체크: ["마이데이터(공공 마이데이터 행정정보 제공) 동의 시 제출 생략 가능", "사업자등록증의 업종과 실제 영위 업종이 다르면 참여 제한 사유가 됩니다"] },
+      { 이름: "중소기업확인서(소상공인)", 출처: "중소기업현황정보시스템(sminfo.mss.go.kr)에서 발급",
+        체크: ["중소벤처기업부 발급본만 인정 - 다른 곳에서 받은 확인서는 불인정", "'소기업' 또는 '소상공인'으로 표기돼 있어야 신청 가능", "사업신청일 기준 유효기간 내인지 확인", "마이데이터 동의 시 제출 생략 가능"] },
+      { 이름: "대리수강 증빙자료 (해당 시)", 출처: "가족관계증명서 등 직접 준비",
+        체크: ["대표자가 아닌 가족이 수강할 때만 필요", "가족관계와 사업장 운영 참여 사실이 둘 다 확인돼야 함", "미제출 시 대리수강이 제한됩니다"] }
+    ]
+  },
+  {
+    이름: "2026년 소상공인 AI상생협업교육(1일 과정) - 4시간으로 배우고 바로쓰는 AI활용과정 with 구글클라우드",
+    태그: ["교육","부산 개최","1일 4시간","노트북 제공","사전강의 필수"],
+    기관: "소상공인시장진흥공단 (운영기관: 한국생산성본부)",
+    마감: "2026-06-12 ~ 2026-09-28 (부산 회차 신청은 9/8~9/9 마감 · 이후는 타지역 회차만)",
+    마감유형: "날짜",
+    마감일: "2026-09-28",
+    신청링크: "https://www.sbiz24.kr",
+    요건: {
+      구군: ["전역"],
+      업종: null,
+      근로자: null,
+      매출: null,
+      업력: null,
+      연령: null,
+      특이조건: "★ 부산에서 열리는 회차가 실제로 있는 공고입니다. 하루 4시간짜리 단기 과정이라 부담이 적고, 부산 회차는 한국생산성본부 부산울산경남지역본부에서 진행됩니다. 2026년 8월 6일 기준 부산 잔여 회차는 4개입니다 - ①9/10(목) 09:00~13:00 'AI로 만드는 내주변 상권보고서'(보통, 15명, 신청 9/8 18:00까지) ②9/10(목) 14:00~18:00 '매출이 보이는 데이터경영'(심화, 15명, 신청 9/8 18:00까지) ③9/11(금) 09:00~13:00 'AI로 정부지원사업 신청서 작성하기'(보통, 15명, 신청 9/9 18:00까지) ④9/11(금) 14:00~18:00 '똑똑한 AI리뷰 대응봇 만들기'(심화, 15명, 신청 9/9 18:00까지). 7월 22~24일과 8월 4~6일 부산 회차는 이미 마감됐습니다. 회차마다 신청 마감일이 따로 있으니 원하는 회차의 마감일을 직접 확인하세요. 신청 전 반드시 소상공인 지식배움터(edu.sbiz.or.kr) 'AI학습관' 온라인강의를 1개 이상 수강 완료해야 신청이 가능합니다. 수준이 기초·보통·심화로 나뉘는데 보통·심화 과정은 AI 활용 경험이 있는 분을 대상으로 하니 본인 수준에 맞춰 고르세요. 자금 지원이 아니라 교육 + 수료생 대상 Gemini(Google AI Pro) 3개월 구독권·기념품을 주는 사업이며, 구독 계정은 3개월 후 자동 삭제되고 저장 데이터도 함께 지워지니 기간 내 백업이 필요합니다. 중복수강은 가능하나 신청이 몰리면 해당 과정 최초 수강자가 우선 선정됩니다. 실습용 노트북은 운영기관이 제공합니다. 모집대상이 공고문 안에서 '관광업·서비스업·도소매업·제조업·외식업'으로 적힌 곳과 '업종 무관'으로 적힌 곳이 함께 있어 대조표에는 업종 제한을 반영하지 않았습니다. 출석률 80% 미만이면 미수료 처리되고 이후 이 사업에 재참여할 수 없습니다. 신청은 대표자 본인이 해야 하며 가족경영 등 부득이한 경우에만 가족 1인의 대리수강이 증빙 제출을 조건으로 허용됩니다. 소상공인정책자금 지원제외업종, 프랜차이즈 가맹본부·가맹점(공정위 등록 가맹사업자 기준), 비영리사업자·비영리법인(고유번호증 소지자), 휴업·폐업 중인 업체는 신청할 수 없습니다. 선정되지 않아도 유튜브 '공사장TV' 온라인 라이브 강의는 사전신청 없이 누구나 들을 수 있습니다. 폐강·일정 변경이 반영된 공고문이므로 신청 전 소상공인24에서 최신 회차를 다시 확인하세요."
+    },
+    서류: [
+      { 이름: "신청서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["원하는 지역·날짜·과정 회차를 정확히 선택했는지 (회차마다 별도 신청입니다)", "참여 의무사항 확약 4개 항목(교육 참여, 3년 실태조사 응답, 정보보안, 촬영·제작·제공 동의) 모두 '예'로 표시했는지", "AI 활용 수준(상·중·하)은 사실대로 - 과정 난이도 배정에 쓰입니다"] },
+      { 이름: "업체 소개서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["교육을 신청한 이유와 우리 가게에 왜 필요한지를 구체적으로 썼는지", "업종·사업규모·대표자와 직원 현황을 적었는지", "AI 활용 경험은 없으면 없는 대로 솔직하게"] },
+      { 이름: "교육신청 자가진단서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["신청 화면의 자가진단 단계에서 바로 작성"] },
+      { 이름: "사업자등록증 또는 사업자등록증명원", 출처: "홈택스에서 발급",
+        체크: ["마이데이터 동의 시 제출 생략 가능", "사업자등록증의 업종과 실제 영위 업종이 다르면 참여 제한 사유가 됩니다"] },
+      { 이름: "중소기업확인서(소상공인)", 출처: "중소기업현황정보시스템(sminfo.mss.go.kr)에서 발급",
+        체크: ["중소벤처기업부 발급본만 인정", "'소기업' 또는 '소상공인'으로 표기돼 있어야 신청 가능", "사업신청일 기준 유효기간 내인지 확인", "마이데이터 동의 시 제출 생략 가능"] },
+      { 이름: "대리수강 증빙자료 (해당 시)", 출처: "가족관계증명서 등 직접 준비",
+        체크: ["대표자가 아닌 가족이 수강할 때만 필요", "가족관계와 사업장 운영 참여 사실이 둘 다 확인돼야 함", "미제출 시 대리수강이 제한됩니다"] }
+    ]
+  },
+  {
+    이름: "2026년 소상공인 AI상생협업교육(1일 과정) - 상세페이지부터 홍보물까지 AI로 자동생성하는 장사의 신기술 with NC AI",
+    태그: ["교육","부산 개최 없음","1일 4시간","노트북 지참","사전강의 필수"],
+    업종적합: ["도소매업","제조업"],
+    기관: "소상공인시장진흥공단 (운영기관: 강원창조경제혁신센터)",
+    마감: "2026-06-12 ~ 2026-10-08 18:00 (기수별 상이)",
+    마감유형: "날짜",
+    마감일: "2026-10-08",
+    신청링크: "https://www.sbiz24.kr",
+    요건: {
+      구군: ["전역"],
+      업종: null,
+      근로자: null,
+      매출: null,
+      업력: null,
+      연령: null,
+      특이조건: "⚠ 부산에서 열리는 기수가 없습니다. 전체 34개 기수가 서울·경기(성남)·강원(강릉/춘천)·전북(남원/전주)·대구에만 편성돼 있고, 부산에서 가장 가까운 곳은 소상공인시장진흥공단 대구전용교육장입니다. 2026년 8월 6일 기준 신청 가능한 대구 기수는 5개입니다 - ①20기 8/21(금) 13:00~17:00 보통(25명, 신청 8/19 18:00까지) ②21기 8/24(월) 보통(25명, 신청 8/20 18:00까지) ③28기 9/7(월) 보통(50명, 신청 9/3 18:00까지) ④29기 9/8(화) 보통(50명, 신청 9/4 18:00까지) ⑤30기 9/9(수) 심화(50명, 신청 9/4 18:00까지). 하루 4시간 단발 과정이라 부산에서 대구까지 하루 다녀오는 일정으로 소화할 수 있고, 9월 대구 기수는 정원이 50명으로 늘어 경쟁도 덜한 편입니다. 기수마다 신청 마감일이 다르니 원하는 기수의 마감일을 직접 확인하세요. ★ 이 공고는 실습용 노트북을 제공하지 않아 개인 노트북을 반드시 지참해야 합니다(같은 사업의 구글클라우드 과정은 노트북을 빌려줍니다). 신청 전 반드시 소상공인 지식배움터(edu.sbiz.or.kr) 'AI학습관' 온라인강의를 1개 이상 수강 완료해야 신청이 가능합니다. 수준이 기초·보통·심화로 나뉘며 기초는 AI 입문자용, 보통·심화는 AI 사용 경험이 있는 분 대상입니다. 자금 지원이 아니라 교육 사업이며 혜택은 교육생 전원 NC AI(배키커머스) 크레딧 22,000원 상당, 적극 참여자 카카오 톡스토어 광고쿠폰 최대 10만원, 우수 교육생 NC AI 상품 100만원 상당 1명·크레딧 20만원 상당 10명입니다. 서울 권역 교육은 현장이 온라인으로 동시 송출될 수 있습니다. 중복수강은 가능하나 신청이 몰리면 해당 과정 최초 수강자가 우선 선정됩니다. 출석률 80% 미만이면 미수료 처리되고 이후 이 사업에 재참여할 수 없습니다. 신청은 대표자 본인이 해야 하며 가족경영 등 부득이한 경우에만 가족 1인의 대리수강이 증빙 제출을 조건으로 허용됩니다. 소상공인정책자금 지원제외업종, 프랜차이즈 가맹본부·가맹점(공정위 등록 가맹사업자 기준), 비영리사업자·비영리법인(고유번호증 소지자), 휴업·폐업 중인 업체는 신청할 수 없습니다. 선정되지 않아도 유튜브 '공사장TV' 온라인 라이브 강의는 사전신청 없이 누구나 들을 수 있습니다. 기수 변경이 반영된 수정 공고문이므로 신청 전 소상공인24에서 최신 기수를 다시 확인하세요."
+    },
+    서류: [
+      { 이름: "신청서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["원하는 지역·날짜·수준의 기수를 정확히 선택했는지 (기수마다 별도 신청입니다)", "참여 의무사항 확약 4개 항목(교육 참여, 3년 실태조사 응답, 정보보안, 촬영·제작·제공 동의) 모두 '예'로 표시했는지", "AI 활용 수준(상·중·하)은 사실대로 - 기초/보통/심화 배정에 쓰입니다"] },
+      { 이름: "업체 소개서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["교육을 신청한 이유와 우리 가게에 왜 필요한지를 구체적으로 썼는지", "업종·사업규모·대표자와 직원 현황을 적었는지", "AI 활용 경험은 없으면 없는 대로 솔직하게"] },
+      { 이름: "교육신청 자가진단서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["신청 화면의 자가진단 단계에서 바로 작성"] },
+      { 이름: "사업자등록증 또는 사업자등록증명원", 출처: "홈택스에서 발급",
+        체크: ["마이데이터 동의 시 제출 생략 가능", "사업자등록증의 업종과 실제 영위 업종이 다르면 참여 제한 사유가 됩니다"] },
+      { 이름: "중소기업확인서(소상공인)", 출처: "중소기업현황정보시스템(sminfo.mss.go.kr)에서 발급",
+        체크: ["중소벤처기업부 발급본만 인정", "'소기업' 또는 '소상공인'으로 표기돼 있어야 신청 가능", "사업신청일 기준 유효기간 내인지 확인", "마이데이터 동의 시 제출 생략 가능"] },
+      { 이름: "대리수강 증빙자료 (해당 시)", 출처: "가족관계증명서 등 직접 준비",
+        체크: ["대표자가 아닌 가족이 수강할 때만 필요", "가족관계와 사업장 운영 참여 사실이 둘 다 확인돼야 함", "미제출 시 대리수강이 제한됩니다"] }
+    ]
+  },
+  {
+    이름: "2026년 소상공인 AI상생협업교육(1일 과정) - 우리가게 홍보/관리하기 AI과정 with 뤼튼",
+    태그: ["교육","부산 개최","1일 4시간","노트북 제공","사전강의 필수"],
+    업종적합: ["음식점업","서비스업"],
+    기관: "소상공인시장진흥공단 (운영기관: (사)국제경영원 / 협업기업: ㈜뤼튼테크놀로지스)",
+    마감: "2026-06-12 ~ 2026-10-12 18:00 (기수별 상이) · 부산 잔여 5개 기수",
+    마감유형: "날짜",
+    마감일: "2026-10-12",
+    신청링크: "https://www.sbiz24.kr",
+    요건: {
+      구군: ["전역"],
+      업종: null,
+      근로자: null,
+      매출: null,
+      업력: null,
+      연령: null,
+      특이조건: "★ 부산에서 열리는 기수가 실제로 있는 공고입니다. 하루 4시간짜리 단기 과정이고, 부산 교육장은 부산 로컬창업타운(구 라이콘타운, 부산 중구 자갈치해안로 52 자갈치시장 6층)입니다. 2026년 8월 6일 기준 신청 가능한 부산 기수는 5개입니다 - ①5기 8/25(화) 13:00~17:00 보통·모바일 과정(40명, 신청 8/21 18:00까지) ②22기 11/10(화) 09:00~13:00 보통(40명, 신청 11/6 18:00까지) ③23기 11/10(화) 13:30~17:30 보통(40명, 신청 11/6 18:00까지) ④24기 11/11(수) 09:00~13:00 보통(40명, 신청 11/9 18:00까지) ⑤25기 11/11(수) 13:30~17:30 기초(40명, 신청 11/9 18:00까지). 기수마다 신청 마감일이 다르니 원하는 기수의 마감일을 직접 확인하세요. 5기는 스마트폰·태블릿으로 실습하는 모바일 과정이고 나머지 부산 기수는 PC(노트북) 실습입니다. 실습용 노트북은 운영기관이 제공하며, 원하면 개인 노트북을 가져가도 됩니다. ★ 이 공고에는 같은 사업의 다른 과정에 없는 자격 조건이 하나 더 있습니다 - 신청일 기준 '자체 브랜드 및 상품/서비스를 보유한 소상공인'이어야 합니다. 또 교육·실습 참석과 교육 영상 촬영·제작·제공에 동의해야 하며(일부 영상은 공단·민간기업 플랫폼에 게시될 수 있음), 선정 시 이 동의는 필수입니다. 신청 전 반드시 소상공인 지식배움터(edu.sbiz.or.kr) 'AI학습관' 온라인강의를 1개 이상 수강 완료해야 신청이 가능합니다. 수준은 기초·보통·심화로 나뉘며 기초는 디지털·AI 입문자용, 보통·심화는 AI 사용 경험이 있는 분 대상입니다. 자금 지원이 아니라 교육 사업이며 혜택은 수료생 전원 2만원 상당 커피쿠폰·AI역량적성진단서·뤼튼 AI 온라인 교육 1년권(9월부터 아이디 제공)이고, 우수사례로 뽑히면 사례발표 수행비 20만원이 별도 지급됩니다(5개사). 중복수강은 가능하나 신청이 몰리면 해당 교육과정 최초 수강자가 우선 선정됩니다. 출석률 80% 미만이면 미수료 처리되고 이후 이 사업에 재참여할 수 없습니다. 신청은 대표자 본인이 해야 하며, 가족경영 등 부득이한 경우에만 사업장 운영에 실제 참여 중인 가족 1인의 대리수강이 증빙 제출을 조건으로 허용됩니다. 소상공인정책자금 지원제외업종, 프랜차이즈 가맹본부·가맹점(공정위 등록 가맹사업자 기준), 비영리사업자·비영리법인(고유번호증 소지자), 휴업·폐업 중인 업체는 신청할 수 없습니다. 선정되지 않아도 유튜브 '공사장TV' 온라인 라이브 강의(8/18·9/8·9/15, 각 13:00~15:00·16:00~18:00, 사전신청 없음)는 누구나 들을 수 있습니다. 온라인 신청이 어려우면 운영기관((사)국제경영원 02-3771-0476)에 사전 문의 후 교육 당일 현장에서 신청을 도와받을 수 있습니다(단, 당일 소상공인24 온라인 신청까지 완료해야 최종 접수로 인정). 2차 수정 공고문이므로 신청 전 소상공인24에서 최신 기수를 다시 확인하세요."
+    },
+    서류: [
+      { 이름: "신청서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["원하는 지역·날짜·수준의 기수를 정확히 선택했는지 (기수마다 별도 신청입니다)", "참여 의무사항 확약 4개 항목(교육 참여, 3년 실태조사 응답, 정보보안, 촬영·제작·제공 동의) 모두 '예'로 표시했는지", "매출규모 칸은 2026년 5월 월간 매출 기준으로 적는지", "AI 활용 수준(상·중·하)은 사실대로 - 기초/보통/심화 배정에 쓰입니다"] },
+      { 이름: "업체 소개서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["교육을 신청한 이유와 우리 가게에 왜 필요한지를 구체적으로 썼는지", "업종·사업규모·대표자와 직원 현황을 적었는지", "자체 브랜드와 상품/서비스가 무엇인지 드러나게 썼는지 (이 공고의 자격 조건입니다)", "AI 활용 경험은 없으면 없는 대로 솔직하게"] },
+      { 이름: "교육신청 자가진단서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["신청 화면의 자가진단 단계에서 바로 작성"] },
+      { 이름: "사업자등록증 또는 사업자등록증명원", 출처: "홈택스에서 발급",
+        체크: ["마이데이터 동의 시 제출 생략 가능 (이 사업은 마이데이터 항목 중 사업자등록증명 1종을 확인합니다)", "사업자등록증의 업종과 실제 영위 업종이 다르면 참여 제한 사유가 됩니다"] },
+      { 이름: "중소기업확인서(소상공인)", 출처: "중소기업현황정보시스템(sminfo.mss.go.kr)에서 발급",
+        체크: ["중소벤처기업부 발급본만 인정", "'소기업' 또는 '소상공인'으로 표기돼 있어야 신청 가능", "사업신청일 기준 유효기간 내인지 확인", "마이데이터 동의 시 제출 생략 가능"] },
+      { 이름: "대리수강 증빙자료 (해당 시)", 출처: "가족관계증명서 등 직접 준비",
+        체크: ["대표자가 아닌 가족이 수강할 때만 필요", "가족관계와 사업장 운영 참여 사실이 둘 다 확인돼야 함", "미제출 시 대리수강이 제한됩니다"] }
+    ]
+  },
+  {
+    이름: "2026년 소상공인 AI상생협업교육(1일 과정) - 오늘 배워 내일 매출나는 소상공인 AI과정 with 캐시노트",
+    태그: ["교육","부산 개최","1일 4시간","노트북 제공","사전강의 필수"],
+    업종적합: ["음식점업","도소매업"],
+    기관: "소상공인시장진흥공단 (운영기관: (사)한국마케팅진흥원 / 협업기업: 한국신용데이터 '캐시노트')",
+    마감: "2026-06-12 ~ 2026-10-27 18:00 (기수별 상이) · 부산 잔여 3개 기수",
+    마감유형: "날짜",
+    마감일: "2026-10-27",
+    신청링크: "https://www.sbiz24.kr",
+    요건: {
+      구군: ["전역"],
+      업종: null,
+      근로자: null,
+      매출: null,
+      업력: null,
+      연령: null,
+      특이조건: "★ 부산에서 열리는 기수가 실제로 있는 공고입니다. 하루 4시간짜리 단기 과정이고, 부산 교육장은 부산 라이콘타운(현 부산 로컬창업타운, 부산 중구)입니다. 2026년 8월 6일 기준 신청 가능한 부산 기수는 3개입니다 - ①9기 9/8(화) 09:00~13:00 보통(30명, 신청 9/7 18:00까지) ②10기 9/9(수) 09:00~13:00 기초(30명, 신청 9/8 18:00까지) ③11기 9/9(수) 13:30~17:30 보통(30명, 신청 9/8 18:00까지). 부산 기수 정원이 30명으로 같은 사업의 다른 과정보다 적고, 기수마다 신청 마감일이 다르니 원하는 기수의 마감일을 직접 확인하세요. 실습용 노트북은 운영기관이 제공하며, 원하면 개인 노트북을 가져가도 됩니다. ⚠ 이 공고는 대상 업종이 공고문 안에서 두 가지로 다르게 적혀 있습니다 - 모집대상에는 '제조업·도소매업·외식업·서비스업'으로, 신청대상에는 '관광업·서비스업·도매업·제조업·외식업종'으로 나옵니다. 어느 쪽에도 명확히 들어가지 않는 업종(예: 소매업만 하는 경우)이라면 신청 전 운영기관에 확인하는 게 안전하며, 대조표에는 업종 제한을 반영하지 않았습니다. 신청 전 반드시 소상공인 지식배움터(edu.sbiz.or.kr) 'AI학습관' 온라인강의를 1개 이상 수강 완료해야 신청이 가능합니다. 수준은 기초·보통으로 나뉘며 기초는 디지털·AI 입문자용(사진 한 장으로 홍보 이미지·30초 홍보 영상 만들기), 보통은 리뷰 분석과 '내 가게 전용 도우미'(재고 계산·매출 정리) 만들기 중심입니다. 자금 지원이 아니라 교육 사업이며 혜택은 캐시노트 데이터 기반 내 가게 경영진단 보고서(약 5만원 상당), 우리 상권·업종 비교 보고서(약 3만원 상당), 수료생 전원 캐시노트 유료 구독권 1개월(약 3만원 상당)입니다. 교육·실습 참석과 교육 영상 촬영·제작·제공에 동의해야 하며(일부 영상은 공단·민간기업 플랫폼에 게시될 수 있음), 선정 시 이 동의는 필수입니다. 중복수강은 가능하나 신청이 몰리면 해당 교육과정 최초 수강자가 우선 선정됩니다. 출석률 80% 미만이면 미수료 처리되고 이후 이 사업에 재참여할 수 없습니다. 신청은 대표자 본인이 해야 하며, 가족경영 등 부득이한 경우에만 사업장 운영에 실제 참여 중인 가족 1인의 대리수강이 증빙 제출을 조건으로 허용됩니다. 소상공인정책자금 지원제외업종, 프랜차이즈 가맹본부·가맹점(공정위 등록 가맹사업자 기준), 비영리사업자·비영리법인(고유번호증 소지자), 휴업·폐업 중인 업체는 신청할 수 없습니다. 선정되지 않아도 유튜브 '공사장TV' 온라인 라이브 강의(8/25 16:30·17:30, 11/10 14:00·15:00, 11/12 14:00, 사전신청 없음)는 누구나 들을 수 있습니다. 참고로 같은 사업의 구글클라우드 과정 부산 회차(9/10~9/11)와 날짜가 겹치지 않아 둘 다 신청해볼 수 있습니다. 온라인 신청이 어려우면 운영기관((사)한국마케팅진흥원 02-743-7301)에 사전 문의 후 교육 당일 현장에서 신청을 도와받을 수 있습니다(단, 당일 소상공인24 온라인 신청까지 완료해야 최종 접수로 인정). 2차 수정 공고문이므로 신청 전 소상공인24에서 최신 기수를 다시 확인하세요."
+    },
+    서류: [
+      { 이름: "신청서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["원하는 지역·날짜·수준의 기수를 정확히 선택했는지 (기수마다 별도 신청입니다)", "참여 의무사항 확약 4개 항목(교육 참여, 3년 실태조사 응답, 정보보안, 촬영·제작·제공 동의) 모두 '예'로 표시했는지", "매출규모 칸은 2026년 5월 월간 매출 기준으로 적는지", "AI 활용 수준(상·중·하)은 사실대로 - 기초/보통 배정에 쓰입니다"] },
+      { 이름: "업체 소개서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["교육을 신청한 이유와 우리 가게에 왜 필요한지를 구체적으로 썼는지", "업종·사업규모·대표자와 직원 현황을 적었는지", "업종을 적을 때 모집대상 업종(제조·도소매·외식·서비스)에 해당한다는 게 드러나는지", "AI 활용 경험은 없으면 없는 대로 솔직하게"] },
+      { 이름: "교육신청 자가진단서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["신청 화면의 자가진단 단계에서 바로 작성"] },
+      { 이름: "사업자등록증 또는 사업자등록증명원", 출처: "홈택스에서 발급",
+        체크: ["마이데이터 동의 시 제출 생략 가능 (이 사업은 마이데이터 항목 중 사업자등록증명 1종을 확인합니다)", "사업자등록증의 업종과 실제 영위 업종이 다르면 참여 제한 사유가 됩니다"] },
+      { 이름: "중소기업확인서(소상공인)", 출처: "중소기업현황정보시스템(sminfo.mss.go.kr)에서 발급",
+        체크: ["중소벤처기업부 발급본만 인정", "'소기업' 또는 '소상공인'으로 표기돼 있어야 신청 가능", "사업신청일 기준 유효기간 내인지 확인", "마이데이터 동의 시 제출 생략 가능"] },
+      { 이름: "대리수강 증빙자료 (해당 시)", 출처: "가족관계증명서 등 직접 준비",
+        체크: ["대표자가 아닌 가족이 수강할 때만 필요", "가족관계와 사업장 운영 참여 사실이 둘 다 확인돼야 함", "미제출 시 대리수강이 제한됩니다"] }
+    ]
+  },
+  {
+    이름: "2026년 소상공인 AI상생협업교육(패키지 과정) - AI로 직접 만들고 매출로 증명하는 소상공인 AI 실전 과정 with 구글클라우드",
+    태그: ["교육","부산 개최","5주 과정","노트북 제공","사전강의 필수"],
+    기관: "소상공인시장진흥공단 (운영기관: 한국생산성본부 / 협업기업: 구글클라우드)",
+    마감: "2026-06-12 ~ 2026-10-29 18:00 (기수별 상이) · 부산 6기·7기",
+    마감유형: "날짜",
+    마감일: "2026-10-29",
+    신청링크: "https://www.sbiz24.kr",
+    요건: {
+      구군: ["전역"],
+      업종: null,
+      근로자: null,
+      매출: null,
+      업력: null,
+      연령: null,
+      특이조건: "★ 부산에서 열리는 기수가 실제로 있습니다. 소상공인시장진흥공단 부산전용교육장에서 6기·7기가 진행됩니다 - 6기는 오프라인 8/18·8/25·9/1·9/15(화) 14:00~17:00 + 실시간 온라인 8/20·8/27·9/3·9/10(목) 14:00~16:00, 7기는 오프라인 9/29·10/6·10/13·10/27(화) + 실시간 온라인 10/1·10/8·10/15·10/22(목)입니다. ⚠ 이 공고는 5주짜리 패키지 과정이라 부담이 다릅니다. 5주 동안 화요일 오프라인 3시간과 목요일 온라인 2시간을 주 2회씩 병행해야 하고(4주차만 교육장 방문 없이 온라인 1:1 코칭), 매주 수업 사이에 가게에서 직접 해보는 과제가 따로 있습니다. 같은 구글클라우드 협업이지만 하루 4시간짜리 '1일 과정'과는 완전히 별개 공고이니 혼동하지 마세요(운영기관은 한국생산성본부로 동일합니다). 기수당 정원이 15명으로 매우 적고(전체 모집 200개사) 평가위원회 서류평가로 선발하며 평가항목이 참여의지·지원적합성·성장가능성이라, 신청서와 업체 소개서를 성의 있게 써야 합니다. 2026년 8월 6일 기준 6기는 8/18 시작이라 신청 마감이 임박했을 수 있으니 소상공인24에서 바로 확인하고, 여유 있게 준비하려면 9/29 시작하는 7기를 노리는 편이 낫습니다. 실습용 노트북은 운영기관이 제공하며 개인 노트북을 가져가도 됩니다. 신청 전 반드시 소상공인 지식배움터(edu.sbiz.or.kr) 'AI학습관' 온라인강의를 1개 이상 수강 완료해야 신청이 가능합니다. 자금 지원이 아니라 교육 사업이며 혜택은 Google Ads 광고 크레딧 30만원 상당(교육 중 22만원 + 수료 후 8만원), Gemini(Google AI Pro) 구독권 2개월(교육 중 1개월 + 수료 후 1개월), 우수 교육생 상위 3개사 브랜드 컨설팅 1개월, 수료 후 Google Ads 실전 운영 클리닉입니다. 크레딧은 수료 기준 충족 시 배포되므로, 출석률 80% 미만으로 미수료 처리되면 혜택을 못 받고 이후 이 사업에 재참여도 할 수 없습니다. 모집대상은 도소매·음식점·카페·서비스·숙박 등 전 업종 소상공인입니다. 교육·실습 참석과 교육 영상 촬영·제작·제공에 동의해야 하며 선정 시 이 동의는 필수입니다. 중복수강은 가능하나 신청이 몰리면 해당 교육과정 최초 수강자가 우선 선정됩니다. 신청은 대표자 본인이 해야 하며, 가족경영 등 부득이한 경우에만 가족 1인의 대리수강이 증빙 제출을 조건으로 허용됩니다. 소상공인정책자금 지원제외업종, 프랜차이즈 가맹본부·가맹점(공정위 등록 가맹사업자 기준), 비영리사업자·비영리법인(고유번호증 소지자), 휴업·폐업 중인 업체는 신청할 수 없습니다. 선정되지 않아도 유튜브 '공사장TV' 온라인 라이브 강의(9/29·10/1·10/6·10/8·10/13·10/15, 사전신청 없음)는 누구나 들을 수 있습니다. 온라인 신청이 어려우면 운영기관(한국생산성본부 02-398-6490)에 사전 문의 후 교육 당일 현장에서 신청을 도와받을 수 있습니다(단, 당일 소상공인24 온라인 신청까지 완료해야 최종 접수로 인정)."
+    },
+    서류: [
+      { 이름: "신청서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["원하는 기수(부산 6기 또는 7기)를 정확히 선택했는지 - 5주 일정 전체를 비울 수 있는지 먼저 확인", "참여 의무사항 확약 4개 항목(교육 참여, 3년 실태조사 응답, 정보보안, 촬영·제작·제공 동의) 모두 '예'로 표시했는지", "매출규모 칸은 2026년 5월 월간 매출 기준으로 적는지", "AI 활용 수준(상·중·하)은 사실대로"] },
+      { 이름: "업체 소개서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["정원 15명에 평가위원회 서류평가라 이 문서가 당락을 가릅니다 - 가장 공들여 쓸 것", "평가항목이 참여의지·지원적합성·성장가능성이니 이 세 가지가 드러나게 구성", "5주 과정을 끝까지 이수할 수 있는 상황이라는 점을 참여 목적에 녹여 쓰기", "Google 광고를 실제로 집행해볼 계획이 있다면 구체적으로 적기 (교육 목표가 광고 집행·성과 분석까지입니다)"] },
+      { 이름: "교육신청 자가진단서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["신청 화면의 자가진단 단계에서 바로 작성"] },
+      { 이름: "사업자등록증 또는 사업자등록증명원", 출처: "홈택스에서 발급",
+        체크: ["마이데이터 동의 시 제출 생략 가능", "사업자등록증의 업종과 실제 영위 업종이 다르면 참여 제한 사유가 됩니다"] },
+      { 이름: "중소기업확인서(소상공인)", 출처: "중소기업현황정보시스템(sminfo.mss.go.kr)에서 발급",
+        체크: ["중소벤처기업부 발급본만 인정", "'소기업' 또는 '소상공인'으로 표기돼 있어야 신청 가능", "사업신청일 기준 유효기간 내인지 확인", "마이데이터 동의 시 제출 생략 가능"] },
+      { 이름: "대리수강 증빙자료 (해당 시)", 출처: "가족관계증명서 등 직접 준비",
+        체크: ["대표자가 아닌 가족이 수강할 때만 필요", "가족관계와 사업장 운영 참여 사실이 둘 다 확인돼야 함", "미제출 시 대리수강이 제한됩니다"] }
+    ]
+  },
+  {
+    이름: "2026년 소상공인 디지털 특성화대학",
+    태그: ["교육","부산 개최","30시간 과정","온라인 신청만"],
+    기관: "소상공인시장진흥공단 (전국 15개 대학 운영 / 부산: 동명대학교)",
+    마감: "~ 2026-10-30 (공고 접수기간) · 실제 모집 시기는 대학별 상이, 동명대학교(051-629-3439) 문의",
+    마감유형: "문의",
+    마감일: "2026-10-30",
+    신청링크: "https://www.sbiz24.kr",
+    요건: {
+      구군: ["전역"],
+      업종: null,
+      근로자: null,
+      매출: null,
+      업력: null,
+      연령: null,
+      특이조건: "★ 부산에서 열리는 과정이 있습니다. 전국 15개 대학 중 부산 소재는 동명대학교(부산 남구, 051-629-3439, digitaltu.com) 한 곳이며, 인근으로는 경남대학교(경남 창원, 055-249-6338, kubi.or.kr)와 대구한의대학교(경북 경산, 053-819-7822)가 있습니다. 거주지와 무관하게 원하는 대학에 신청할 수 있지만 오프라인 수업이 그 대학에서 진행되므로 통학 거리를 먼저 따져보세요. ⚠ 신청기간이 공고문에 없습니다. 대학마다 일정이 다르고, 교육생 한도 초과 시 조기 종료될 수 있으니 접수 전에 반드시 대학 문의처로 전화해 일정·커리큘럼을 확인해야 합니다. 교육은 30시간 이상으로, 온라인 10시간 이상(소상공인 지식배움터 edu.sbiz.or.kr의 온라인판로개척 콘텐츠 49개 중 자율 수강)과 오프라인 20시간 이상(국내외 플랫폼 입점, AI 도구 활용, 물류 기초, 온라인 마케팅 등 실습 중심)으로 나뉘며, 전문가·선배 소상공인의 실습 멘토링도 함께 제공됩니다. 자금 지원이 아니라 교육 사업입니다. ★ 이 사이트에 등록된 다른 공고와 직접 연결됩니다 - 수료하면 공단 온라인 판로지원사업 신청 시 가점과 우선선정 혜택을 받습니다. 여기 등록된 '해외 온라인 플랫폼 입점지원', '해외 온라인 플랫폼 물류지원'이 그 판로지원사업에 속하고, '소상공인 플랫폼협업교육'은 디지털 특성화대학 수료생을 우선지원 대상으로 명시하고 있습니다. 온라인 판로지원사업 12개 중 상품 개선·상세페이지 제작·콘텐츠 제작·온라인쇼핑몰 판매지원·라이브커머스·SNS 마케팅·온라인 홍보·물류 서비스·MD상담회·TV홈쇼핑 입점지원(③~⑫번)은 수료 다음 해부터 신청할 수 있습니다. 출석률이 80% 미만이면 미수료 처리되고 이 혜택을 전혀 받지 못합니다. 선정은 디지털 역량진단 → 대학 선정평가 → 대학 결과통보 순으로 진행되며, 역량 수준과 대학별 커리큘럼 특성을 함께 보고 대학이 뽑습니다. 신청은 대표자 본인만 가능하고 대리 신청하면 선정이 취소될 수 있으며, 공동대표는 주 대표자 명의로만 신청합니다(소상공인24 가입도 주 대표자 명의여야 합니다). 과거 디지털 특성화대학('21~'25년)을 2회 이상 수료했다면 신청할 수 없습니다. 전국 모집 인원은 2,550명입니다. 소상공인정책자금 지원제외업종(유흥주점·사행성 오락·금융보험업·부동산업 일부·법무회계세무서비스·보건업 일부·성인용품·가상자산업 등)은 신청할 수 없습니다."
+    },
+    서류: [
+      { 이름: "신청서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["신청 전에 대학 문의처로 먼저 전화해 일정·커리큘럼을 확인했는지 (공고문이 사전 문의를 권장합니다)", "오프라인 20시간을 실제로 참석할 수 있는 일정인지 먼저 확인", "주 대표자 명의로 소상공인24에 가입하고 본인 인증을 마쳤는지", "마이페이지 > 기관/업체정보에서 상호명·휴대전화번호·업종을 최신으로 업데이트했는지"] },
+      { 이름: "디지털 역량진단", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["선정 절차의 첫 단계입니다 - 진단 결과와 대학 커리큘럼 특성을 함께 보고 대학이 선발합니다", "현재 수준을 사실대로 답하는 편이 맞는 반에 배정받는 데 유리합니다"] },
+      { 이름: "소상공인 확인서(중소기업확인서)", 출처: "중소기업현황정보시스템(sminfo.mss.go.kr)에서 발급",
+        체크: ["중소벤처기업부 발급본만 인정됩니다", "'소기업' 또는 '소상공인'으로 표기돼 있어야 신청 가능", "사업신청일 기준 유효기간 내인지 확인", "마이데이터 정보제공에 동의하면 첨부를 생략할 수 있습니다", "발급 문의는 중소기업 통합콜센터 1357"] },
+      { 이름: "사업자등록증명원", 출처: "홈택스에서 발급",
+        체크: ["1개월 이내 발급본이어야 합니다", "마이데이터 정보제공에 동의하면 첨부를 생략할 수 있습니다"] }
+    ]
+  },
+  {
+    이름: "2026년 희망리턴패키지 특화취업지원 (폐업·폐업예정 소상공인 재취업 지원)",
+    태그: ["교육","자금·현물지원","폐업(예정)자 대상","온라인 신청만"],
+    기관: "소상공인시장진흥공단 (문의: 소상공인 통합콜센터 1533-0100)",
+    마감: "2026년 1월 ~ 예산 소진 시까지 (교육은 11/30 마감)",
+    마감유형: "소진",
+    신청링크: "https://www.sbiz24.kr",
+    요건: {
+      구군: ["전역"],
+      업종: null,
+      근로자: null,
+      매출: null,
+      업력: null,
+      연령: { min: 15, max: 69 },
+      특이조건: "⚠ 이 사이트의 다른 공고와 성격이 완전히 다릅니다. 장사를 키우는 지원이 아니라, 가게를 접었거나 접을 예정인 사장님이 임금근로자로 취업하도록 돕는 사업입니다. 지금 영업 중이고 폐업 계획이 없다면 대상이 아닙니다. 신청 자격은 ①폐업했거나 폐업 예정인 소상공인일 것(폐업한 경우 폐업일이 2023년 1월 1일 이후여야 함), ②신청일 기준 만 15세 이상 만 69세 이하, ③사업자등록증 또는 폐업사실증명원상 사업 운영 기간이 60일을 넘긴 사업체의 대표일 것, ④소상공인정책자금 융자제외 업종이 아닐 것 - 네 가지를 모두 충족해야 합니다. 운영 기간 60일 요건은 년 단위 업력 칸으로는 표현되지 않아 대조표에 반영하지 않았으니 직접 확인하세요. ★ 받을 수 있는 것이 네 갈래입니다. ①취업교육 - 기초는 지식배움터(edu.sbiz.or.kr) e러닝 10시간(20개 과정 중 5개 이상 수강 + 학업성취도평가), 심화는 현장 대면교육 2~3주 30시간(1:1 면담, 구직 효능감, 분임토의 등)이고 회차별 정원 20명입니다. 심화교육을 수료하면 교육 참여수당 35만원을 따로 받습니다. 고용노동부 중장년 경력지원제 직업훈련(16시간 이상) 이수자는 1주 이내 14시간짜리 단축형 심화교육을 들을 수 있습니다. 기초→심화 순서이고 교육별로 연 1회만 수강할 수 있지만, 2025년에 기초교육만 수료하고 심화를 안 들었다면 2026년에는 기초를 건너뛰고 심화부터 신청할 수 있습니다. ②전직장려수당 최대 100만원 - 1차 60만원은 '25~'26년 취업 심화교육을 수료해야 받고, 2차 40만원은 심화교육 수료 후 취업해서 그 사업장에 상시직으로 고용보험 가입(근속)기간이 60일 이상이어야 받습니다. ③심리회복 프로그램 - 폐업 상실감 극복을 위한 대면 치유 프로그램(산림치유 등)으로 동반자 1인 동행이 가능하고 연 3회까지 참여할 수 있습니다. ④국민취업지원제도 연계수당 - 기초교육 수료 후 고용노동부 국민취업지원제도에 참여하면 최대 6개월간 월 20만원(최대 120만원)을 별도 신청 절차 없이 자동 지급합니다(기초교육 신청서에 적은 계좌로 입금). ⚠ 2026년부터 전직장려수당 요건이 강해졌습니다. 예전에는 심화교육 없이 취업만 해도 1차를 받을 수 있었지만 이제는 심화교육 수료가 필수이고, 2차 근속 요건도 30일에서 60일로 늘었습니다. 심화교육을 수료하기 전에 이미 취업한 사람은 지원 대상에서 제외되니, 취업이 급하지 않다면 심화교육을 먼저 듣는 순서가 중요합니다. 다만 2026년 1월 18일까지 취업을 완료(고용보험 취득일 기준)했다면 예전 기준을 적용받을 수 있습니다. 최근 3년간 전직장려수당을 받은 이력이 있으면 신청할 수 없습니다. ⚠ 본인 명의의 모든 사업체가 폐업 상태여야 전직장려수당을 받습니다. 다른 가게는 접었어도 부동산 임대업 하나를 계속 하고 있으면 지원되지 않습니다. 또 근로계약이 아닌 위임·도급계약(개인사업자 형태)은 취업으로 인정되지 않고, 일용직·특수고용직도 인정되지 않습니다. ★ 배우자도 취업교육만은 함께 들을 수 있습니다. 폐업 소상공인 본인이 만 69세를 넘겨도 배우자가 나이 요건을 충족하면 배우자가 교육을 받을 수 있습니다. 단, 전직장려수당과 국민취업지원제도 연계수당은 배우자에게 지급되지 않습니다. 신청기간은 취업 기초교육 2026년 1월~11/30, 심화교육 2월~11/30(교육기관별 일정 상이), 전직장려수당·국취 연계 1월~예산 소진 시, 심리회복 2월~11/30입니다. 예산이 소진되면 연중 조기 마감될 수 있습니다. 심화교육이 부산에서 열리는지는 공고문에 나오지 않고 교육기관별로 일정이 달라, 소상공인24 회차별 모집공고에서 직접 확인해야 합니다."
+    },
+    서류: [
+      { 이름: "신청서 및 체크리스트", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["기초교육은 소상공인24에서 신청·선정된 뒤에야 지식배움터에서 수강할 수 있습니다 - 지식배움터에서 바로 듣는 게 아닙니다", "국민취업지원제도 연계수당이 이 신청서에 적은 계좌로 자동 입금되니 계좌번호를 정확히 적을 것", "선정 후 지정된 교육기간 안에 수강하지 않으면 미수료 처리됩니다"] },
+      { 이름: "개인정보 수집·이용 및 제공 동의서", 출처: "온라인 작성",
+        체크: ["별도 준비 서류 없음, 온라인에서 바로 동의"] },
+      { 이름: "사업자등록증명원(폐업 예정자) 또는 폐업사실증명원(폐업자)", 출처: "홈택스에서 발급",
+        체크: ["본인 상황에 맞는 것 하나만 준비 - 아직 영업 중이면 사업자등록증명원, 이미 접었으면 폐업사실증명원", "폐업일이 2023년 1월 1일 이후인지 확인", "마이데이터 동의 시 제출 생략 가능"] },
+      { 이름: "표준재무제표증명원 또는 부가가치세과세표준증명원", 출처: "홈택스에서 발급",
+        체크: ["매출액 확인용, 둘 중 하나만 준비", "마이데이터 동의 시 제출 생략 가능"] },
+      { 이름: "상시근로자 수 확인 서류", 출처: "국민건강보험공단 또는 4대사회보험 정보연계센터",
+        체크: ["직원이 없었다면 건강보험자격득실확인서", "직원이 있었다면 건강보험(월별)사업장가입자별부과내역, 월별원천징수이행상황신고서, 개인별건강보험고지산출내역, 월별보험료부과내역조회(고용·산재) 중 하나", "마이데이터 동의 시 제출 생략 가능"] },
+      { 이름: "중장년 경력지원제 직업훈련 이수증 (해당 시)", 출처: "고용노동부에서 발급받아 직접 준비",
+        체크: ["16시간 이상 이수했다면 심화교육을 14시간 단축형으로 들을 수 있습니다", "해당자만 제출"] },
+      { 이름: "배우자 주민등록등본 (배우자가 교육받을 때)", 출처: "정부24에서 발급",
+        체크: ["가족관계 확인용", "배우자는 취업교육만 가능하고 수당은 받지 못합니다"] },
+      { 이름: "배우자 취업교육 참여 동의서 (배우자가 교육받을 때)", 출처: "업무편람 서식[11] 직접 준비",
+        체크: ["공단 업무편람 서식을 그대로 사용해야 합니다"] },
+      { 이름: "[전직장려수당] 폐업사실증명원", 출처: "홈택스 또는 세무서에서 발급",
+        체크: ["수당 신청 시에는 마이데이터로 대체되지 않고 직접 제출합니다"] },
+      { 이름: "[전직장려수당] 사실증명(총사업자등록내역)", 출처: "홈택스 또는 세무서에서 발급",
+        체크: ["신청일 기준 30일 이내 발급분이어야 합니다", "본인 명의의 모든 사업체가 폐업 상태로 나와야 합니다 - 임대업 하나만 남아 있어도 지급 불가"] },
+      { 이름: "[전직장려수당] 통장사본", 출처: "신청인 명의 계좌, 직접 준비",
+        체크: ["반드시 신청인 본인 명의 계좌"] },
+      { 이름: "[전직장려수당] 근로계약서(취업 시) 또는 경력증명서(퇴사 시)", 출처: "취업·퇴사한 기업에서 직접 발급",
+        체크: ["근로계약서는 필수입니다 - 위임계약·도급계약 등 개인사업자 형태는 취업으로 인정되지 않습니다", "계약기간과 취업처가 확인돼야 합니다"] },
+      { 이름: "[전직장려수당] 고용보험 피보험자격이력내역서", 출처: "근로복지공단 고용·산재보험 토탈서비스(total.kcomwel.or.kr)",
+        체크: ["전체이력 발급 + 직종명(코드) 포함으로 뽑아야 합니다", "일용직·특수고용직은 인정되지 않습니다", "2차 수당은 고용보험 가입기간 60일 이상이어야 합니다"] }
+    ]
+  },
+  {
+    이름: "2026년 희망리턴패키지 심리회복 프로그램 (폐업 소상공인 심리치유)",
+    태그: ["심리회복 프로그램","폐업(예정)자 대상","온라인 신청만","선착순 마감","동반자 1인 가능"],
+    기관: "소상공인시장진흥공단 (문의: 소상공인 통합콜센터 1533-0100)",
+    마감: "2026년 2월 ~ 2026-10-31 (회차별 모집, 최소인원 미달 시 폐강)",
+    마감유형: "날짜",
+    마감일: "2026-10-31",
+    신청링크: "https://www.sbiz24.kr",
+    요건: {
+      구군: ["전역"],
+      업종: null,
+      근로자: null,
+      매출: null,
+      업력: null,
+      연령: { min: 15, max: 69 },
+      특이조건: "★ 이 사이트에서 유일하게 '쉬어가는' 지원입니다. 돈이나 교육이 아니라, 폐업 상실감과 우울감을 회복하도록 돕는 대면 치유 프로그램입니다. 산림복지시설에서 진행하는 산림치유 프로그램(당일형·숙박형)이 중심이고, 오감걷기·해먹명상·밸런스테라피·싱잉볼 명상·다도 명상 같은 과정으로 구성됩니다. 참가비 부담 없이 1인당 연 3회까지 참여할 수 있고(지역 상관없이 합쳐서 3회), 동반자 1명을 데려갈 수 있습니다. ⚠ 상위 공고(희망리턴패키지 특화취업지원)와 신청 창구가 별개입니다. 소상공인24에서 '심리회복' 회차별 모집공고를 따로 찾아 신청해야 하며, 취업교육이나 전직장려수당을 신청했다고 자동으로 참여되지 않습니다. 회차별로 장소·일정이 다르고 현장까지 이동은 개별 부담입니다. ⚠ 선착순이지만 정원이 넘치면 밀리는 순서가 정해져 있습니다. ①심리회복을 처음 신청하는 소상공인 ②해당 지역·프로그램을 처음 신청하는 소상공인 ③그 외 순으로 우선 선정하므로, 올해 이미 참여한 적이 있으면 후순위가 됩니다. ⚠ 무단 불참에 불이익이 있습니다. 1회 무단 불참하면 그 지역 프로그램에 재신청할 때 선정에서 제외될 수 있고, 2회 이상이면 당해 연도 전체 심리회복 프로그램에서 선정 제외됩니다. 최소 참여 인원이 안 모이면 폐강될 수 있습니다. ⚠ 마감일은 소상공인24 접수기간(10월 31일) 기준으로 등록했습니다. 공고문 본문 신청기간 표에는 11월 30일로 적혀 있으나 연도가 '25년으로 잘못 표기돼 있어, 신청 전 소상공인24 화면에서 한 번 더 확인하세요. 2026년 사업 세부 계획에 따라 프로그램 종류가 늘거나 바뀔 수 있으니 실제 지원 내용도 회차별 신청 화면을 보는 게 정확합니다."
+    },
+    서류: [
+      { 이름: "참여 신청서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["회차별 모집공고마다 따로 신청해야 합니다 - 한 번 신청으로 연 3회가 자동 예약되지 않습니다", "동반자 1인을 데려갈 계획이면 신청 단계에서 함께 표기할 것", "선정 통보를 받은 뒤 불참하면 재신청 시 불이익이 있으니 일정을 확인하고 신청하세요"] },
+      { 이름: "개인정보 수집·이용 및 제공 동의서", 출처: "온라인 작성",
+        체크: ["별도 준비 서류 없음, 온라인에서 바로 동의"] },
+      { 이름: "사업자등록증명원(폐업 예정자) 또는 폐업사실증명원(폐업자)", 출처: "홈택스에서 발급",
+        체크: ["본인 상황에 맞는 것 하나만 준비 - 아직 영업 중이면 사업자등록증명원, 이미 접었으면 폐업사실증명원", "회차별 공고마다 요구 서류가 다를 수 있으니 신청 화면의 안내를 확인하세요", "마이데이터 동의 시 제출 생략 가능"] }
+    ]
+  },
+  {
+    이름: "2026년 희망리턴패키지 전직장려수당 1차 (60만원)",
+    태그: ["자금·현물지원","폐업 완료자만","온라인 신청만","심화교육 수료 필수"],
+    기관: "소상공인시장진흥공단 (문의: 소상공인 통합콜센터 1533-0100)",
+    마감: "2026년 1월 ~ 2026-12-31 (예산 소진 시 조기 마감)",
+    마감유형: "소진",
+    마감일: "2026-12-31",
+    신청링크: "https://www.sbiz24.kr",
+    요건: {
+      구군: ["전역"],
+      업종: null,
+      근로자: null,
+      매출: null,
+      업력: null,
+      연령: { min: 15, max: 69 },
+      특이조건: "★ 가게를 접고 취업을 준비하는 사장님에게 현금 60만원을 주는 사업입니다. 전직장려수당은 1차 60만원 + 2차 40만원으로 나뉘는데 이 공고는 1차분이고, 2차는 1차를 받은 뒤에야 신청할 수 있습니다. 2026년 지원 규모는 1·2차 합쳐 9,040건 내외입니다. ⚠ 2026년부터 요건이 크게 강해졌습니다. 예전에는 심화교육 없이 취업만 해도 1차를 받을 수 있었지만, 이제는 '25~'26년 취업 심화교육 수료가 필수 조건입니다. 심화교육을 수료하기 전에 이미 취업한 사람은 아예 지원 대상에서 빠지므로, 취업이 급하지 않다면 심화교육을 먼저 듣는 순서가 중요합니다. 다만 2026년 1월 18일까지 취업을 완료(고용보험 취득일 기준)했다면 2025년 기준을 적용받을 수 있습니다. ⚠ 신청 자격 네 가지를 모두 채워야 합니다. ①사업체 폐업 신고 완료(폐업신고일이 2023년 1월 1일 이후) ②본인 명의의 모든 사업체가 폐업 상태 ③'25~'26년 취업 심화교육 수료 ④최근 3년간 전직장려수당 지급 이력 없음. 다른 가게는 접었어도 부동산 임대업 하나를 계속 하고 있으면 지급되지 않습니다. 아직 폐업하지 않은 사람도 대상이 아닙니다(비영리법인·비영리단체이거나 불가피한 사유가 확인된 경우만 예외). ⚠ 신청기한이 따로 있습니다. 접수는 연중 열려 있지만, 개인별로는 심화교육 수료일로부터 12개월 이내에 신청해야 합니다. 수료만 해두고 1년을 넘기면 받을 수 없습니다. 예산이 조기 소진되면 연중 마감될 수 있습니다. ⚠ 배우자는 받을 수 없습니다. 배우자는 취업교육까지만 함께 들을 수 있고 수당은 폐업 소상공인 본인만 받습니다. ★ 심화교육을 수료하면 이 수당과 별개로 교육 참여수당 35만원이 나오고, 기초교육 수료 후 국민취업지원제도에 참여하면 최대 6개월간 월 20만원(최대 120만원)이 또 별도로 지급됩니다. 세 갈래를 다 챙기면 합계가 커지니 상위 공고인 '희망리턴패키지 특화취업지원'도 함께 보세요."
+    },
+    서류: [
+      { 이름: "신청서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["심화교육 수료일로부터 12개월 안에 신청해야 합니다 - 수료일을 먼저 확인하세요"] },
+      { 이름: "개인정보 수집·이용 및 제공 동의서", 출처: "온라인 작성",
+        체크: ["별도 준비 서류 없음, 온라인에서 바로 동의"] },
+      { 이름: "폐업사실증명원", 출처: "홈택스 또는 세무서에서 발급",
+        체크: ["수당 신청에서는 마이데이터로 대체되지 않고 직접 제출합니다", "폐업신고일이 2023년 1월 1일 이후인지 확인"] },
+      { 이름: "사실증명(총사업자등록내역)", 출처: "홈택스 또는 세무서에서 발급",
+        체크: ["신청일 기준 30일 이내 발급분이어야 합니다", "본인 명의의 모든 사업체가 폐업 상태로 나와야 합니다 - 임대업 하나만 남아 있어도 지급 불가"] },
+      { 이름: "통장사본", 출처: "신청인 명의 계좌, 직접 준비",
+        체크: ["반드시 신청인 본인 명의 계좌"] },
+      { 이름: "근로계약서(취업 시) 또는 경력증명서(퇴사 시) - 해당 시", 출처: "취업·퇴사한 기업에서 직접 발급",
+        체크: ["기초교육 수료 후 취업까지 완료한 사람만 제출하는 서류입니다", "위임계약·도급계약 등 개인사업자 형태는 취업으로 인정되지 않습니다"] },
+      { 이름: "고용보험 피보험자격이력내역서 - 해당 시", 출처: "근로복지공단 고용·산재보험 토탈서비스(total.kcomwel.or.kr)",
+        체크: ["전체이력 발급 + 직종명(코드) 포함으로 뽑아야 합니다", "일용직·특수고용직은 인정되지 않습니다", "취업 완료 요건에 해당하는 사람만 제출"] }
+    ]
+  },
+  {
+    이름: "2026년 희망리턴패키지 전직장려수당 2차 (40만원)",
+    태그: ["자금·현물지원","폐업 완료자만","온라인 신청만","1차 수당 선행 필수"],
+    기관: "소상공인시장진흥공단 (문의: 소상공인 통합콜센터 1533-0100)",
+    마감: "2026년 1월 ~ 2026-12-31 (예산 소진 시 조기 마감)",
+    마감유형: "소진",
+    마감일: "2026-12-31",
+    신청링크: "https://www.sbiz24.kr",
+    요건: {
+      구군: ["전역"],
+      업종: null,
+      근로자: null,
+      매출: null,
+      업력: null,
+      연령: { min: 15, max: 69 },
+      특이조건: "⚠ 1차 수당을 받지 않았다면 이 공고는 신청 자체가 안 됩니다. 전직장려수당은 1차 60만원 → 2차 40만원 순서로만 지급되며, 1차 지급이 완료된 뒤에 2차를 신청할 수 있습니다. 1차와 접수기간이 같아 보이지만 두 공고는 순서가 있는 별개 신청입니다. 1차부터 확인하세요. ★ 조건은 '취업해서 두 달 버티기'입니다. '25~'26년 취업 심화교육을 수료한 뒤 취업했고, 그 사업장에 상시직으로 고용보험 가입(근속)기간이 60일 이상이면 40만원을 받습니다. ⚠ 2026년부터 근속 요건이 30일에서 60일(2개월)로 늘었습니다. 다만 2026년 1월 18일까지 취업을 완료(고용보험 취득일 기준)한 경우에는 예전 기준인 30일 이상 근속으로 인정받을 수 있습니다. ⚠ 취업으로 인정되지 않는 형태가 있습니다. 근로계약이 아닌 위임계약·도급계약 등 개인사업자 형태(근로기준법이 아닌 산업안전보건법 보호를 받는 형태)는 취업으로 보지 않고, 일용직·특수고용직도 인정되지 않습니다. 근로계약서를 통해 계약기간과 취업처를 확인하므로 근로계약서는 필수 제출입니다. ⚠ 신청 시점에도 본인 명의의 모든 사업체가 폐업 상태여야 합니다. 취업 후 부업으로 사업자를 다시 냈다면 지급되지 않습니다. ⚠ 신청기한은 1차 수당 지급일로부터 36개월 이내입니다. 1차만 받고 아직 취업하지 못했다면 3년 안에 취업해서 60일을 채우면 됩니다. 과거에 1차만 받고 2차를 못 받은 상태라면, 최근 3년 내 이력이라도 1차 지급일로부터 36개월 안이면 2차만 따로 신청할 수 있습니다(이 경우 1차 신규 신청은 불가). ⚠ 배우자는 받을 수 없습니다. 예산 조기 소진 시 연중 마감될 수 있습니다."
+    },
+    서류: [
+      { 이름: "신청서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["1차 수당 지급이 완료된 뒤에만 신청할 수 있습니다", "1차 수당 지급일로부터 36개월 안에 신청해야 합니다"] },
+      { 이름: "개인정보 수집·이용 및 제공 동의서", 출처: "온라인 작성",
+        체크: ["별도 준비 서류 없음, 온라인에서 바로 동의"] },
+      { 이름: "폐업사실증명원", 출처: "홈택스 또는 세무서에서 발급",
+        체크: ["1차 때 냈어도 2차 신청 시 다시 제출해야 합니다"] },
+      { 이름: "사실증명(총사업자등록내역)", 출처: "홈택스 또는 세무서에서 발급",
+        체크: ["신청일 기준 30일 이내 발급분이어야 합니다", "취업 후 사업자를 새로 냈다면 여기서 걸립니다 - 모든 사업체가 폐업 상태여야 합니다"] },
+      { 이름: "통장사본", 출처: "신청인 명의 계좌, 직접 준비",
+        체크: ["반드시 신청인 본인 명의 계좌"] },
+      { 이름: "근로계약서(취업 시) 또는 경력증명서(퇴사 시)", 출처: "취업·퇴사한 기업에서 직접 발급",
+        체크: ["2차에서는 필수 서류입니다 - 해당 시가 아니라 반드시 제출", "계약기간과 취업처가 확인돼야 합니다", "근로계약서를 안 썼다면 회사에 요청해 받아두세요"] },
+      { 이름: "고용보험 피보험자격이력내역서", 출처: "근로복지공단 고용·산재보험 토탈서비스(total.kcomwel.or.kr)",
+        체크: ["전체이력 발급 + 직종명(코드) 포함으로 뽑아야 합니다", "고용보험 가입(근속)기간이 60일 이상으로 나와야 합니다", "일용직·특수고용직은 인정되지 않습니다"] }
+    ]
+  },
+  {
+    이름: "2026년 찾아가는 1:1 교육 (경영애로 개선 컨설팅)",
+    태그: ["컨설팅","부산 개최","사업장 방문형","자부담 있음","온라인 신청만"],
+    기관: "중소벤처기업부·소상공인시장진흥공단 (운영기관: 소상공인연합회 02-835-1366)",
+    마감: "2026-07-01 09:00 ~ 2026-11-30 (예산 소진 시 조기 마감)",
+    마감유형: "소진",
+    마감일: "2026-11-30",
+    신청링크: "https://www.sbiz24.kr",
+    요건: {
+      구군: ["전역"],
+      업종: null,
+      근로자: null,
+      매출: null,
+      업력: null,
+      연령: null,
+      특이조건: "★ 전문가가 가게로 찾아옵니다. 교육장에 가는 게 아니라 경영·마케팅, 법·세무·노무, 기술 분야 컨설턴트가 사업장을 방문해 1:1 맞춤 컨설팅을 해줍니다. 신청서에서 '부산울산경남지역'을 선택하면 되므로 부산 소상공인에게 접근성 문제가 없습니다. 지원 규모는 전국 1,100건 내외이고 예산 한도 내 선착순(권역별 쿼터 적용)이라 빨리 신청할수록 유리합니다. 유형은 사전진단 결과에 따라 나뉩니다 - 단기 컨설팅(법·세무·노무처럼 현안이 명확한 경우, 최대 2일)과 심층 컨설팅(경영진단 후 체질개선 솔루션, 최대 5일)입니다. 컨설턴트는 소개 화면에서 전문분야·경력·실적을 보고 직접 고르거나(선택제), 운영기관이 추천한 5인 이내 중에서 고를 수 있습니다(추천제). 컨설팅이 끝나고 1~3개월 뒤에 과제 이행과 성과를 점검합니다. ⚠ 이 사이트에서 유일하게 본인 돈이 들어가는 공고입니다. 컨설팅 비용의 90%만 국비 지원이고 10%는 자부담입니다. 5일 기준 총 150만원이면 자부담 15만원이 발생합니다. ★ 다만 아래 넷 중 하나라도 해당하면 자부담 없이 100% 국비 지원입니다 - ①간이과세자 ②최근 1년 연매출액 1억 400만원 미만 소상공인 ③은행 연계 경영컨설팅 신청자(신한·우리·SC제일·하나·기업·KB국민·iM뱅크·부산은행 8개 은행의 추천서 필요, 자부담비를 은행이 지원) ④2026년 오프라인 교육을 4시간 이상 수료한 사람(경영개선교육·업종전문기술교육·AI상생협업교육). ★ ④번은 이 사이트에 등록된 다른 공고와 바로 연결됩니다. 여기 올라와 있는 AI상생협업교육(구글클라우드·뤼튼·캐시노트·미리디&와디즈·어도비)은 전부 4시간 이상 오프라인 과정이라, 그 교육을 먼저 수료해두면 이 컨설팅의 자부담 15만원이 사라집니다. 순서를 잡을 때 참고하세요. ⚠ 지원 분야에서 이·미용 기술 컨설팅은 2025년부터, 화훼·공예 분야는 2026년부터 제외됐습니다(대신 소상공인 업종전문기술교육으로 신청 가능). 신청은 연 1회만 가능하며 사업자등록증을 2개 이상 갖고 있어도 마찬가지로 1회입니다. 2025년도 소상공인 역량강화사업 경영안정 컨설팅을 받았다면 신청할 수 없고, 소상공인정책자금 융자제외 업종, 사치향락적 소비·투기 조장 업종, 사업자등록증상 대표자가 아닌 사람, 당해 연도 이 사업의 컨설턴트로 등록된 사람, 비영리 개인사업자·법인·단체·조합도 제외됩니다. ⚠ 신청 후 방치하면 자동 취소되는 기한이 세 개 있습니다 - 신청 완료 다음날부터 30일이 지나도록 진행되지 않으면 취소, 자부담금 납부안내 SMS를 받은 다음날부터 7일 안에 입금하지 않으면 취소, 컨설턴트 선정안내 SMS를 받은 다음날부터 10일 안에 컨설턴트를 고르지 않으면 취소입니다(모두 공휴일 포함). 신청서는 '신청완료' 상태여야 인정되며 임시저장·작성중은 접수로 보지 않습니다. 원하는 분야의 컨설턴트 Pool에 전문가가 없으면 지원이 불가할 수도 있습니다. 시스템 문의는 소상공인24 헬프 콜센터 1644-5302."
+    },
+    서류: [
+      { 이름: "컨설팅 신청서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["신청 사유는 구체적으로 쓸수록 맞는 컨설턴트가 배정됩니다 - 전문가 도움이 필요한 이유와 현재 상황을 자세히", "컨설팅 지역(부산울산경남), 업종, 분야(경영·마케팅 / 법·세무·노무 / 기술) 중 원하는 것을 정확히 체크", "자부담 무료조건에 해당되면 해당 항목을 반드시 체크할 것 - 체크 안 하면 자부담 15만원이 나옵니다", "반드시 '신청완료' 상태까지 진행 (임시저장·작성중은 접수 안 됨)"] },
+      { 이름: "개인정보 수집·이용 및 제공 동의서", 출처: "온라인 작성",
+        체크: ["별도 준비 서류 없음, 온라인에서 바로 동의"] },
+      { 이름: "사업자등록증명원 또는 사업자등록증", 출처: "홈택스에서 발급",
+        체크: ["사업자등록증명원은 공고일로부터 1개월 이내 발급본", "마이데이터 동의 시 제출 생략 가능"] },
+      { 이름: "상시근로자 확인 서류", 출처: "국민건강보험공단 또는 근로복지공단 고용·산재보험 토탈서비스",
+        체크: ["직원이 없으면 건강보험자격득실확인서(전체내역) 1부", "직원이 있으면 건강보험(월별)사업장 가입자별 부과현황, 개인별 건강보험 고지산출내역, 월별 원천징수이행상황신고서(세무대리인 직인 또는 본인 서명), 월별 보험료 부과내역조회(고용·산재) 중 1부", "사업 시작 12개월 미만이면 사업개시일부터 공고일이 속한 달까지, 12개월 이상이면 2025년 12개월분 또는 소급 12개월분", "유효기간 내 소상공인확인서로 대체 가능", "마이데이터 동의 시 제출 생략 가능"] },
+      { 이름: "매출액 확인 서류", 출처: "홈택스에서 발급",
+        체크: ["부가가치세과세표준증명 또는 부가가치세 면세사업자수입금액증명원 중 1부", "유효기간 내 소상공인확인서로 대체 가능", "마이데이터 동의 시 제출 생략 가능"] },
+      { 이름: "소상공인확인서 (대체 제출 시)", 출처: "중소기업현황정보시스템(sminfo.mss.go.kr) 또는 지방중소벤처기업청에서 발급",
+        체크: ["지방중소벤처기업청 또는 중소기업현황정보시스템 발급분만 인정됩니다", "착한임대인 세액공제용 소상공인확인서는 인정되지 않습니다", "유효기간 내인지 확인"] },
+      { 이름: "[자부담 무료] 부가가치세과세표준증명원 또는 면세사업자수입금액증명원", 출처: "홈택스에서 발급",
+        체크: ["연매출 1억 400만원 미만으로 자부담 면제를 받으려는 일반과세자·면세사업자만 해당", "최근 1개월 이내 발급 + 과세기간이 최근 1년 이상 명시돼야 함", "증명원상 과세기간이 1년(365일) 미만이면 자부담이 발생합니다", "간이과세자는 사업자등록증만으로 확인되므로 추가 제출 불필요"] },
+      { 이름: "[자부담 무료] 은행 발급 소상공인 경영컨설팅 추천서", 출처: "신한·우리·SC제일·하나·기업·KB국민·iM뱅크·부산은행에서 발급",
+        체크: ["은행 연계 경영컨설팅으로 자부담 면제를 받으려는 경우만 해당", "거래 은행이 위 8개 은행 중 하나인지 먼저 확인"] },
+      { 이름: "[자부담 무료] 2026년 오프라인 교육 수료증(4시간 이상)", 출처: "소상공인24에서 발급",
+        체크: ["경영개선교육·업종전문기술교육·AI상생협업교육 중 4시간 이상 수료분", "발급 경로: 소상공인24 로그인 > 마이페이지 > 지원사업신청 > [진행정보] > 모달창 [출결관리] 탭 > 교육과정 선택 > 우측 중간 [수료증 출력]", "수료 결과가 '수료'여야 출력 버튼이 보입니다"] }
+    ]
+  },
+  {
+    이름: "2026년 소상공인 무료법률구조 (소송비용·변호사비용 지원)",
+    태그: ["법률지원","방문 접수"],
+    기관: "소상공인시장진흥공단 × 대한법률구조공단 (문의 ☎132)",
+    마감: "2026년 연중 상시 접수",
+    마감유형: "상시",
+    신청링크: "https://www.klac.or.kr",
+    요건: {
+      구군: ["전역"],
+      업종: null,
+      근로자: null,
+      매출: { max: 30000 },
+      업력: null,
+      연령: null,
+      특이조건: "★ 이 사이트에서 유일한 법률 지원 공고입니다. 상거래 과정에서 분쟁이 생겼을 때 대한법률구조공단 변호사를 통해 소송을 진행하고 그 비용을 지원받는 사업으로, 인지대·송달료·감정료 같은 소송비용과 변호사 보수를 지원합니다. 대상 사건은 물품대금, 상가보증금, 상가임대차, 신용불량자 개인회생 및 파산, 그 밖의 상거래 관련 민사사건입니다. 전국 500건 내외를 지원합니다. ⚠ 자격 요건이 '또는'입니다 - 2026년 적용기준 중위소득 150% 이하이거나, 최근 1년 연매출액 3억원 이하이면 됩니다. 위 대조표에는 매출 기준만 반영했으니, 매출이 3억원을 넘더라도 소득 기준(가구원수별 건강보험료 본인부담금 기준: 1인 138,780원, 2인 229,357원, 3인 290,169원, 4인 360,410원 이하 등)에 해당하면 신청할 수 있습니다. 개인회생·파산면책 사건은 사업자등록증 말소일로부터 6개월 이내에 신청한 건까지 지원합니다. ⚠ 승소가액이 3억원 이상인 사건과 근로관계 대응사건(직원과의 노동 분쟁 등)은 지원되지 않습니다. ⚠ 신청 방법이 다른 공고와 다릅니다. 소상공인24 온라인 신청이 아니라 가까운 대한법률구조공단 지부나 출장소를 직접 방문해서 접수해야 합니다(문의 국번없이 132). 방문 상담 후 공단이 지원대상 여부, 승소 가능성, 구조 타당성을 검토해 지원 여부를 결정하므로 신청한다고 모두 되는 것은 아닙니다. 방문할 때 사업자등록증과 피해사실 입증자료(계약서 등)를 챙겨가면 상담이 빠릅니다."
+    },
+    서류: [
+      { 이름: "소상공인확인서", 출처: "중소기업현황정보시스템(sminfo.mss.go.kr)에서 발급",
+        체크: ["유효기간 내인지 확인"] },
+      { 이름: "사업자등록증 (+ 상시근로자수 소명자료)", 출처: "홈택스에서 발급",
+        체크: ["간이과세자는 간이과세용 사업자등록증", "일반과세자는 사업자등록증 + 상시근로자수 소명 서류", "건강보험자격득실확인서상 지역가입자면 근로자수 소명자료를 생략할 수 있습니다"] },
+      { 이름: "[매출 기준] 연매출 3억원 이하 증빙", 출처: "홈택스에서 발급",
+        체크: ["부가가치세과세표준증명, 부가가치세면제사업자수입금액증명원, 표준 재무제표상 손익계산서 중 하나만 준비"] },
+      { 이름: "[소득 기준] 주민등록표 등본", 출처: "정부24에서 발급",
+        체크: ["매출이 아닌 중위소득 150% 기준으로 신청할 때만 필요", "세대주와 세대원이 모두 나오게 발급"] },
+      { 이름: "[소득 기준] 건강보험자격득실확인서 또는 건강보험증", 출처: "국민건강보험공단에서 발급",
+        체크: ["매출이 아닌 중위소득 150% 기준으로 신청할 때만 필요"] },
+      { 이름: "[소득 기준] 소득 증빙 서류", 출처: "국민건강보험공단·국민연금공단 또는 세무서에서 발급",
+        체크: ["직장가입자는 건강보험료납부확인서상 납부금액", "지역가입자는 건강보험료 고지서상 소득점수 또는 지역보험료 부과내역 확인서상 소득점수·연간소득", "건강보험 미가입자는 근로소득원천징수영수증, 보수지급명세서, 국민연금산정용가입내역확인서, 국민연금지급내역확인서, 소득금액증명서 중 하나"] },
+      { 이름: "주장 사실을 입증할 자료", 출처: "계약서·거래명세서 등 직접 준비",
+        체크: ["분쟁의 근거가 되는 계약서, 거래 기록, 문자·카톡 대화 등 있는 대로 챙겨갈 것", "승소 가능성 검토에 쓰이는 자료이므로 빠짐없이 준비하는 게 유리합니다"] }
+    ]
+  },
+  {
+    이름: "2026년 찾아가는 1:1 디지털 교육 (온라인 플랫폼 입점 방문 멘토링)",
+    태그: ["교육","부산 개최","사업장 방문형","온라인 신청만"],
+    업종적합: ["음식점업","도소매업","서비스업"],
+    기관: "소상공인시장진흥공단 온라인판로팀 (042-363-7812 / 과정문의 ㈜포세듀 044-589-3385)",
+    마감: "2026-05-20 ~ 2026-11-30 18:00 (조기마감 가능)",
+    마감유형: "날짜",
+    마감일: "2026-11-30",
+    신청링크: "https://www.sbiz24.kr",
+    요건: {
+      구군: ["전역"],
+      업종: null,
+      근로자: null,
+      매출: null,
+      업력: null,
+      연령: null,
+      특이조건: "⚠ 이름이 비슷한 다른 공고와 헷갈리기 쉽습니다. 이 사이트에 등록된 '찾아가는 1:1 교육(경영애로 개선 컨설팅)'과는 완전히 별개 사업입니다. 그쪽은 경영·법무·세무 전반을 다루고 자부담 10%가 있지만, 이쪽은 온라인 플랫폼 입점 하나에 집중하고 전액 무료입니다. ★ 멘토가 가게로 찾아오고 비용은 0원입니다. 2시간씩 총 2회, 4시간 방문 멘토링이며 전액 무료입니다. 플랫폼 판매(네이버 스마트스토어, 카카오 톡스토어, 11번가, 지마켓), O2O 채널(배달의민족, 요기요), 홍보광고(네이버 플레이스, 당근마켓, 인스타그램) 세 영역 중 플랫폼 하나를 골라 가입·입점 서류부터 상품등록, 리뷰 관리, 광고 활용까지 배웁니다. 신청할 때 희망 플랫폼을 고르되 사전진단 후에 바꿀 수 있고, 예시에 없는 플랫폼도 요청할 수 있습니다. 전국 1,500명 내외를 모집합니다. ★ 우선지원 대상이면 평가 없이 바로 선정됩니다. 아래 셋 중 하나에만 해당하면 됩니다 - ①사업자등록증상 대표자가 만 50세 이상 ②사업장 소재지가 행정안전부 지정 인구감소지역 ③1인 사업장(사업장 4대보험 가입내역이 없거나 대표자 외 가입자가 없는 경우). 단, 교육을 받으려는 플랫폼에 아직 입점하지 않은 신규 진출자여야 우선지원에 해당합니다. ★ 부산에도 인구감소지역이 있습니다 - 동구, 서구, 영도구 세 곳입니다. 이 세 구에 사업장이 있으면 나이나 직원 수와 관계없이 우선지원 대상입니다. 우선지원에 해당하지 않으면 일반지원으로 월 1회 평가를 거쳐 선정되며, 참여의지 40점 + 사업적합성 40점 + 온라인 입점 경험 20점(경험 없으면 20점, 있으면 10점) 합계 60점 미만이면 부적격입니다. 온라인 입점 경험이 없는 쪽이 점수가 높으니 처음이라고 위축될 필요가 없습니다. ⚠ 전화를 꼭 받아야 합니다. 선정 전후로 수행기관이 유선으로 사전진단을 진행하는데, 3회 이상 전화가 닿지 않으면 미선정 또는 선정취소됩니다. 모르는 번호라고 넘기지 마세요. ⚠ 2024~2025년 디지털전환지원센터(DT) 수혜자는 신청할 수 없습니다. 그 외 소상공인정책자금 지원제외업종, 신청일 현재 휴업·폐업 상태, 국세·지방세 체납, 비영리사업자·비영리법인도 제외되며, 사업자등록증의 업종과 실제 업종이 다른 경우도 지원제외 사유가 됩니다. 신청은 대표자 본인이 해야 하고(공동대표는 주 대표자 명의), 나이나 경영여건 때문에 어려우면 친인척·교육멘토의 조력은 허용되지만 본인이 모르는 상태의 대리 신청은 선정취소 사유입니다. 사업자등록증을 여러 개 갖고 있어도 대표자 기준 연 1회만 지원받습니다."
+    },
+    서류: [
+      { 이름: "신청서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["희망 플랫폼을 하나 선택 - 사전진단에서 변경 가능하니 부담 갖지 말 것", "우선지원 요건(만 50세 이상 / 인구감소지역 / 1인 사업장)에 해당되면 반드시 드러나게 작성", "일반지원으로 평가받을 경우 신청배경과 온라인 판로 확대 의지가 40점, 플랫폼에서 팔 수 있는 상품 보유 여부가 40점입니다", "연락 가능한 휴대전화번호를 정확히 - 3회 이상 통화 불가 시 선정취소됩니다"] },
+      { 이름: "개인정보 수집·이용 및 제공 동의서", 출처: "온라인 작성",
+        체크: ["별도 준비 서류 없음, 온라인에서 바로 동의"] },
+      { 이름: "중소기업확인서(소상공인)", 출처: "중소기업현황정보시스템(sminfo.mss.go.kr)에서 발급",
+        체크: ["중소벤처기업부 발급본만 인정, '소기업' 또는 '소상공인' 표기 확인", "사업신청일 기준 유효기간 내", "마이데이터 동의 시 개인은 생략 가능(법인은 아래 완납증명서들을 추가 제출)", "발급 문의 1357"] },
+      { 이름: "사업자등록증명원", 출처: "홈택스에서 발급",
+        체크: ["1개월 이내 발급본", "마이데이터 동의 시 생략 가능"] },
+      { 이름: "건강보험료자격득실확인서 (대표자)", 출처: "국민건강보험공단 또는 정부24에서 발급",
+        체크: ["1개월 이내 발급본", "1인 사업장 우선지원을 노린다면 대표자 외 가입자가 없다는 게 확인되는 서류입니다", "마이데이터 동의 시 생략 가능"] },
+      { 이름: "국세 완납증명서 (개인·법인)", 출처: "홈택스에서 발급",
+        체크: ["체납이 있으면 지원제외 사유입니다", "법인은 마이데이터 동의와 무관하게 제출 필요"] },
+      { 이름: "지방세 완납증명서 (개인·법인)", 출처: "위택스에서 발급",
+        체크: ["국세와 발급처가 다릅니다(위택스)", "법인은 마이데이터 동의와 무관하게 제출 필요"] },
+      { 이름: "4대보험료완납증명원 (법인)", 출처: "4대사회보험 정보연계센터에서 발급",
+        체크: ["법인 신청 시에만 필요", "1개월 이내 발급본"] }
+    ]
+  },
+  {
+    이름: "2026년 립스(LIPS) Ⅰ - 민간투자 연계형 매칭융자",
+    태그: ["융자(상환 필요)","선투자 필수","온라인 신청만"],
+    기관: "소상공인시장진흥공단 창업지원실 기업가형소상공인육성팀 (042-363-7740)",
+    마감: "2026-04-01 10:00 ~ 2026-12-31 (예산 소진 시 조기 마감 · 선착순)",
+    마감유형: "소진",
+    마감일: "2026-12-31",
+    신청링크: "https://ols.semas.or.kr",
+    요건: {
+      구군: ["전역"],
+      업종: null,
+      근로자: null,
+      매출: null,
+      업력: { min: 1 },
+      연령: null,
+      특이조건: "⚠ 이 사이트에서 유일하게 '갚아야 하는 돈'입니다. 지원금이 아니라 정책자금 대출입니다. 8년 만기(거치 3년 이내 선택), 거치기간 후 매월 원금균등분할상환이며 금리는 정책자금 기준금리 + 0.4%p입니다. 우대금리로 최대 0.8%p까지 감면받을 수 있는데, 부산 소상공인은 '비수도권 소재' 항목으로 0.2%p를 자동으로 받습니다. 그 외 소진공·은행권 컨설팅 이수, 제로페이·디지털 온누리상품권 가맹점(0.1%p), 여성기업·장애인기업(0.1%p), 노란우산공제·자영업자 고용보험·전통시장 화재공제·풍수해보험(0.1%p), 성실상환 이력(0.3%p)이 있습니다. ★ 이 사이트에 등록된 '찾아가는 1:1 교육(경영애로 개선 컨설팅)'을 받아두면 정책우대 0.1%p 감면 대상이 됩니다(신청일 기준 3년 이내 공단 역량강화 컨설팅). ⚠ 가장 큰 문턱은 '선투자'입니다. 아무나 신청할 수 없고, 중소벤처기업부가 지정한 민간 운영사(액셀러레이터)로부터 실제로 투자를 받고 '소상공인 선투자 추천서'를 발급받아야만 신청 자격이 생깁니다. 투자확약서만으로는 안 되고 투자계약 체결 + 주금납입 + 등기까지 완료돼야 합니다. 공고일 기준 3년 이내 투자 건만 인정되고, 추천서 유효기간은 발급일로부터 2개월이라 그 안에 신청해야 합니다. 투자를 아직 못 받았다면 투자제안서를 지정 운영사에 이메일로 보내는 것부터 시작해야 하며 회신에 평균 4주가 걸립니다. 복수 운영사에 제안서를 낼 수는 있지만 추천서는 한 곳에서만 발급됩니다. ★ 지원 규모는 투자금의 최대 5배, 최대 5억원입니다(선투자 추천서상 추천 금액 초과 불가). 자금 용도는 운전자금(제품생산·기업경영)과 시설자금(기계설비 도입)입니다. 총 360억원 규모이고 대출실행 순서에 따른 선착순이라 예산이 소진되면 끝납니다. ⚠ 융자심의위원회에 직접 나가서 발표해야 합니다. 소상공인 본인과 운영사가 필수 참석이며 15분 발표 + 10분 질의응답으로 진행됩니다. 평가는 기업가정신 10점, 사업성 20점, 사업수행역량 20점, 채무상환가능성 20점, 파급효과 20점, 운영사 사후관리 10점이고, 기업가형 소상공인 인증기업(신사업창업사관학교 졸업, 강한소상공인, 로컬크리에이터, LIPSⅡ 선정)에 5점 가점이 있습니다. 심의위원회는 매월 1회 열립니다. ⚠ 대출제한사항이 15가지로 매우 촘촘합니다. 국세·지방세 체납, 신용도판단정보·공공정보 등록(연체·대위변제·회생·파산면책 등), 현재 연체 또는 최근 3개월 내 30일 이상 연체 1회·10일 이상 연체 4회, 자가/임차 사업장이나 자가주택에 경매·압류·가압류·가처분 사실, 휴폐업, 동일 자금 부결·포기·수령 후 6개월 이내 재신청, 한계기업(2년 연속 매출 50% 이상 감소 등), 부채비율 700% 초과, 매출액 대비 차입금 100% 초과, 최근 5년 내 소상공인 정책자금 3회 이상 수령 등입니다. 다만 한계기업·부채비율·차입금 항목은 업력 7년 이하 업체에는 적용하지 않습니다. ⚠ LIPSⅠ과 LIPSⅡ는 동시 신청이 불가합니다. LIPSⅡ에 먼저 선정된 뒤 LIPSⅠ을 신청하는 순서는 가능합니다. 대출 후 3개월 이내에 대출금 사용내역 점검이 있을 수 있고, 용도 외 사용이 확인되면 전액 상환과 3년간 신규대출 제한 조치를 받습니다. 선투자는 매칭융자 만기까지 유지돼야 합니다. 시설자금만 단독 신청하거나 고령층 등 온라인이 어려운 경우 관할 지역센터를 방문해 접수할 수 있습니다."
+    },
+    서류: [
+      { 이름: "기업현황 및 사업계획서 / 대출신청서 / 자가진단 / 윤리준수 약속", 출처: "소상공인 정책자금 누리집에서 온라인 작성",
+        체크: ["대출신청 필수 작성서류 4종이 한 묶음입니다", "채무상환 계획이 심의 평가 20점 항목이니 상환 재원을 구체적으로 적을 것"] },
+      { 이름: "소상공인 선투자 추천서", 출처: "중기부 지정 민간 운영사에서 발급(운영사가 공단에 직접 제출)",
+        체크: ["이 서류가 없으면 신청 자체가 불가능합니다", "발급일로부터 2개월 이내에 신청해야 하며 지나면 재발급 필요", "운영사가 공단에 제출하고 정보(DB) 등록이 끝나야 신청 화면이 열립니다 - 등록 전이면 '대상기업 아닙니다' 팝업이 뜹니다"] },
+      { 이름: "기업(신용)정보 및 개인(신용)정보 수집·이용·제공·조회 동의서", 출처: "소상공인 정책자금 누리집에서 온라인 작성",
+        체크: ["개인기업 공동대표, 법인 대표이사, 실제경영자, 보증인 모두 각각 필요", "본인 행정정보 제공 요구서도 함께 작성"] },
+      { 이름: "대표자 실명확인 서류", 출처: "주민등록증·운전면허증 등 직접 준비",
+        체크: ["여권은 다른 실명확인증표 제출이 어려울 때만 예외적으로 인정", "주민등록번호 뒷자리가 없는 여권은 여권정보증명서를 함께 제출"] },
+      { 이름: "사업자등록증 사본 또는 사업자등록증명", 출처: "홈택스에서 발급",
+        체크: ["사업자등록증명은 발급일로부터 1개월 이내", "업종이 2개 이상이면 최근 1년 표준재무제표증명(또는 부가세신고서)으로 주업종을 소명해야 합니다", "마이데이터 동의 시 생략 가능"] },
+      { 이름: "상시근로자 수 확인 서류", 출처: "국민건강보험공단 또는 중소기업현황정보시스템에서 발급",
+        체크: ["직원이 없으면 보험자격득실확인서 또는 유효기간 내 소상공인확인서", "직원이 있으면 월별원천징수이행상황신고서, 건강보험 사업장가입자별 부과현황, 개인별건강보험고지산출내역, 월별보험료부과내역조회 중 하나", "건강보험 가입현황이 기본 기준입니다", "1개월 이내 발급본"] },
+      { 이름: "국세·지방세 납세증명서", 출처: "홈택스 및 위택스에서 발급",
+        체크: ["대표자·법인·공동대표·실제경영자·보증인 각각 필요", "체납이 있으면 대출제한 사유입니다", "증명서상 유효기간 이내"] },
+      { 이름: "주민등록표 등본", 출처: "정부24에서 발급",
+        체크: ["1개월 이내 발급본", "주채무자를 제외한 사람의 주민등록번호 뒷자리는 가림처리", "현주소 전입일이 3개월 이내면 주소변동 이력도 표시"] },
+      { 이름: "사업장·거주주택 등기사항전부증명서", 출처: "인터넷등기소에서 발급",
+        체크: ["사업장은 자가·임차 무관하게 제출", "'제출(발급)용'만 인정, 말소된 등기사항 포함해서 발급", "경매·압류·가압류·가처분 사실이 있으면 대출제한 사유입니다", "1개월 이내 발급본"] },
+      { 이름: "사업장·거주주택 임대차계약서 사본 (임차 시)", 출처: "본인 보관분 직접 준비",
+        체크: ["임대인 주민등록번호 뒷자리 가림처리", "전대차라면 전대차계약서 또는 임대인 전대차동의서 필요", "계약서가 없는 부득이한 사정이면 무상사용/무상거주 사실 확인서 서식으로 대체"] },
+      { 이름: "매출액 등 재무상황 확인 서류 (최근 3년)", 출처: "홈택스에서 발급",
+        체크: ["복식부기대상 개인·법인은 표준재무제표증명, 개인면세사업자는 면세사업자수입금액증명, 간편장부대상자는 부가가치세과세표준증명", "최근 3개년분", "1개월 이내 발급본"] },
+      { 이름: "법인 추가서류 (법인만)", 출처: "인터넷등기소·4대사회보험 정보연계센터에서 발급",
+        체크: ["법인인감증명서, 법인등기사항전부증명서, 주주명부 및 주식등변동상황명세서, 4대보험완납증명서", "모두 1개월 이내 발급본"] },
+      { 이름: "금리우대 증빙 (해당 시)", 출처: "은행·중소기업중앙회 등에서 발급",
+        체크: ["은행권 컨설팅 이수 확인서, 자영업자고용보험 가입통지서, 전통시장 화재공제 가입증명서, 풍수해보험 증권 사본, 노란우산공제 가입증서 등", "부산 소재(비수도권 0.2%p), 소진공 컨설팅, 제로페이 가맹점 등은 공단이 직접 확인하므로 제출 불필요"] }
+    ]
+  },
+  {
+    이름: "2026년 립스(LIPS) Ⅱ - 혁신소상공인 투자연계지원 (사업화자금)",
+    태그: ["자금·현물지원","선투자 필수","자부담 있음","온라인 신청만"],
+    기관: "소상공인시장진흥공단 (주관기관: (사)초기투자액셀러레이터협회 070-7588-1823)",
+    마감: "2026-04-01 ~ 2026-12-31 (예산 소진 시 조기 마감 · 매월 첫째 주 금요일까지 접수분 평가)",
+    마감유형: "소진",
+    마감일: "2026-12-31",
+    신청링크: "https://www.sbiz24.kr",
+    요건: {
+      구군: ["전역"],
+      업종: null,
+      근로자: null,
+      매출: null,
+      업력: { min: 1 },
+      연령: null,
+      특이조건: "★ 갚지 않아도 되는 사업화자금입니다. LIPSⅠ이 대출이라면 이쪽은 정부지원금이라 상환 의무가 없습니다. 다만 자기부담금 30%를 반드시 매칭해야 하고, 그중 현금이 10% 이상이어야 합니다(나머지 20% 이하는 대표자·직원 인건비나 사업장 임차료 같은 현물로 인정). 예를 들어 7,000만원을 지원받으려면 총사업비가 1억원이 되고 현금 1,000만원 + 현물 2,000만원을 본인이 부담해야 합니다. ⚠ 가장 큰 문턱은 '선투자'입니다. 중소벤처기업부가 지정한 민간 운영사(액셀러레이터)로부터 실제 투자를 받고 '소상공인 선투자 추천서'를 발급받아야만 신청할 수 있습니다. 투자확약서는 인정되지 않고 투자계약 체결 + 주금납입 + 등기 완료가 필요하며, 공고일 기준 3년 이내 투자 건만 인정됩니다. 투자를 아직 못 받았다면 투자제안서를 지정 운영사에 이메일로 보내는 것부터 시작해야 하고 회신에 평균 4주가 걸립니다. ★ 두 유형 중 하나를 고릅니다(동시 신청 불가). ①시드립스 - 운영사로부터 최초 3천만원 이상 투자 유치, 250개사 내외, 최대 1억원. ②스케일업 립스 - 5천만원 이상 투자 + 성공요건 충족, 50개사 내외, 최대 2억원. 스케일업의 성공요건은 둘 중 하나로, 직전년도(2025년) 매출액이 주된 업종별 소기업 규모 기준의 50% 이상이거나(예: 도소매업은 소기업 기준 60억원의 절반인 30억원 이상, 숙박·음식점업은 15억원의 절반인 7.5억원 이상), 접수일 기준 최근 1년 이내 직·간접 수출액이 3만 달러 이상이어야 합니다. 지원 한도는 어느 유형이든 투자금의 3배까지입니다. 총 300억원 규모입니다. ★ 쓸 수 있는 곳이 넓습니다. 신제품 개발·제품 고도화 용역비, 브랜드(CI·BI)와 디자인, 마케팅·홍보 용역비, 특허·상표 등록비, 외부 전문가 자문비, 기기·장비 임차비, 재료구입비, 매장 인테리어(본점 또는 지점 확장), 해외 박람회 참가비·물류비·통역비 등입니다. 단 가구·에어컨 같은 자산성 취득 제품은 살 수 없고, 해외 출장 항공료·숙박비는 자기부담 50%에 대표자만 가능합니다. 여기에 투자 IR 역량강화 교육, 투자자 IR 진단 컨설팅, 국내외 박람회 참가와 바이어 매칭, 세무·법률·특허 전문가 멘토링 같은 특화 프로그램도 함께 제공됩니다. ⚠ 대면 발표평가가 있고 70점 미만은 탈락입니다. 소상공인 본인과 운영사가 필수 참석해 15분 발표 + 10분 질의응답으로 진행되며, 문제인식·실현가능성·성장전략·기업구성·운영사 역할을 평가합니다. 발표 후 필요하면 현장실사도 있습니다. 매월 첫째 주 금요일까지 접수된 건을 평가하고 결과까지 약 1개월이 걸립니다. 신사업창업사관학교 졸업, 로컬크리에이터 육성, 강한소상공인 수혜기업은 최대 2점, 타 부처 소상공인 지원사업 수혜기업은 최대 1점 가점이 있습니다(중복 불가). ⚠ 신청 제외 사유를 미리 확인하세요. 휴·폐업, 국세·지방세 체납, 채무불이행·부도·회생 등 금융거래 곤란, 중기부·소진공 사업 참여제한 제재 중, 그리고 같은 해에 기업가형 소상공인 육성사업이나 예비창업패키지·초기창업패키지·TIPS 등 중앙정부 창업 사업화자금 지원사업에 선정돼 지원받은 경우(동시수행 불가 목록 43개 사업)입니다. 테크 기반 스타트업이거나 팁스(TIPS) 수혜기업도 지원이 제한될 수 있습니다. ⚠ 절차상 부담이 큽니다. 사업화자금은 e-나라도움(국고보조금통합관리시스템)으로 교부·집행·정산·공시 의무를 이행해야 하고, 이행(지급)보증보험증권을 제출해야 협약이 되며 그 비용은 본인 부담입니다. 모든 지출은 사업비카드 매출전표 또는 전자세금계산서로 증빙해야 하고, 부가가치세를 제외한 공급가액만 지원되므로 세액은 본인이 부담합니다. 친족에게는 사업비를 집행할 수 없고, 추천해준 운영사나 대표자가 재직했던 기업과의 외주 거래도 불가합니다. 협약 종료일로부터 5년간 이력 관리 요청에 응해야 합니다. ⚠ 신청은 주 대표자 본인만 가능하며 타인이 하면 탈락 처리됩니다. 모바일로는 신청할 수 없고, '신청완료'를 누르면 수정·삭제가 일절 불가능하니 임시저장 상태에서 충분히 검토하세요. LIPSⅠ과 동시 신청은 불가하지만, LIPSⅡ에 선정되면 이후 LIPSⅠ 매칭융자와 기업가형 소상공인 협약보증(최대 4억원, 보증비율 95%, 국민은행)으로 연계 지원받을 수 있습니다."
+    },
+    서류: [
+      { 이름: "사업신청서", 출처: "소상공인24 홈페이지에서 온라인 작성",
+        체크: ["주 대표자 본인이 직접 신청 - 타인 신청 시 탈락", "공동대표가 주 사업참여자라면 신청서에 명시해야 하고 중도 변경 불가", "'신청완료' 클릭 후에는 수정·삭제가 불가능합니다"] },
+      { 이름: "개인정보 수집·이용 및 제공 동의서", 출처: "온라인 작성",
+        체크: ["별도 준비 서류 없음, 온라인에서 바로 동의"] },
+      { 이름: "사업계획서 (서식2)", 출처: "소상공인24에서 서식 내려받아 작성 후 첨부",
+        체크: ["발표평가 70점 미만은 탈락이라 이 문서가 당락을 가릅니다", "평가 지표가 문제인식·실현가능성·성장전략·기업구성이니 이 네 가지가 드러나게 구성", "사업 추진 배경과 지원 동기, 사전 준비 사항을 구체적으로", "아이템의 차별적 강점과 협약 기간 내 목표 달성 가능성을 함께 제시", "자기부담금 30%(현금 10% 포함)를 실제로 댈 수 있는지 먼저 계산해볼 것"] },
+      { 이름: "선투자 추천서 관련 확인 (운영사 제출)", 출처: "중기부 지정 민간 운영사에서 발급",
+        체크: ["운영사가 공단에 먼저 제출해야 신청이 가능합니다", "투자계약 체결·주금납입·등기 완료가 확인돼야 하며 투자확약서는 인정 안 됨", "추천서는 한 개 운영사에서만 발급받을 수 있습니다"] },
+      { 이름: "사업자등록증명원", 출처: "홈택스에서 발급",
+        체크: ["공동대표인 경우 공동대표가 명시된 것으로 발급", "모집공고일 이후 발급분이어야 인정", "마이데이터 동의 시 대체 가능"] },
+      { 이름: "중소기업[소기업(소상공인)]확인서", 출처: "중소기업현황정보시스템(sminfo.mss.go.kr)에서 발급",
+        체크: ["'소기업(소상공인)' 문구가 반드시 있어야 합니다 - '[소기업]'만 적힌 것은 인정 안 됨", "착한임대인 세액공제용 소상공인확인서는 인정 안 됨", "마이데이터로 내려면 발급 이력이 있어야 하므로 미리 신청해두세요(5~10일 소요)"] },
+      { 이름: "부가가치세과세표준증명 (최근 3개년)", 출처: "홈택스에서 발급",
+        체크: ["최근 3개년분 모두", "마이데이터 동의 시 대체 가능"] },
+      { 이름: "수출실적증명원 (수출기업 해당 시)", 출처: "한국무역통계진흥원·무역협회·시중은행·한국무역정보통신에서 발급",
+        체크: ["스케일업 립스를 수출 실적으로 신청하는 경우 필수", "최근 1년 이내 직·간접 수출액 3만 달러 이상이 확인돼야 합니다"] },
+      { 이름: "우대지원(가점) 증빙 (해당 시)", 출처: "소상공인시장진흥공단 등 해당 기관에서 발급",
+        체크: ["신사업창업사관학교 졸업·로컬크리에이터·강한소상공인은 공단 발급 기업가형소상공인 확인서", "가점은 중복 불가이니 가장 점수가 높은 것 하나만"] },
+      { 이름: "[선정 후] 사실증명(총사업자등록내역) 및 국세·지방세 납세증명서", 출처: "홈택스 및 위택스에서 발급",
+        체크: ["선정된 뒤에 제출하는 서류입니다", "이 시점에 국세·지방세 체납이 있으면 선정이 취소될 수 있습니다", "법인은 법인등기부등본도 함께"] }
+    ]
+  },
+  {
+    이름: "2026년 소상공인 고용보험료 지원사업 (자영업자 고용보험료 50~80% 환급)",
+    태그: ["자금·현물지원","온라인 신청만"],
+    기관: "중소벤처기업부 (수행: 소상공인시장진흥공단 1533-0100 / 근로복지공단 1588-0075)",
+    마감: "2026-01-01 ~ 2026-12-31 (예산 소진 시 조기 마감)",
+    마감유형: "소진",
+    마감일: "2026-12-31",
+    신청링크: "https://www.sbiz24.kr",
+    요건: {
+      구군: ["전역"],
+      업종: null,
+      근로자: null,
+      매출: null,
+      업력: null,
+      연령: null,
+      특이조건: "★ 이미 내고 있는 보험료를 매달 돌려받는 사업입니다. 자영업자 고용보험에 가입한 소상공인 사업주라면, 본인이 낸 보험료의 50~80%를 최대 5년(60개월)까지 환급받습니다. 한 번 신청해두면 매달 자동으로 들어오는 구조라 손이 적게 갑니다. ★ 낮은 등급일수록 환급률이 높습니다. 자영업자 고용보험은 1~7등급 중 본인이 골라 가입하는데, 등급별 월 보험료와 지원액은 이렇습니다 - 1등급 40,950원 중 80%인 32,760원, 2등급 46,800원 중 80%인 37,440원, 3등급 52,650원 중 60%인 31,590원, 4등급 58,500원 중 60%인 35,100원, 5등급 64,350원 중 50%인 32,175원, 6등급 70,200원 중 50%인 35,100원, 7등급 76,050원 중 50%인 38,025원입니다. 실제 본인 부담(보험료-지원액)은 1등급이 월 8,190원으로 가장 적고 7등급이 38,025원으로 가장 큽니다. 다만 등급이 높을수록 나중에 받는 실업급여도 커지므로(1등급 월 109만원 ~ 7등급 월 203만원), 환급률만 보고 고를 문제는 아닙니다. ⚠ 소급이 안 됩니다. 지원 신청일(월)을 기준으로 지원되며, 신청 전에 이미 낸 보험료는 돌려받을 수 없습니다. 자영업자 고용보험에 가입만 해두고 이 지원 신청을 안 한 채 몇 년이 지났다면 그동안 낸 돈은 되돌릴 수 없으니, 가입돼 있다면 지금 바로 신청하는 게 맞습니다. ⚠ 신청 창구가 두 개입니다. ①자영업자 고용보험에 아직 가입 안 했다면 - 근로복지공단 고용·산재보험 토탈서비스(total.comwel.or.kr)에서 보험 가입과 지원 신청을 한 번에 하면 됩니다(가입신청 화면에 '소상공인 고용보험료 지원신청' 동의 항목이 나옵니다). ②이미 가입돼 있다면 - 소상공인24(sbiz24.kr)에서 '고용보험료'로 공고를 검색해 별도로 신청해야 합니다. 어느 쪽이든 신청 후 3~4 법정근무일 안에 카카오톡이나 문자로 결과가 옵니다. ★ 이 사이트의 다른 공고와 연결됩니다. 자영업자 고용보험에 가입돼 있으면 소상공인 정책자금 융자 대출금리를 0.1%p 감면받습니다 - 여기 등록된 '립스(LIPS)Ⅰ 매칭융자'의 사회안전망 우대금리 항목이 바로 이것입니다. 또 희망리턴패키지 재기사업화 지원사업 서류평가에서도 가점을 받습니다. 보험료 부담을 줄이면서 다른 사업의 조건까지 좋아지는 셈입니다. ⚠ 환급은 납부 약 2개월 뒤에 계좌로 들어옵니다. 예를 들어 2026년 1월분 보험료를 법정기한인 2월 10일까지 내면 3월 23일경 입금됩니다. 미납분을 나중에 납부해도 지원은 됩니다. 월별 납부액과 가입 등급에 따라 매달 지원금이 달라질 수 있습니다. ⚠ 사업자등록증 내용(사업주, 사업자등록번호 등)이 바뀌면 반드시 재신청해야 합니다. 공동사업자는 1명만 지원받을 수 있습니다. 신청서나 증빙서류 내용이 사실과 다르면 지원이 중단됩니다. 참고로 자영업자 고용보험 자체는 근로자 50인 미만 사업주면 가입할 수 있고 사업 개시 후 가입 기한 제한이 없지만, 만 65세 이상은 직업능력개발사업만 가입되고 실업급여에는 가입할 수 없습니다."
+    },
+    서류: [
+      { 이름: "소상공인 고용보험료 지원신청서", 출처: "소상공인24 홈페이지에서 온라인 작성 (신규 가입자는 근로복지공단 토탈서비스)",
+        체크: ["이미 고용보험에 가입돼 있으면 소상공인24, 아직 가입 전이면 근로복지공단 토탈서비스에서 가입과 동시에 신청", "환급받을 계좌를 정확히 기재", "신청일 기준으로 지원이 시작되므로 하루라도 빨리 넣는 게 유리합니다"] },
+      { 이름: "개인정보 및 공공마이데이터 이용·활용 동의", 출처: "온라인 작성",
+        체크: ["마이데이터에 동의하면 아래 증빙서류를 전부 제출하지 않아도 됩니다", "마이데이터로 확인이 안 되는 항목만 따로 요청받습니다"] },
+      { 이름: "사업자등록증명 또는 사업자등록증명원", 출처: "홈택스에서 발급",
+        체크: ["최근 1개월 이내 발급본", "마이데이터 동의 시 제출 불필요", "무인민원발급기나 관할 세무서에서도 발급 가능"] },
+      { 이름: "매출액 확인 서류", 출처: "홈택스에서 발급",
+        체크: ["일반과세자는 부가가치세과세표준증명원, 면세사업자는 면세사업자수입금액증명", "원칙은 직전 3개 사업연도(36개월)분이며, 창업 시기 때문에 어려우면 2년→1년→직전 12개월→창업일부터 순으로 가능한 범위까지", "유효기간 내 소상공인확인서를 내면 이 서류는 생략 가능", "마이데이터 동의 시 제출 불필요"] },
+      { 이름: "상시근로자 수 확인 서류", 출처: "국민건강보험공단 또는 홈택스에서 발급",
+        체크: ["직원이 없으면 건강보험자격득실확인서", "직원이 있으면 건강보험 월별 사업장 가입자별 부과현황, 개인별 건강보험 고지산출내역, 월별 원천징수이행상황신고서 중 하나", "직원 명단이 나오는 서류는 사업주 외 근로자의 성명·주민번호를 반드시 가림 처리해서 제출", "직전 사업연도 12개월분(사업기간이 12개월 미만이면 가능한 기간 전부)", "유효기간 내 소상공인확인서를 내면 생략 가능", "마이데이터 동의 시 제출 불필요"] },
+      { 이름: "소상공인확인서 (대체 제출 시)", 출처: "중소기업현황정보시스템(sminfo.mss.go.kr) 또는 지방중소벤처기업청에서 발급",
+        체크: ["이 서류 하나로 매출액·상시근로자 수 확인 서류를 모두 대신할 수 있습니다", "유효기간 내여야 합니다", "소상공인시장진흥공단이 발급하는 착한임대인 세액공제용 소상공인확인서는 인정되지 않습니다"] }
+    ]
+  },
+  {
+    이름: "2026년 부산 범일 의류제조 소공인특화지원센터 소공인 모집",
+    태그: ["교육","자금·현물지원","부산 개최","집적지 한정","제조업 한정","상시 모집"],
+    업종적합: ["제조업"],
+    기관: "소상공인시장진흥공단 (운영기관: (재)부산테크노파크 – 부산 범일 의류제조 소공인특화지원센터, 051-631-7222·7223)",
+    마감: "2026-02-01 ~ 2027-02-01 (사업 운영기간 2026-02-01 ~ 2027-03-31, 세부사업별 모집시기 상이)",
+    마감유형: "날짜",
+    마감일: "2027-02-01",
+    신청링크: "https://www.sbiz24.kr",
+    요건: {
+      구군: ["동구","부산진구","남구"],
+      업종: { allow: ["제조업"] },
+      근로자: { max: 10 },
+      매출: null,
+      업력: null,
+      연령: null,
+      특이조건: "★ 이 사이트에서 처음으로 '부산 전역'이 아닌 공고입니다. 지금까지 등록된 공고는 전부 전국 또는 부산 전역 대상이었지만, 이 공고는 동구 범일동 일대 의류제조 집적지에 사업장이 있어야만 신청할 수 있습니다. 집적지 범위는 동구 범일동·좌천동, 부산진구 범천동, 남구 문현동입니다. 위 대조표의 소재지 항목은 이 세 개 구를 기준으로 판정하지만, 같은 구라도 해당 동이 아니면 대상이 아닐 수 있으니 실제 사업장 주소로 센터에 확인하세요. ★ 업종은 '제조업'이면 다 되는 게 아니라 의복·의복 액세서리 및 모피 제품 제조업(한국표준산업분류 기준)이어야 합니다. 대조표의 업종 항목은 사이트 분류상 제조업까지만 판정하므로, 봉제·의류 관련 업종인지는 직접 확인이 필요합니다. ★ 소공인 기준은 상시근로자 10인 미만 제조업체입니다. 대조표의 근로자 항목에 반영돼 있습니다. ⚠ 이 공고 하나로 바로 지원금을 받는 게 아닙니다. 센터가 1년간 운영할 사업 전체를 알리는 통합·상시 공고이고, 실제로는 그 아래에 시제품개발지원·단체전시(판로)지원·미디어마케팅지원·봉제 교육과정 같은 세부사업이 따로따로 모집됩니다. 접수기간이 2026-02-01부터 2027-02-01까지 1년으로 길게 잡혀 있는 것도 이 때문입니다. 관심 있으면 지금 센터에 연락해 올해 세부사업 모집 일정을 받아두고, 세부 공고가 뜰 때 신청하는 방식이 맞습니다. ⚠ 지원 규모와 제출서류가 공고문에 나와 있지 않습니다. 공고문에 '센터별 사업 세부내용 및 각 사업별 모집시기가 상이하므로 소공인특화지원센터에 문의'라고만 적혀 있습니다. 아래 서류 목록은 소공인특화지원센터 자율사업에서 통상 요구되는 항목을 정리한 참고용이며, 실제 필요 서류는 세부사업 공고가 나와야 확정됩니다. ★ 사업 내용은 크게 두 갈래입니다. ①상호 정보교류와 경영·기술역량 배양을 위한 교육사업 ②협업을 통한 공동개발, 네트워크 구축 등 지역·업종에 특화된 사업(디자인, 제품 개발 등). 센터에는 공용작업실도 있어 대관 신청이 가능합니다(센터 위치: 부산 동구 조방로38번길 3-1). ★ 문의: 사업문의 051-631-7222, 051-631-7223 / 소상공인24 시스템 오류 문의 1644-5302. 센터 홈페이지에서 세부 공고와 교육과정 일정을 확인할 수 있습니다."
+    },
+    서류: [
+      { 이름: "세부사업 신청서 (사업별 서식 상이)", 출처: "소상공인24 온라인 접수 또는 범일의류제조지원센터 홈페이지",
+        체크: ["이 통합공고에는 제출서류가 명시돼 있지 않습니다 — 아래 서류는 참고용이며 반드시 센터(051-631-7222)에 확인하세요", "지원하려는 세부사업(시제품개발·단체전시·미디어마케팅·교육)에 따라 서식과 서류가 달라집니다"] },
+      { 이름: "개인정보 수집·이용 및 제공 동의서", 출처: "온라인 작성",
+        체크: ["별도 준비 서류 없음, 온라인에서 바로 동의"] },
+      { 이름: "사업자등록증명원", 출처: "홈택스에서 발급",
+        체크: ["1개월 이내 발급본인지 확인", "업태·종목이 의복 관련 제조업으로 돼 있는지 확인 — 집적지 소재 여부와 함께 자격의 핵심입니다"] },
+      { 이름: "소상공인(중소기업)확인서", 출처: "중소기업현황정보시스템에서 발급",
+        체크: ["유효기간 내 발급본인지 확인", "상시근로자 10인 미만을 증명하는 핵심 서류입니다"] },
+      { 이름: "국세완납증명서", 출처: "홈택스",
+        체크: ["법인 신청 시 대표자분과 법인분 둘 다 필요한지 확인"] },
+      { 이름: "지방세완납증명서", 출처: "위택스",
+        체크: ["국세와 발급처가 다름(위택스)", "법인 신청 시 대표자분과 법인분 둘 다 필요한지 확인"] },
+      { 이름: "사업장 소재지 증빙 (임대차계약서 등)", 출처: "본인 보관 서류 또는 인터넷등기소",
+        체크: ["집적지(범일동·좌천동·범천동·문현동) 내 소재를 확인하는 용도로 요구될 수 있습니다", "사업자등록증 주소와 실제 작업장 주소가 다르면 미리 센터에 문의하세요"] }
+    ]
+  },
+  {
+    이름: "2026년 부산 서동 의류제조 소공인특화지원센터 소공인 모집",
+    태그: ["교육","자금·현물지원","부산 개최","집적지 한정","제조업 한정","상시 모집"],
+    업종적합: ["제조업"],
+    기관: "소상공인시장진흥공단 (운영기관: 부산경남패션봉제산업협동조합 – 부산서동의류제조 소공인특화지원센터, 051-525-9968)",
+    마감: "2026-02-01 ~ 2027-02-01 (사업 운영기간 2026-02-01 ~ 2027-03-31, 세부사업별 모집시기 상이)",
+    마감유형: "날짜",
+    마감일: "2027-02-01",
+    신청링크: "https://www.sbiz24.kr",
+    요건: {
+      구군: ["금정구"],
+      업종: { allow: ["제조업"] },
+      근로자: { max: 10 },
+      매출: null,
+      업력: null,
+      연령: null,
+      특이조건: "★ 앞서 등록된 범일 센터 공고와 형식은 같지만 집적지가 다릅니다. 이쪽은 금정구 서동·금사동·회동동 의류제조 집적지가 대상이라 구군을 금정구로 넣었습니다. 범일 센터(동구·부산진구·남구)와 대상 지역이 겹치지 않으니, 본인 사업장 주소에 맞는 쪽 하나만 해당됩니다. 같은 금정구여도 서동·금사동·회동동이 아니면 대상이 아닐 수 있으니 실제 주소로 센터에 확인하세요. ★ 업종은 의류제조(봉제·패션) 소공인이어야 하고, 소공인 기준인 상시근로자 10인 미만이 적용됩니다. 대조표의 업종·근로자 항목에 반영돼 있지만, 사이트 업종 분류가 '제조업'까지만 있어서 세부 업종은 직접 확인이 필요합니다. ★ 범일 공고와 달리 세부사업 목록이 공개돼 있습니다. 2026-08-06 기준 소상공인24 상세분야 목록에 5개 사업이 올라와 있고, 각각 신청 버튼이 따로 있습니다 - ①소공인 공동 판로 개척 지원(정원 20명, 현재 신청 16명) ②소공인 공동 전시 참가 지원(20명 / 16명) ③현장 기술 전수 지원 Sewing 119(50명 / 10명) ④디지털 패턴 라이브러리 지원(40명 / 9명) ⑤테크니컬 패턴 CAD 및 3D CLO교육 교육생 모집(15명 / 14명). 앞의 네 개는 2026-04-09 15:00부터, 교육과정은 2026-07-27 00:00부터 접수 중입니다. 정원 대비 신청 인원을 보면 ③현장 기술 전수와 ④디지털 패턴 라이브러리가 여유가 많고, ⑤교육과정은 15명 중 14명이 차서 거의 마감 상태입니다. 다만 이 숫자는 화면에 '모집/신청 정원'으로만 표기돼 있어 해석이 100% 확실하지는 않으니 센터에 잔여 여부를 전화로 확인하는 게 안전합니다. 각 사업의 정확한 마감일은 목록 화면에서 잘려 보이지 않아 확인하지 못했습니다. ⚠ 이 공고 하나로 지원금이 나오는 게 아니라, 위 세부사업을 각각 신청하는 구조입니다. 접수기간이 2026-02-01부터 2027-02-01까지 1년으로 잡혀 있는 것도 그 때문입니다. ⚠ 지원 규모와 제출서류는 공고문에 나와 있지 않고 '센터에 문의'라고만 돼 있습니다. 아래 서류 목록은 참고용이며, 세부사업마다 서식이 다릅니다. ★ 센터는 장비 지원 쪽이 강합니다. 특수 봉제장비와 재단 시설을 공동 작업공간 형태로 무상 개방하는 프로그램을 운영하고 있어, 설비 투자 여력이 없는 영세 봉제업체라면 이 부분을 먼저 문의해볼 만합니다. ★ 문의: 사업문의 051-525-9968 / 소상공인24 시스템 오류 문의 1644-5302."
+    },
+    서류: [
+      { 이름: "세부사업 신청서 (사업별 서식 상이)", 출처: "소상공인24에서 해당 세부사업 선택 후 온라인 신청",
+        체크: ["이 통합공고에는 제출서류가 명시돼 있지 않습니다 — 아래는 참고용이며 반드시 센터(051-525-9968)에 확인하세요", "5개 세부사업 중 어느 것에 지원하는지에 따라 서식과 서류가 달라집니다"] },
+      { 이름: "개인정보 수집·이용 및 제공 동의서", 출처: "온라인 작성",
+        체크: ["별도 준비 서류 없음, 온라인에서 바로 동의"] },
+      { 이름: "사업자등록증명원", 출처: "홈택스에서 발급",
+        체크: ["1개월 이내 발급본인지 확인", "업태·종목이 의류 관련 제조업으로 돼 있는지 확인 — 집적지 소재 여부와 함께 자격의 핵심입니다"] },
+      { 이름: "소상공인(중소기업)확인서", 출처: "중소기업현황정보시스템에서 발급",
+        체크: ["유효기간 내 발급본인지 확인", "상시근로자 10인 미만을 증명하는 핵심 서류입니다"] },
+      { 이름: "국세완납증명서", 출처: "홈택스",
+        체크: ["법인 신청 시 대표자분과 법인분 둘 다 필요한지 확인"] },
+      { 이름: "지방세완납증명서", 출처: "위택스",
+        체크: ["국세와 발급처가 다름(위택스)", "법인 신청 시 대표자분과 법인분 둘 다 필요한지 확인"] },
+      { 이름: "사업장 소재지 증빙 (임대차계약서 등)", 출처: "본인 보관 서류 또는 인터넷등기소",
+        체크: ["집적지(금정구 서동·금사동·회동동) 내 소재를 확인하는 용도로 요구될 수 있습니다", "사업자등록증 주소와 실제 작업장 주소가 다르면 미리 센터에 문의하세요"] }
+    ]
+  },
+  {
+    이름: "2026년 부산 범천 가죽가방신발 소공인특화지원센터 소공인 모집",
+    태그: ["교육","자금·현물지원","부산 개최","집적지 한정","제조업 한정","상시 모집"],
+    업종적합: ["제조업"],
+    기관: "소상공인시장진흥공단 (운영기관: 동의대학교 산학협력단 – 부산 범천 가죽·가방·신발 소공인특화지원센터, 051-890-2334·2335)",
+    마감: "2026-02-01 ~ 2027-02-01 (사업 운영기간 2026-02-01 ~ 2027-03-31, 세부사업별 모집시기 상이)",
+    마감유형: "날짜",
+    마감일: "2027-02-01",
+    신청링크: "https://www.sbiz24.kr",
+    요건: {
+      구군: ["부산진구"],
+      업종: { allow: ["제조업"] },
+      근로자: { max: 10 },
+      매출: null,
+      업력: null,
+      연령: null,
+      특이조건: "★ 앞의 두 센터와 업종이 다릅니다. 범일·서동 센터는 의류제조(봉제)였지만 이곳은 가죽·가방·신발 제조업(한국표준산업분류 업종코드 C15)이 대상입니다. 지역은 부산진구 내 사업장으로, 범일 센터의 대상 지역(동구·부산진구·남구)과 부산진구가 겹치지만 업종이 달라 실제로 두 곳에 동시 해당되는 경우는 없습니다. 봉제라면 범일, 가죽·가방·신발이라면 이곳입니다. ★ 소공인 기준은 상시근로자 10인 미만이며 대조표에 반영돼 있습니다. 사이트 업종 분류가 '제조업'까지만 있어서 C15 해당 여부는 사업자등록증 업종코드로 직접 확인하세요. ★ 세부사업 3건이 소상공인24에 올라와 있습니다. 2026-08-06 기준 - ①2026년 소공인 컨설팅 지원사업(정원 18명, 현재 신청 10명, 2026-04-27부터 접수) ②2026년 소공인 마케팅지원 및 동영상물 경진대회(10명 / 8명, 2026-04-28부터) ③2026년 맞춤형 특화 과정 폴리텍 연계교육(11명 / 11명, 2026-04-29부터). ①컨설팅이 18명 중 10명으로 가장 여유가 있고, ③폴리텍 연계교육은 11명 정원이 다 찬 상태입니다. 이 숫자는 화면에 '모집/신청 정원'으로만 표기돼 있어 해석이 확실하지 않고, 각 사업의 마감일도 목록에서 잘려 보이지 않아 확인하지 못했습니다. 신청 전 센터에 전화로 잔여 여부를 확인하세요. ⚠ 이 공고 하나로 지원금이 나오는 게 아니라 위 세부사업을 각각 신청하는 구조이고, 접수기간이 2026-02-01부터 2027-02-01까지 1년으로 잡혀 있습니다. ⚠ 지원 규모와 제출서류는 공고문에 없습니다. 참고로 2025년에는 세부 지원사업 총합 업체당 700만원 한도(2024년은 500만원)로 운영됐는데, 2026년 금액은 확정된 정보가 아니니 센터에 확인해야 합니다. 아래 서류 목록도 참고용입니다. ★ 센터는 공동인프라 시설 '슈플레이스 범천'을 함께 운영합니다(부산진구 신암로 66 범천LH상가). 신발 집적지 공동 작업·전시 시설이라 설비나 판로 쪽이 필요하면 이 부분을 먼저 문의해볼 만합니다. 과거 공고에서는 방문·이메일 접수를 병행한 적이 있어(동의대 창의관), 온라인 신청 외 경로가 있는지도 함께 물어보세요. ★ 문의: 사업문의 051-890-2334, 051-890-2335 / 소상공인24 시스템 오류 문의 1644-5302."
+    },
+    서류: [
+      { 이름: "세부사업 신청서 (사업별 서식 상이)", 출처: "소상공인24에서 해당 세부사업 선택 후 온라인 신청",
+        체크: ["이 통합공고에는 제출서류가 명시돼 있지 않습니다 — 아래는 참고용이며 반드시 센터(051-890-2334)에 확인하세요", "컨설팅·마케팅·교육 중 어느 사업에 지원하는지에 따라 서식과 서류가 달라집니다"] },
+      { 이름: "개인정보 수집·이용 및 제공 동의서", 출처: "온라인 작성",
+        체크: ["별도 준비 서류 없음, 온라인에서 바로 동의"] },
+      { 이름: "사업자등록증명원", 출처: "홈택스에서 발급",
+        체크: ["1개월 이내 발급본인지 확인", "업종코드가 C15(가죽·가방·신발 제조업)에 해당하는지가 자격의 핵심입니다"] },
+      { 이름: "소상공인(중소기업)확인서", 출처: "중소기업현황정보시스템에서 발급",
+        체크: ["유효기간 내 발급본인지 확인", "상시근로자 10인 미만을 증명하는 핵심 서류입니다"] },
+      { 이름: "국세완납증명서", 출처: "홈택스",
+        체크: ["법인 신청 시 대표자분과 법인분 둘 다 필요한지 확인"] },
+      { 이름: "지방세완납증명서", 출처: "위택스",
+        체크: ["국세와 발급처가 다름(위택스)", "법인 신청 시 대표자분과 법인분 둘 다 필요한지 확인"] },
+      { 이름: "사업장 소재지 증빙 (임대차계약서 등)", 출처: "본인 보관 서류 또는 인터넷등기소",
+        체크: ["사업장이 부산진구 내에 있는지 확인하는 용도로 요구될 수 있습니다", "사업자등록증 주소와 실제 작업장 주소가 다르면 미리 센터에 문의하세요"] }
+    ]
+  },
+  {
+    이름: "2026년 사상구 소상공인 보증료 지원사업 (신용보증 대출 보증료 환급)",
+    태그: ["자금·현물지원","특정 구·군 한정","선투자 필수","선착순 마감","상시 모집","방문 접수"],
+    기관: "부산광역시 사상구청 일자리경제과 (051-310-4616) / 공고 제2026-2호",
+    마감: "2026-01-01 ~ 예산 소진 시까지 (매월 말일까지 접수분을 다음달 5일에 선정)",
+    마감유형: "소진",
+    신청링크: "https://www.sasang.go.kr",
+    요건: {
+      구군: ["사상구"],
+      업종: null,
+      근로자: null,
+      매출: null,
+      업력: null,
+      연령: null,
+      특이조건: "★ 이 사이트에서 처음 등록하는 구청 단위 공고입니다. 지금까지는 소상공인시장진흥공단(전국) 공고와 소공인특화지원센터 공고뿐이었는데, 이건 사상구청이 자체 예산으로 하는 사업이라 사상구에 사업장이 있는 소상공인만 신청할 수 있습니다. 부산 다른 구에도 비슷한 사업이 있을 가능성이 높으니, 본인 구청 홈페이지도 확인해보세요(예: 사하구는 2026년 2월부터 3천만원 이내 대출에 최초 1년 보증료 0.4%p·최대 12만원을 지원하는 유사 사업을 운영합니다). ⚠ 이미 대출을 받고 보증료를 낸 사람만 신청할 수 있습니다. 앞으로 받을 대출을 지원해주는 게 아니라, 신용보증기관(부산신용보증재단 등)의 보증을 끼고 대출을 실행한 뒤 낸 보증료를 나중에 계좌로 돌려받는 사후 환급 구조입니다. 대출 실행일이 2026년 1월 1일 이후여야 하고, 제출서류에 보증료 납부 영수증이 필수인 것도 이 때문입니다. 아직 대출 전이라면 이 공고가 아니라 부산신용보증재단(051-860-6600)의 보증 상품부터 알아봐야 합니다. ★ 지원 조건 - 보증한도는 소상공인 1명당 5천만원 이내이고, 최초 1년치 보증료를 지원합니다. 다만 공고문 안에서 표현이 엇갈립니다. 사업 개요에는 '보증료 일부 지원'이라고 돼 있고 지원내용에는 '최초 1년치 보증료 지원'이라고만 적혀 있어, 전액인지 일정 비율인지 공고문만으로는 확정할 수 없습니다. 신청 전에 일자리경제과(051-310-4616)에 실제 지원율과 상한액을 물어보세요. ⚠ 선착순이고 예산 소진 시 조기 종료됩니다. 지금(2026년 8월)은 사업 시작 후 7개월이 지난 시점이라 예산 잔여 여부부터 전화로 확인하는 게 순서입니다. 접수해도 바로 나오지 않고, 전월 1일~말일 접수분을 매월 5일에 심사·선정한 뒤 10일경 계좌로 일괄 지급합니다. ★ 자격은 「소상공인기본법」상 소상공인이면서 사상구에 사업장을 두고 관할 세무서에 사업자등록을 하고 실제 영업 중이어야 합니다. 소상공인 기준은 업종에 따라 상시근로자 수 요건이 달라(제조·건설·운수업 등은 10인 미만, 그 외 업종은 5인 미만) 위 대조표의 근로자 항목에는 넣지 않았습니다. 본인 업종 기준으로 직접 확인하세요. ★ 신청은 온라인(사상구 홈페이지 → 분야별정보 → 산업/경제 → 소상공인 보증료 지원사업) 또는 사상구청 일자리경제과 방문 두 가지입니다. 본인 신청이 원칙이고, 대리 신청하려면 위임장에 더해 위임자 신분증 사본·수임자 신분증·위임자 인감증명서(또는 본인서명사실확인서)가 필요합니다. 본인서명사실확인서를 쓸 경우 발급 용도를 '소상공인 보증료 지원사업 접수 위임용'으로, 접수 대리인 성명까지 기재해야 합니다. ⚠ 서류 내용이 허위로 판명되면 전액 환수되고, 기재 착오나 누락으로 인한 불이익은 신청자 본인 책임이며, 제출한 서류는 반환되지 않습니다."
+    },
+    서류: [
+      { 이름: "신용보증 보증료 지원 신청서 (서식1)", 출처: "사상구청 홈페이지 공고문 첨부 서식 또는 일자리경제과에서 수령",
+        체크: ["신용보증기관명·보증종류·보증금액·보증료 납부금액을 보증서와 대조해 정확히 기재", "지급계좌는 반드시 신청인 본인 명의", "서식 안에 행정정보 공동이용 동의란이 있는데, 여기에 동의하면 사업자등록증을 따로 제출하지 않아도 됩니다"] },
+      { 이름: "개인정보 수집 및 이용 동의서 (서식2)", 출처: "사상구청 홈페이지 공고문 첨부 서식",
+        체크: ["필수 동의 항목입니다 — 동의하지 않으면 지원이 제한됩니다"] },
+      { 이름: "보증료 납부 영수증", 출처: "신용보증재단 등 보증을 받은 신용보증기관",
+        체크: ["납부액과 보증기간이 반드시 기재돼 있어야 합니다", "이 서류가 있어야 신청 가능 — 대출·보증료 납부가 먼저입니다"] },
+      { 이름: "금융거래확인서 또는 부채증명서 (둘 중 하나만)", 출처: "대출을 실행한 은행",
+        체크: ["둘 중 하나만 내면 됩니다", "대출 기간·용도·금액·잔액이 표기된 것으로 발급받으세요"] },
+      { 이름: "통장사본", 출처: "본인 거래 은행",
+        체크: ["신청자 본인 명의 계좌여야 합니다", "신청서에 적은 계좌번호와 일치하는지 확인"] },
+      { 이름: "위임장 및 첨부서류 (대리 신청 시에만, 서식3)", 출처: "사상구청 홈페이지 공고문 첨부 서식 / 인감증명서는 정부24 또는 주민센터",
+        체크: ["본인 신청이 원칙이며 부득이한 경우에만 해당", "위임자 신분증 사본, 수임자 신분증, 위임자 인감증명서 또는 본인서명사실확인서를 함께 제출", "본인서명사실확인서는 발급 용도를 '소상공인 보증료 지원사업 접수 위임용'으로, 접수 대리인 성명을 기재해야 합니다"] }
+    ]
+  },
+  {
+    이름: "2026 부산 지역 기업 온라인 입점지원 (현대이지웰 기획전)",
+    태그: ["자금·현물지원","상시 모집","이메일 접수","통신판매업 필수"],
+    업종적합: ["도소매업","제조업"],
+    기관: "부산광역시 · 부산경제진흥원 소상공인지원단 동반성장팀 (051-600-1384)",
+    마감: "2026-04-30 ~ 모집 완료 시까지 (150개사 내외 / 선정기업 지원기간 ~2026-12-31)",
+    마감유형: "소진",
+    신청링크: "https://www.bepa.kr",
+    요건: {
+      구군: ["전역"],
+      업종: null,
+      근로자: null,
+      매출: null,
+      업력: null,
+      연령: null,
+      특이조건: "★ 마감일이 따로 없고 모집이 완료될 때까지 받습니다. 공고문에 접수 마감일이 적혀 있지 않은데, 정해진 마감일 없이 150개사 내외 정원이 찰 때까지 접수하는 방식입니다. 다만 공고일이 2026년 4월 30일이고 지금은 8월이라 남은 자리가 얼마나 되는지는 알 수 없으니, 서류를 만들기 전에 051-600-1384로 잔여 여부를 물어보는 게 순서입니다. 또 하나 - 선정 기업의 지원 기간은 선정일부터 2026년 12월 31일까지로 끝이 고정돼 있습니다. 늦게 들어갈수록 실제로 기획전에 참여하는 기간이 짧아지니, 할 생각이면 서두르는 쪽이 유리합니다. ★ 판매 채널이 일반 오픈마켓이 아니라 '현대이지웰'입니다. 현대이지웰은 기업 임직원이 복지포인트로 물건을 사는 복지몰이라, 네이버·쿠팡 같은 일반 소비자 시장과는 고객층과 구매 방식이 다릅니다. 부산 지역 기업 전용 기획전에 입점시켜 주고 할인쿠폰·프로모션을 붙여주는 방식이며, 프로모션 지원은 실제 판매가 일어난 분에 한합니다. 즉 입점만 하고 안 팔리면 받는 게 없는 구조입니다. ⚠ 신청 자격 네 가지를 모두 충족해야 합니다 - ①오픈마켓에 올릴 수 있는 품목을 취급할 것(실물 상품 판매업 기준이라 음식점·서비스업은 사실상 어렵습니다) ②제품 상세페이지를 이미 갖고 있어 바로 업로드할 수 있을 것 ③중소기업확인서 또는 소상공인확인서를 발급받을 수 있을 것 ④통신판매업신고증을 발급받을 수 있을 것. 특히 ②상세페이지와 ④통신판매업신고는 없으면 그 자리에서 탈락이므로 미리 준비해두세요. ★ 선착순이 아니라 심사 선정입니다. 판매 상품의 시장 경쟁력과 발전 가능성을 검토해 150개사 내외를 뽑고, 결과는 개별 통보합니다. 그래서 신청서와 함께 내는 '제품상세소개서'가 사실상 평가 자료입니다. 상품 사진과 차별점, 가격 경쟁력을 성의 있게 작성하는 게 당락을 가릅니다. ⚠ 접수가 이메일뿐입니다. 소상공인24 같은 온라인 시스템이 아니라 담당자 이메일(jhe226@bepa.kr)로 신청서와 구비서류를 모두 첨부해 보내야 합니다. 파일 누락이나 서식 오기재를 걸러줄 시스템이 없으니 보내기 전에 6종 서류를 직접 세어보세요. ★ 다른 공고와의 관계 - 이 사이트에 등록된 소진공의 '해외 온라인 플랫폼 입점지원'은 해외 판매 채널이고 이건 국내 복지몰이라 성격이 다릅니다. 다만 두 사업 모두 상세페이지와 통신판매업신고증을 요구하므로 한 번 준비해두면 양쪽에 쓸 수 있습니다."
+    },
+    서류: [
+      { 이름: "참가신청서 및 제품상세소개서", 출처: "부산경제진흥원 공고문 첨부 서식",
+        체크: ["제품상세소개서가 사실상 심사 자료입니다 — 상품 사진·차별점·가격 경쟁력을 구체적으로 작성", "선착순이 아니라 심사 선정이므로 성의 있게 쓸수록 유리합니다"] },
+      { 이름: "개인정보 및 업체 정보 수집·활용 동의서", 출처: "부산경제진흥원 공고문 첨부 서식",
+        체크: ["서명·날인 누락 주의"] },
+      { 이름: "중소기업 지원사업 통합관리시스템 정보활용 동의서", 출처: "부산경제진흥원 공고문 첨부 서식",
+        체크: ["다른 정부 지원사업 수혜 이력을 조회하는 데 쓰이는 동의서입니다"] },
+      { 이름: "사업자등록증 (법인은 법인등기부등본 포함)", 출처: "홈택스에서 발급 / 등기부등본은 인터넷등기소",
+        체크: ["법인이면 등기부등본을 반드시 함께 첨부"] },
+      { 이름: "통신판매업신고증", 출처: "정부24에서 신청 또는 관할 구청 지역경제과",
+        체크: ["없으면 신청 자격 자체가 안 됩니다 — 미보유 시 먼저 신고부터 하세요", "구매안전서비스(에스크로) 이용확인증이 있어야 신고가 됩니다"] },
+      { 이름: "중소기업확인서 및 소상공인확인서", 출처: "중소기업현황정보시스템에서 발급",
+        체크: ["유효기간 내 발급본인지 확인", "공고문에는 둘 다 적혀 있으나 자격 요건에는 '또는'으로 돼 있어, 어느 쪽이 필요한지 담당자에게 확인하세요"] }
+    ]
+  },
+  {
+    이름: "2026년 소상공인 경영전략 컨설팅 (부산경제진흥원 1:1 방문 컨설팅)",
+    태그: ["컨설팅","부산 개최","사업장 방문형","예비창업자 가능","상시 모집","선착순 마감","온라인 신청만"],
+    기관: "부산경제진흥원 · 부산시 소상공인종합지원센터 (1833-3665) / 공고 제2026-071호",
+    마감: "2026-05-11 ~ 예산 소진 시까지 (100개사 내외, 마감 시 소상공인종합지원센터 홈페이지에 별도 공지)",
+    마감유형: "소진",
+    신청링크: "https://bsbsc.kr",
+    요건: {
+      구군: ["전역"],
+      업종: null,
+      근로자: null,
+      매출: null,
+      업력: null,
+      연령: { min: 19 },
+      특이조건: "★ 사이트 최초로 예비창업자도 신청할 수 있는 공고입니다. 지금까지 등록된 22건은 전부 사업자등록이 있어야 했는데, 이건 사업자가 없어도 주민등록상 거주지가 부산이면 예비창업자 자격으로 신청됩니다(소상공인은 사업자등록증상 사업장 소재지가 부산이면 됨). 만 19세 이상 조건이 붙어 대조표 나이 항목에 반영했습니다. ★ 컨설턴트가 사업장으로 직접 찾아옵니다. 분야는 여섯 개입니다 - ①경영일반(비즈니스 모델 고도화, 상권·입지 분석, 매장 동선 최적화, 업종별 정부지원사업 안내) ②홍보·마케팅(리브랜딩, 포털 매장정보 최적화, SNS·바이럴, 온라인 스토어 입점) ③AI 활용(생성형 AI 콘텐츠 제작, AI 고객관리, 매장 운영 효율화) ④노무(근로기준법 기반 인사·노무, 고용장려금 신청 자문, 법정의무교육) ⑤세무·회계(부가세·종소세 신고 자문, 인건비 신고, 절세) ⑥HACCP 인증(소규모 HACCP 절차 진단, 기준서 수립, 위생관리 체계). 식품 제조·판매를 한다면 ⑥HACCP은 다른 어느 공고에도 없는 분야입니다. ★ 이 사이트에 이미 등록된 소진공 '찾아가는 1:1 교육(경영애로 개선 컨설팅)'과 성격이 겹치니 비교해서 고르세요. 소진공 것은 전국 1,100건 대상이고 컨설팅 비용의 10%가 자부담(5일 기준 15만원)입니다. 이쪽은 부산 100개사 내외로 규모가 작은 대신 부산 사업자끼리만 경쟁하고, 공고문에 자부담이나 참여비 얘기가 전혀 없습니다. 다만 무료라고 명시된 것도 아니니 신청 전 1833-3665로 비용 발생 여부를 확인하세요. 두 사업의 중복 참여가 가능한지도 함께 물어보는 게 좋습니다. ★ 신청 절차에 한 단계가 더 있습니다. bsbsc.kr에 회원가입·로그인한 뒤 사업공고에서 이 공고를 찾아 들어가면, 신청서를 쓰기 전에 컨설턴트 명단을 먼저 확인하고 희망 컨설턴트를 고르게 돼 있습니다. 원하는 사람을 지정할 수도 있고 맞춤형 배정을 받을 수도 있으니, 명단에서 본인 업종·현안에 맞는 전문가가 있는지 미리 보고 신청하세요. ⚠ 서류 두 건에 발급일 조건이 있습니다. 중소기업확인서(소상공인확인서)와 예비창업자의 주민등록등본·초본은 2026년 4월 1일 이후 발급분만 인정됩니다. 예전에 받아둔 게 있어도 날짜를 확인하고 다시 발급받으세요. ⚠ 제외 업종이 있습니다. 부산시 소상공인 자금지원 제외 업종 기준을 그대로 적용하는데, 담배 중개·도매업, 일반·무도유흥주점업, 금융업, 보험 및 연금업, 금융·보험 관련 서비스업(손해사정업·보험대리중개업·핀테크 관련 일부는 예외), 부동산업(부동산관련 서비스업 682는 예외), 신용조사 및 추심대행업, 골프장·무도장 운영업, 기타 사행시설 관리운영업, 증기탕 및 안마시술소, 다단계 판매업, 그리고 도박·향락 등 사회 통념상 불건전 업종으로 판단되는 업종이 해당됩니다. 일반 음식점은 제외 대상이 아니며, 유흥주점업만 걸립니다. 이 목록은 소진공 정책자금 제외업종과 비슷하지만 부산시 자체 기준이라 항목이 조금 다르니 본인 업종코드로 대조하세요. ⚠ 예산 소진 시까지 선착순이고 지금은 공고 후 약 3개월이 지난 시점이라, 100개사 정원에 여유가 있는지 먼저 확인하는 게 순서입니다. 마감되면 소상공인종합지원센터 홈페이지에 별도 공지가 올라옵니다. ⚠ 기재 내용이 허위로 판명되면 선정 이후라도 취소되고 향후 5년간 사업 참여가 제한됩니다. 사업 기간은 2026년 3월부터 12월까지입니다."
+    },
+    서류: [
+      { 이름: "컨설팅 신청서", 출처: "부산시 소상공인종합지원센터 홈페이지(bsbsc.kr)에서 회원가입 후 신청서 작성",
+        체크: ["신청서를 쓰기 전에 컨설턴트 명단을 먼저 확인하고 희망 컨설턴트를 지정하는 단계가 있습니다", "여섯 개 분야(경영일반·홍보마케팅·AI활용·노무·세무회계·HACCP) 중 원하는 것을 정확히 선택", "현재 겪고 있는 문제를 구체적으로 쓸수록 맞는 전문가가 배정됩니다"] },
+      { 이름: "개인 및 기업정보 수집·이용·제공·조회 동의서", 출처: "부산시 소상공인종합지원센터 홈페이지(bsbsc.kr)에서 신청 시 작성",
+        체크: ["필수 동의 항목입니다"] },
+      { 이름: "사업자등록증 (소상공인)", 출처: "홈택스에서 발급",
+        체크: ["사업장 소재지가 부산광역시인지 확인 — 이게 소상공인 자격의 기준입니다", "예비창업자는 이 서류 대신 주민등록등본·초본을 냅니다"] },
+      { 이름: "중소기업확인서(소상공인확인서) (소상공인)", 출처: "중소기업현황정보시스템에서 발급",
+        체크: ["2026년 4월 1일 이후 발급분만 인정됩니다 — 예전 발급본은 다시 받으세요", "필수 서류입니다"] },
+      { 이름: "부가가치증명원 등 매출액 증빙 서류 (소상공인)", 출처: "홈택스에서 발급",
+        체크: ["필수는 아니고 제출 권장 항목입니다", "일반과세자는 부가가치세과세표준증명, 면세사업자는 면세사업자수입금액증명"] },
+      { 이름: "4대 보험 사업장 가입자 명부 등 종업원 수 증빙 (소상공인)", 출처: "4대사회보험 정보연계센터에서 발급",
+        체크: ["필수는 아니고 제출 권장 항목입니다", "명부에 다른 직원의 주민번호가 나오면 가림 처리해서 제출하세요"] },
+      { 이름: "주민등록등본 또는 초본 (예비창업자)", 출처: "정부24에서 발급",
+        체크: ["예비창업자만 해당하며 필수입니다", "2026년 4월 1일 이후 발급분만 인정됩니다", "거주지가 부산광역시로 돼 있어야 신청 자격이 됩니다"] }
+    ]
+  },
+  {
+    이름: "2026년 부산 세일 페스타(온라인) 판매기획전 참여 소상공인 모집",
+    태그: ["자금·현물지원","상시 모집","자부담 있음","온라인 신청만","이중 접수 필수"],
+    업종적합: ["도소매업","제조업"],
+    기관: "(재)부산경제진흥원 소상공인지원단 (051-600-1363 / 051-600-1368, f14@bepa.kr)",
+    마감: "2026-03-03 ~ 2026-08-07 (상시모집)",
+    마감유형: "날짜",
+    마감일: "2026-08-07",
+    신청링크: "https://fanfandaero.kr",
+    요건: {
+      구군: ["전역"],
+      업종: null,
+      근로자: null,
+      매출: null,
+      업력: null,
+      연령: null,
+      특이조건: "⚠ 오늘이 마감일입니다. 모집기간이 2026년 3월 3일부터 8월 7일 금요일까지인데, 오늘이 바로 그 8월 7일입니다. 관심이 있다면 지금 바로 두 사이트에 접수해야 하고, 시간이 모자란다면 051-600-1363으로 전화해 마감 시각과 연장 여부부터 확인하세요. ⚠ 신청 사이트가 두 곳이고 둘 다 해야 합니다. 이게 이 공고에서 가장 실수하기 쉬운 부분입니다 - ①판판대로(fanfandaero.kr)에 사업자로 회원가입 후 '부산'으로 통합검색해서 '2026년 디지털커머스 전문기관(소담스퀘어 in 부산)' 지원사업을 찾아 지원서 작성 ②소담스퀘어 in 부산(bssodam.or.kr)에 사업자로 회원가입 후 지원사업안내 → 사업신청에서 지원서 작성. 공고문에 '두 사이트 중 한 군데만 신청하면 미신청으로 간주해 지원 대상에서 제외될 수 있음'이라고 못 박혀 있습니다. 회원가입 두 번, 지원서 두 번이라 시간이 걸리니 마감일에는 이 점을 감안하세요. ★ 지원 내용은 판로입니다. G마켓·롯데온·동백몰 세 곳 중 최대 2개 플랫폼에 입점을 지원해주고(상품등록·결제시스템 연동 포함), 그 안에 '부산 세일 페스타 전용관'을 만들어 넣어줍니다. 기획전 기간에는 할인쿠폰이 발행되고 특별 프로모션이 2회 운영되며, 플랫폼 상·하단 배너와 SNS 푸쉬 광고도 붙습니다. 아직 온라인 판매를 안 하고 있다면 입점 자체를 도와주는 사업이라는 점이 이 사이트의 다른 판로 공고와 다릅니다. ⚠ 자부담이 있을 수 있습니다. 공고문에 '판매수수료 등 자부담이 발생할 수 있음'이라고만 적혀 있고 구체적인 수수료율은 없습니다. 플랫폼 수수료를 본인이 부담하는 구조인지, 얼마인지 신청 전에 담당자에게 확인하세요. ⚠ 품목 제한이 뚜렷합니다. 최종 소비자에게 바로 팔 수 있는 완제품 소비재여야 하고, 주류·의약품·산업재·원부자재 및 중간재·외산품·대기업 제조 상품은 신청할 수 없습니다. 외산품이나 대기업 제품을 유통·판매하는 업체 자체도 제외됩니다. 즉 남의 물건을 떼다 파는 형태가 아니라 본인 제품이어야 합니다. ★ 선착순이 아니라 선정위원회 심사입니다. 서류 검토와 결격 심사를 거친 뒤 플랫폼별 사업 담당자와 MD 같은 전문가가 지원 대상을 고릅니다. 신청서에 상품 3개까지 적게 돼 있고(4개 이상은 별도 양식) 상품명·재질·규격·구성·가격·인증내용·설명을 다 써야 하므로, 이 부분이 사실상 평가 자료입니다. MD가 본다는 걸 염두에 두고 쓰세요. ⚠ 선정된 뒤에도 의무가 남습니다. 정당한 사유 없이 지원을 취소하거나 매출·실적 같은 지원성과를 제출하지 않으면, 이 사업뿐 아니라 부산경제진흥원이 하는 다른 소상공인 지원사업 참여까지 제한될 수 있습니다. ★ 이 사이트의 다른 공고와의 관계 - 같은 부산경제진흥원의 '온라인 입점지원(현대이지웰)'은 기업 복지몰이 채널이고, 이건 G마켓·롯데온 같은 일반 소비자 오픈마켓과 부산시 동백몰입니다. 채널이 겹치지 않으니 둘 다 검토해볼 만합니다. 다만 이쪽은 오늘 마감이라 시점이 다릅니다. ★ 문의는 전화보다 이메일이 빠릅니다. 공고문에 유선 문의가 많아 통화 연결이 어려울 수 있다고 안내돼 있습니다(f14@bepa.kr, piseohyun04@bepa.kr)."
+    },
+    서류: [
+      { 이름: "참여 신청서 (서식1)", 출처: "판판대로(fanfandaero.kr) 또는 소담스퀘어 in 부산(bssodam.or.kr) 공고문 첨부 서식",
+        체크: ["중소기업확인서 발급번호를 적는 칸이 있으므로 확인서를 먼저 발급받아야 합니다 — 유효기간도 함께 확인", "상품은 3개까지 기재하며 4개 이상이면 별도 양식으로 대체 가능", "상품명·재질·규격(W×H×D)·구성·가격(VAT포함)·인증내용·설명을 빠짐없이 작성 — MD가 보는 평가 자료입니다", "참여 희망 플랫폼은 지마켓·롯데온·동백몰 중 최대 2개까지 체크", "전년도 전체 매출액과 온라인 매출액을 각각 나눠서 기재해야 합니다"] },
+      { 이름: "개인정보 수집·이용 및 제공 동의서 (서식2)", 출처: "판판대로(fanfandaero.kr) 또는 소담스퀘어 in 부산(bssodam.or.kr) 공고문 첨부 서식",
+        체크: ["수집·이용 동의와 제3자 제공 동의 두 항목에 각각 표시해야 합니다", "제3자 제공에 동의하지 않으면 소담스퀘어 이용과 참여에 제한을 받습니다"] },
+      { 이름: "중소기업(소상공인)확인서", 출처: "중소기업현황정보시스템에서 발급",
+        체크: ["신청서에 발급번호를 적어야 하므로 접수 전에 미리 받아두세요", "유효기간이 지나지 않았는지 반드시 확인"] },
+      { 이름: "사업자등록증", 출처: "홈택스에서 발급",
+        체크: ["공고문에 명시된 필수 서류는 서식1·2와 중소기업확인서뿐이지만, 사업자 회원가입과 자격 확인 과정에서 요구될 수 있어 미리 준비해두는 게 안전합니다", "부산 소재 사업장인지가 자격의 기준입니다"] }
+    ]
+  },
+  {
+    이름: "2026 청년디자이너-소상공인 협업 디자인 프로젝트 (추가모집)",
+    태그: ["자금·현물지원","디자인 지원","컨소시엄 필수","자부담 있음","이메일 접수"],
+    업종적합: ["음식점업","서비스업","숙박업","도소매업"],
+    기관: "부산광역시 · (재)부산디자인진흥원 기업지원팀 (051-790-1038 / 051-790-1036) / 공고 제2026-126호",
+    마감: "2026-07-28 ~ 2026-08-12(수) 14:00 (마감 시각 이후 도착 메일 불인정)",
+    마감유형: "날짜",
+    마감일: "2026-08-12",
+    신청링크: "https://www.dcb.or.kr",
+    요건: {
+      구군: ["전역"],
+      업종: null,
+      근로자: null,
+      매출: null,
+      업력: null,
+      연령: null,
+      특이조건: "⚠ 혼자서는 신청할 수 없습니다. 이 사업의 가장 큰 벽은 돈이나 서류가 아니라 짝입니다. 부산에서 사업자등록을 한 만 19~39세 청년디자이너와 컨소시엄을 짜서 공동으로 신청해야 하고, 공고문에 '주관기관은 디자이너와 소상공인의 별도 알선·중개·매칭을 제공하지 않는다'고 명시돼 있습니다. 즉 디자이너를 직접 구해야 합니다. 마감이 2026년 8월 12일 오후 2시라 지금부터 사람을 찾기에는 시간이 빠듯하니, 이미 아는 디자이너가 있는 경우가 아니면 다음 회차를 노리는 편이 현실적입니다. 아는 사람이 없다면 부산디자인진흥원(051-790-1038)에 다음 모집 일정과 디자이너 풀 정보를 물어두세요. ★ 무엇을 받을 수 있나 - 10개 과제를 뽑아 과제당 평균 600만원을 지원합니다(심사 점수에 따라 차등). 지원 항목은 업소 외관 개선 공사(유리창 확장·출입구·도색·마감면), 사인물(간판) 디자인과 시공, 브랜드 디자인 개발과 상표 등록, 홍보용 리플렛(2절 또는 4절 양면 3,000매), 메뉴판(테이블용 15개 + 내부 가격표 3종 + 외부용 3종), 업종 전환 컨설팅입니다. 가게 간판이나 외관을 바꾸고 싶었다면 이 사이트에서 그걸 실제로 지원해주는 유일한 공고입니다. ⚠ 돈이 디자이너에게 갑니다. 지원금은 청년디자이너(기업)에게 지급되고 소상공인은 결과물을 받는 구조입니다. 소상공인 통장에 현금이 들어오는 사업이 아닙니다. ⚠ 부가가치세는 소상공인이 냅니다. 공고문에 '부가가치세는 지원 대상이 아니며 수요기업 부담'이라고 돼 있습니다. 600만원 과제라면 부가세 60만원가량이 본인 부담이고, 여기에 지식재산권 출원 비용과 지원금 회계 정산 수수료도 예산에 반드시 넣어야 합니다. 실제 자기 돈이 얼마나 드는지 디자이너와 미리 계산해보세요. ★ 자격 - 부산 소재 소상공인으로 상시근로자 5인 미만(제조·광업·건설·운송업은 10인 미만)이어야 합니다. 업종별로 기준이 달라 대조표 근로자 항목에는 넣지 않았으니 본인 업종 기준으로 확인하세요. 사업자등록증이나 법인등기부등본상 본사·주사무소·사업장이 부산에 있어야 하고 지방세를 완납한 상태여야 합니다. 유흥·향락 업소는 제외됩니다. 기업당 과제 1개만 신청할 수 있습니다. ⚠ 과거 이력으로 걸리는 경우가 많습니다 - 2022년부터 2026년 사이 「중소기업 디자인개발 지원사업」의 수요기업이었거나, 2026년에 부산디자인진흥원의 디자인 지원을 이미 받았다면 신청할 수 없습니다. 같은 과제로 다른 국비·시비 사업을 받았거나 받을 예정이어도 선정이 취소되며, 여기서 '동일 과제'는 똑같은 것뿐 아니라 유사성이 인정되는 것까지 포함합니다. 그밖에 국세·지방세 체납, 4대보험 체납, 채무불이행자 등재, 파산·회생절차 개시, 자본전액잠식, 임금체불 명단 공개 중인 사업주도 제외입니다. ★ 심사가 두 단계입니다. 서류평가로 최종 선정 수의 2배수를 추린 뒤 대면 발표평가를 봅니다. 발표평가 대상자는 8월 18일 화요일에 발표되고 발표평가는 8월 21일 금요일입니다. 즉 선정되려면 직접 나가서 발표를 해야 합니다. 100점 만점에 60점 미만이면 탈락이고, 배점을 보면 '1년 이내 상품 출시 및 사업화 가능성'이 20점으로 가장 큽니다. 나머지는 사전준비성·목표 적정성·계획 구체성·추진전략·수행능력이 각 10점, 실용화 가능성·매출성장 가능성·경제성 파급효과가 각 10점입니다. 신청서를 쓸 때 '이걸 만들면 1년 안에 어떻게 매출로 이어지는지'를 가장 공들여 쓰는 게 유리합니다. ⚠ 선정 후 의무가 무겁습니다. 최종평가 때 실물 목업과 300dpi 고화질 이미지를 반드시 내야 하고, 디자인 컨설팅과 법률자문을 거쳐 지식재산권을 필수로 등록해야 합니다. 협약이 끝난 다음 해부터 3년간 성과관리 요청에도 응해야 합니다. 중간·최종 점검에서 이행률이 미비하다고 판단되면 이미 받은 지원비를 회수당할 수 있습니다. 사업 기간은 2026년 8월부터 11월까지로 짧습니다. ★ 접수는 이메일뿐입니다(jump@dcb.or.kr). 8월 12일 14:00:00 이후에 도착한 메일은 인정되지 않으니 마감 당일에 보내지 마세요. 파일명은 '(서식1) 기업명', '(사업자등록증) 기업명' 형식으로 맞춰야 합니다."
+    },
+    서류: [
+      { 이름: "과제 신청서 [서식1]", 출처: "부산디자인진흥원 공고문 첨부 서식",
+        체크: ["PDF와 한글 파일 둘 다 제출해야 합니다", "배점이 가장 큰 항목이 '1년 이내 상품 출시 및 사업화 가능성'(20점)이니 이 부분을 가장 구체적으로 작성", "청년디자이너와 함께 쓰는 공동 신청서입니다 — 디자이너의 수행능력과 포트폴리오도 평가 대상", "파일명을 '(서식1) 기업명' 형식으로 지정"] },
+      { 이름: "사업자등록증 또는 사업자등록증명원", 출처: "홈택스에서 발급",
+        체크: ["신청일 기준 2주일 이내 발급본이어야 합니다", "본사·주사무소·사업장이 부산에 있는지가 자격의 기준입니다", "소상공인과 청년디자이너 양쪽 모두 제출"] },
+      { 이름: "개인정보 수집·이용·제공 동의서 [서식2]", 출처: "부산디자인진흥원 공고문 첨부 서식",
+        체크: ["서명 기입란을 빠뜨리지 마세요 — 미기입 시 불이익이 있을 수 있습니다"] },
+      { 이름: "4대 보험 가입자명부 또는 중소기업확인서(소상공인확인서)", 출처: "4대사회보험 정보연계센터 또는 중소기업현황정보시스템에서 발급",
+        체크: ["상시근로자 5인 미만(제조·광업·건설·운송업 10인 미만)을 증명하는 서류입니다", "신청일 기준 2주일 이내 발급본", "공고문에 '또는'과 '각 1부'가 함께 적혀 있어 둘 다 필요한지 애매하니 051-790-1038로 확인하세요"] },
+      { 이름: "전년도 부가가치세 과세표준증명 또는 매출 전자세금계산서 합계표", 출처: "홈택스에서 발급",
+        체크: ["신청일 기준 2주일 이내 발급본", "면세사업자는 면세사업자수입금액증명으로 대체 가능한지 문의하세요"] },
+      { 이름: "특별이행각서 [서식3]", 출처: "부산디자인진흥원 공고문 첨부 서식",
+        체크: ["PDF로 제출", "서명 후 스캔해서 첨부"] }
+    ]
+  },
+  {
+    이름: "부산시 임차 소상공인 지원 협약보증 (2024년판 ※ 종료 - 2026년 대안은 카드 안내 참고)",
+    태그: ["융자(상환 필요)","운영기한 종료","신용점수 조건","방문 접수"],
+    기관: "부산신용보증재단 (051-860-6600) / 제공기관·취급기관 모두 부산신용보증재단",
+    마감: "2024년판 운영기한 2024-12-31 종료 / 2025년판(900억, 하나·우리은행)도 2025-12-31 마감 — 2026년 대안은 아래 참고",
+    마감유형: "종료",
+    마감일: "2024-12-31",
+    신청링크: "https://www.busansinbo.or.kr",
+    요건: {
+      구군: ["전역"],
+      업종: null,
+      근로자: null,
+      매출: null,
+      업력: null,
+      연령: null,
+      특이조건: "⚠ 이건 2024년판이고 이미 끝난 상품입니다. 화면에 '~2024.12.31 (또는 자금 소진 시까지)'라고 적힌 걸 보고 자금이 남아서 아직 열려 있는 것 아니냐고 볼 수 있는데, 이 문구는 둘 중 먼저 오는 쪽에서 끝난다는 뜻입니다. 즉 자금이 남아도 날짜가 지나면 종료되며, 자금 잔여가 기한을 늘려주지 않습니다. ★ 실제로 이 상품은 해마다 새로 나오는 연간 시리즈입니다. 확인해보니 2025년에도 '2025년 부산시 임차 소상공인 지원 협약보증'이 총 900억원 규모(취급은행 하나은행·우리은행)로 따로 공고됐고 그것도 2025년 12월 31일로 마감됐습니다. 즉 이 화면은 2024년 회차를 보여주는 것이고, 조회 사이트에 '신청 가능'으로 남아 있는 건 상품이 살아 있어서가 아니라 목록 데이터가 갱신되지 않은 것으로 보입니다. 다만 100% 단정할 수는 없으니 확실히 하려면 051-860-6600으로 한 통 걸어보는 게 가장 빠릅니다. ★ 대신 2026년에는 이런 게 있습니다. 부산광역시 중소기업 자금지원계획에 따르면 2026년에는 '소상공인 임차료 특별자금'이 총 500억원 규모로 운영 중입니다 - 임차사업자 지원에 특화됐고, 업체당 1억원 한도, 5년 균등분할상환, 보증료율 0.8%, 이차보전 1.5%, 취급은행은 새마을금고이며 접수기간은 2026년 5월 20일부터 12월 31일(또는 자금 소진 시)까지입니다. 대표자 개인신용평점은 NICE 710점 이상 또는 KCB 620점 이상이 필요합니다. 임차료 부담 때문에 자금을 찾는다면 이쪽을 먼저 알아보는 게 맞습니다. 같은 부산신용보증재단(051-860-6600)에서 취급합니다. ★ 이 상품의 조건은 이랬습니다 - 고정사업장을 임차해서 사업을 하는 부산 소상공인이 대상이고, 최대 1억 5천만원까지 운영자금·시설자금 용도로 쓸 수 있었습니다. 금리는 은행협약금리이고 보증료율은 0.9%입니다. 상환은 원금균등분할이며 기간은 거치 없이 3년 또는 2년 거치 후 5년 두 가지 구조입니다. 2026년 임차료 특별자금(1억원 한도)보다 한도가 컸다는 점이 눈에 띕니다. ⚠ 신용점수 조건이 있습니다. 대표자 개인신용평점 595점 이상이어야 합니다. 이 사이트에 등록된 다른 공고 중 신용점수를 따지는 건 이것뿐입니다. 참고로 2026년 부산시 소상공인 특별자금 계열은 대체로 NICE 710점 이상 또는 KCB 620점 이상을 요구해서 기준이 더 높습니다. ⚠ 하나은행 기업여신이 있으면 안 됩니다. 신청일 기준으로 하나은행 기업여신을 보유한 고객은 대상이 아니라는 조건이 붙어 있습니다. 하나은행과 부산신용보증재단이 맺은 협약 상품이라 기존 거래가 있으면 중복으로 보는 구조입니다. 다른 은행 대출은 상관없습니다. ⚠ 재보증 제한 기업은 안 됩니다. 재단의 보증금지기업이나 보증제한기업에 해당하면 신청할 수 없습니다. 연체·압류·가압류·개인회생·파산 이력이 있으면 여기에 걸릴 수 있습니다. ★ 신청은 재단 지점 방문입니다. 온라인 신청 폼이 따로 없고 부산신용보증재단 각 지점에 문의해야 합니다. 다만 무작정 가면 안 되고 홈페이지(busansinbo.or.kr)에서 '보증상담 예약신청'으로 온라인 예약을 먼저 해야 합니다. 예약이 완료되면 대표자 카카오톡으로 필요서류 안내 메시지가 옵니다. 지점은 시청·부산진·동부산·북부산·중부산·서부산·남부산·금정·강서·기장 열 곳이 있습니다. ★ 이 사이트의 다른 공고와의 관계 - 이미 등록된 '사상구 소상공인 보증료 지원사업'은 이런 보증 대출을 받고 낸 보증료를 구청이 돌려주는 사업입니다. 사상구 사업자라면 자금을 받은 뒤 보증료 환급까지 챙기는 순서로 묶을 수 있습니다."
+    },
+    서류: [
+      { 이름: "보증상담 예약 (서류 아님, 선행 절차)", 출처: "부산신용보증재단 홈페이지에서 '보증상담 예약신청' 온라인 예약",
+        체크: ["예약 없이 지점을 방문하면 상담이 안 됩니다", "예약이 완료되면 대표자 카카오톡으로 필요서류 안내가 옵니다 — 실제 서류는 그 안내를 따르세요", "아래 목록은 부산신용보증재단 보증상담의 일반적인 준비물이며 이 상품의 확정 목록이 아닙니다"] },
+      { 이름: "사업자등록증 (상담 단계)", 출처: "홈택스에서 발급",
+        체크: ["사업장이 부산 소재인지가 자격의 기준입니다"] },
+      { 이름: "사업장 임대차계약서 (상담 단계)", 출처: "본인 보관 서류",
+        체크: ["고정사업장을 임차해 사업 중이라는 걸 증명하는 핵심 서류입니다 — 이 상품의 자격 조건 자체가 임차 사업자입니다", "계약 기간이 남아 있는지 확인"] },
+      { 이름: "대표자 신분증 (상담 단계)", 출처: "본인 보관 서류",
+        체크: ["대리인 방문은 별도 위임 절차가 필요하니 재단에 미리 문의하세요"] },
+      { 이름: "주민등록등본 또는 초본 (심사 단계)", 출처: "정부24에서 발급",
+        체크: ["상담 이후 심사 단계에서 요구됩니다"] },
+      { 이름: "금융거래확인서 (심사 단계)", 출처: "거래 은행에서 발급",
+        체크: ["기존 대출 현황을 확인하는 서류입니다", "하나은행 기업여신 보유 여부가 자격에 영향을 주므로 특히 관련됩니다"] },
+      { 이름: "부가가치세과세표준증명 또는 수입금액증명원 (심사 단계)", 출처: "홈택스에서 발급",
+        체크: ["매출 규모를 확인해 보증 한도를 정하는 자료입니다", "면세사업자는 수입금액증명원으로 대체"] }
+    ]
+  },
+  {
+    이름: "2026년 부산시 소상공인 임차료 특별자금 (이차보전 융자)",
+    태그: ["융자(상환 필요)","신용점수 조건","선착순 마감","방문 접수"],
+    기관: "부산광역시 · 부산신용보증재단 (051-860-6600) / 부산광역시 공고 제2026-1930호",
+    마감유형: "소진",
+    마감일: "2026-12-31",
+    마감: "2026-05-20 ~ 2026-12-31 (또는 자금 소진 시 조기 마감)",
+    신청링크: "https://www.busansinbo.or.kr",
+    요건: {
+      구군: ["전역"],
+      업종: null,
+      근로자: null,
+      매출: null,
+      업력: null,
+      연령: null,
+      특이조건: "★ 가게를 임차해 쓰는 사장님을 위한 자금입니다. 부산시가 2026년에 500억원 규모로 운영하는 소상공인 특별자금 중 임차 사업자에 특화된 갈래입니다. 업체당 1억원까지 빌릴 수 있고 5년 균등분할로 갚습니다. ⚠ 갚아야 하는 돈입니다. 이 사이트의 교육·컨설팅 공고와 달리 대출이라 원금과 이자를 상환해야 합니다. 다만 조건이 일반 대출보다 낫습니다 - 부산시가 이자 중 1.5%를 대신 내주고(이차보전), 부산신용보증재단이 보증을 서주며 보증료율은 0.8%입니다. 금리는 은행 개별금리라 확정된 숫자가 아니니 새마을금고에 직접 문의해야 합니다. 취급은행이 새마을금고 한 곳뿐이라는 점도 미리 알아두세요. ⚠ 신용점수 조건이 있습니다. 대표자 개인신용평점이 NICE 710점 이상 또는 KCB 620점 이상이어야 합니다. 둘 중 하나만 넘으면 되고, 두 점수 체계는 기준이 달라 한쪽이 낮아도 다른 쪽이 통과할 수 있으니 양쪽 다 확인해보세요. 연체·압류·가압류·개인회생·파산 이력이 있거나 재단의 보증금지·보증제한 기업에 해당하면 신청할 수 없습니다. ⚠ 자금 소진 시 조기 마감됩니다. 12월 31일이 명목상 마감이지만 500억원이 먼저 떨어지면 그날로 끝납니다. 게다가 부산시 중소기업·소상공인 자금은 총 1조 4,180억원 한도 안에서 통합 운용돼서, 전체 한도가 소진되면 지원 시기와 관계없이 개별 자금이 조기 마감될 수 있다고 공고문에 명시돼 있습니다. 5월 20일에 시작해 지금이 8월이니, 잔여 여부부터 051-860-6600으로 확인하는 게 순서입니다. ★ 신청은 반드시 예약 후 방문입니다. 부산신용보증재단 지점이나 협약은행 영업점으로 가야 하는데, 그냥 가면 안 되고 재단 홈페이지(busansinbo.or.kr)에서 '보증상담 예약신청'을 먼저 해야 합니다. 예약이 완료되면 대표자 카카오톡으로 필요서류 안내가 옵니다. 지점은 시청·부산진·동부산·북부산·중부산·서부산·남부산·금정·강서·기장 열 곳입니다. ⚠ 보증제한 업종이 있습니다. 유흥주점업, 무도유흥주점업, 부동산업(부동산관련 서비스업 682는 예외), 골프장·무도장·카지노 운영업, 기타 사행시설, 증기탕 및 안마시술소, 담배 중개·도매업, 금융업, 보험 및 연금업, 신용조사 및 추심대행업, 다단계판매업이 해당됩니다. 여기에 재단 중앙회장이 따로 지정한 업종도 있는데 점술 및 유사서비스업, 가상자산 매매 및 중개업, 성인용품 판매점, 탐정 및 조사 서비스업(흥신소), 성인오락실·성인PC방·전화방, 휴게텔·키스방·대화방, 기획부동산업 등입니다. 일반 음식점·소매점·서비스업은 해당되지 않습니다. ★ 함께 챙기면 좋은 것 - 이 자금을 받고 낸 보증료는 구청에서 돌려받을 수 있습니다. 이 사이트에 등록된 '사상구 소상공인 보증료 지원사업'이 그것이고, 사상구가 아니어도 다른 구청에 비슷한 사업이 있는지 물어볼 만합니다. 자금을 먼저 받고 보증료 환급을 신청하는 순서입니다. ★ 부산시 소상공인 특별자금은 이 임차료 자금 말고도 여러 갈래가 있습니다. 임차 사업자가 아니거나 조건이 안 맞으면 소상공인 특별자금(4,540억), B-라이콘 육성자금(1,000억, 고매출·매출증가·고용유지 기업 2억원 한도), 모두 비타민 자금(250억, 중·저신용자 8천만원) 같은 것도 같은 재단에서 상담받을 수 있으니 한 번에 물어보세요."
+    },
+    서류: [
+      { 이름: "보증상담 예약 (서류 아님, 반드시 먼저 할 것)", 출처: "부산신용보증재단 홈페이지에서 '보증상담 예약신청'",
+        체크: ["예약 없이 지점을 방문하면 상담이 안 됩니다", "예약 완료 시 대표자 카카오톡으로 필요서류 안내 메시지가 옵니다 — 최종 서류는 그 안내가 기준입니다", "예약할 때 자금이 아직 남아 있는지도 함께 확인하세요"] },
+      { 이름: "사업자등록증 (상담 단계)", 출처: "홈택스에서 발급",
+        체크: ["사업장이 부산 소재인지가 자격의 기준입니다", "업종이 보증제한 업종에 해당하지 않는지 업종코드로 확인"] },
+      { 이름: "사업장 임대차계약서 (상담 단계)", 출처: "본인 보관 서류",
+        체크: ["이 자금의 핵심 서류입니다 — 임차 사업자 특화 자금이라 계약서가 없으면 대상이 아닙니다", "계약 기간이 남아 있는지, 계약서상 임차인이 사업자와 일치하는지 확인", "확정일자가 찍힌 계약서를 요구할 수 있으니 미리 물어보세요"] },
+      { 이름: "대표자 신분증 (상담 단계)", 출처: "본인 보관 서류",
+        체크: ["대리 방문은 별도 위임 절차가 필요하니 예약 시 문의하세요"] },
+      { 이름: "주민등록등본 또는 초본 (심사 단계)", 출처: "정부24에서 발급",
+        체크: ["상담을 마친 뒤 심사 단계에서 요구됩니다"] },
+      { 이름: "금융거래확인서 (심사 단계)", 출처: "거래 은행에서 발급",
+        체크: ["기존 대출과 연체 여부를 확인하는 서류입니다", "연체·압류·개인회생 이력이 있으면 이 단계에서 걸러집니다"] },
+      { 이름: "부가가치세과세표준증명 또는 수입금액증명원 (심사 단계)", 출처: "홈택스에서 발급",
+        체크: ["매출 규모로 보증 한도를 정하는 자료입니다", "면세사업자는 수입금액증명원으로 대체", "상담·심사 과정에서 추가 서류를 요구할 수 있습니다"] }
+    ]
+  }
+];
+
+const 구군목록 = ["중구","서구","동구","영도구","부산진구","동래구","남구","북구",
+  "해운대구","사하구","금정구","강서구","연제구","수영구","사상구","기장군"];
+const 업종목록 = ["음식점업","도소매업","서비스업","제조업","숙박업","기타"];
+
+const el = id => document.getElementById(id);
+el("gu").add(new Option("선택해주세요", ""));
+구군목록.forEach(v => el("gu").add(new Option(v, v)));
+el("up").add(new Option("선택해주세요", ""));
+업종목록.forEach(v => el("up").add(new Option(v, v)));
+
+function 대조(g) {
+  const r = g.요건, 행 = [];
+  let 실패 = 0, 확인 = 0;
+
+  if (r.구군) {
+    const ok = r.구군.includes("전역") || r.구군.includes(입력.구군);
+    행.push(["소재지", 입력.구군, r.구군.includes("전역") ? "지역 제한 없음" : r.구군.join(", "), ok]);
+    if (!ok) 실패++;
+  }
+  if (r.업종) {
+    const a = r.업종.allow, e = r.업종.exclude || [];
+    let ok = true, 글 = "제한 없음";
+    if (a && a.length) { ok = a.includes(입력.업종); 글 = a.join(", "); }
+    if (e.length) 글 += (글 === "제한 없음" ? "" : " / ") + e.join(", ") + " 제외";
+    행.push(["업종", 입력.업종, 글, ok]);
+    if (!ok) 실패++;
+  }
+  if (r.근로자) {
+    const ok = 입력.근로자 < r.근로자.max;
+    행.push(["근로자", 입력.근로자 + "명", r.근로자.max + "명 미만", ok]);
+    if (!ok) 실패++;
+  }
+  if (r.매출) {
+    const ok = 입력.매출 <= r.매출.max;
+    행.push(["연매출", 만원(입력.매출), 만원(r.매출.max) + " 이하", ok]);
+    if (!ok) 실패++;
+  }
+  if (r.업력) {
+    let ok = true, 글 = [];
+    if (r.업력.min !== null && r.업력.min !== undefined) { ok = ok && 입력.업력 >= r.업력.min; 글.push(r.업력.min + "년 이상"); }
+    if (r.업력.max !== null && r.업력.max !== undefined) { ok = ok && 입력.업력 < r.업력.max; 글.push(r.업력.max + "년 미만"); }
+    행.push(["업력", 입력.업력 + "년", 글.join(" · "), ok]);
+    if (!ok) 실패++;
+  }
+  if (r.연령) {
+    const 글 = [];
+    if (r.연령.min !== null && r.연령.min !== undefined) 글.push("만 " + r.연령.min + "세 이상");
+    if (r.연령.max !== null && r.연령.max !== undefined) 글.push("만 " + r.연령.max + "세 이하");
+    const 기준 = 글.join(" · ");
+    if (입력.연령 === null) {
+      행.push(["대표 나이", "입력 안 함", 기준, null]);
+      확인++;
+    } else {
+      let ok = true;
+      if (r.연령.min !== null && r.연령.min !== undefined) ok = ok && 입력.연령 >= r.연령.min;
+      if (r.연령.max !== null && r.연령.max !== undefined) ok = ok && 입력.연령 <= r.연령.max;
+      행.push(["대표 나이", "만 " + 입력.연령 + "세", 기준, ok]);
+      if (!ok) 실패++;
+    }
+  }
+  if (r.특이조건) {
+    행.push(["특이 조건", "직접 확인 필요", "아래 설명 참고", null]);
+    확인++;
+  }
+  return { 행, 실패, 확인 };
+}
+
+function 만원(n) {
+  if (n >= 10000) {
+    const 억 = Math.floor(n / 10000), 나머지 = n % 10000;
+    return 억 + "억" + (나머지 ? " " + 나머지.toLocaleString() + "만원" : "원");
+  }
+  return n.toLocaleString() + "만원";
+}
+
+let 입력 = {};
+
+const 태그그룹 = {
+  "교육": "g-type",
+  "자금·현물지원": "g-type",
+  "컨설팅": "g-type",
+  "법률지원": "g-type",
+  "디자인 지원": "g-type",
+  "융자(상환 필요)": "g-type",
+  "부산 개최": "g-good",
+  "사업장 방문형": "g-good",
+  "노트북 제공": "g-good",
+  "상시 모집": "g-good",
+  "부산 개최 없음": "g-warn",
+  "집적지 한정": "g-warn",
+  "특정 구·군 한정": "g-warn",
+  "선착순 마감": "g-warn",
+  "예비창업자 가능": "g-good",
+  "이메일 접수": "g-warn",
+  "통신판매업 필수": "g-warn",
+  "이중 접수 필수": "g-warn",
+  "컨소시엄 필수": "g-warn",
+  "신용점수 조건": "g-warn",
+  "운영기한 종료": "g-warn",
+  "제조업 한정": "g-warn",
+  "노트북 지참": "g-warn",
+  "자부담 있음": "g-warn",
+  "선투자 필수": "g-warn",
+  "심리회복 프로그램": "g-type",
+  "동반자 1인 가능": "g-good",
+  "심화교육 수료 필수": "g-warn",
+  "1차 수당 선행 필수": "g-warn",
+  "폐업 완료자만": "g-warn"
+};
+const 태그클래스 = t => 태그그룹[t] || "";
+
+// 서류 '출처'에 아래 키워드가 들어 있으면 해당 발급 사이트 링크를 자동으로 붙인다.
+// 새 발급처가 생기면 이 표에 한 줄만 추가하면 모든 공고에 반영된다.
+const 발급처링크 = [
+  ["소상공인24",       "소상공인24",           "https://www.sbiz24.kr"],
+  ["온라인 작성",      "소상공인24",           "https://www.sbiz24.kr"],
+  ["홈택스",           "홈택스",               "https://www.hometax.go.kr"],
+  ["위택스",           "위택스",               "https://www.wetax.go.kr"],
+  ["중소기업현황정보시스템", "중소기업현황정보시스템", "https://sminfo.mss.go.kr"],
+  ["4대사회보험",      "4대사회보험 정보연계센터", "https://www.4insure.or.kr"],
+  ["근로복지공단",     "근로복지공단 고용·산재보험 토탈서비스", "https://total.comwel.or.kr"],
+  ["토탈서비스",       "근로복지공단 고용·산재보험 토탈서비스", "https://total.comwel.or.kr"],
+  ["인터넷등기소",     "인터넷등기소",         "https://www.iros.go.kr"],
+  ["국민건강보험공단", "국민건강보험공단",     "https://www.nhis.or.kr"],
+  ["정부24",           "정부24",               "https://www.gov.kr"],
+  ["가족관계",         "전자가족관계등록시스템", "https://efamily.scourt.go.kr"],
+  ["신용보증",         "부산신용보증재단",     "https://www.busansinbo.or.kr"],
+  ["사상구청",         "부산 사상구청",       "https://www.sasang.go.kr"],
+  ["부산경제진흥원",   "부산경제진흥원",       "https://www.bepa.kr"],
+  ["소상공인종합지원센터", "부산시 소상공인종합지원센터", "https://bsbsc.kr"],
+  ["판판대로",         "판판대로",             "https://fanfandaero.kr"],
+  ["소담스퀘어",       "소담스퀘어 in 부산",   "https://bssodam.or.kr"],
+  ["부산디자인진흥원", "부산디자인진흥원",     "https://www.dcb.or.kr"]
+];
+
+function 발급링크(출처) {
+  const 본것 = [], 결과 = [];
+  발급처링크.forEach(([키, 이름, url]) => {
+    if (출처.includes(키) && !본것.includes(url)) { 본것.push(url); 결과.push({ 이름, url }); }
+  });
+  return 결과;
+}
+
+function 실행() {
+  입력 = {
+    구군: el("gu").value,
+    업종: el("up").value,
+    근로자: Number(el("emp").value) || 0,
+    매출: Number(el("sales").value) || 0,
+    업력: Number(el("yr").value) || 0,
+    연령: el("age").value === "" ? null : Number(el("age").value)
+  };
+
+  const 결과 = 대조목록().map(g => ({ g, ...대조(g) }));
+  결과.sort((a, b) =>
+       (지난날수(a.g) ? 1 : 0) - (지난날수(b.g) ? 1 : 0)
+    || a.실패 - b.실패
+    || 업종순위(a.g) - 업종순위(b.g)
+    || a.확인 - b.확인
+    || 마감순위(a.g) - 마감순위(b.g));
+
+  const 가능 = 결과.filter(r => r.실패 === 0 && !지난날수(r.g)).length;
+  const 맞춤 = 결과.filter(r => r.실패 === 0 && !지난날수(r.g) && 업종순위(r.g) === 0).length;
+  const 마감건 = 결과.filter(r => 지난날수(r.g)).length;
+  el("tally").textContent =
+    `공고 ${결과.length}건 중 지원 가능한 공고는 ${가능}건이에요.`
+    + (맞춤 ? ` 그중 ${입력.업종}에 특히 도움 되는 ${맞춤}건을 위로 올렸어요.` : "")
+    + (마감건 ? ` 최근 마감된 ${마감건}건은 맨 아래에 남겨뒀어요.` : "");
+
+  const 서류완비 = 결과.filter(r =>
+    r.실패 === 0 && !지난날수(r.g) && (준비상태(r.g) || {}).완비).length;
+  el("tally").textContent += 서류완비
+    ? ` 그중 ${서류완비}건은 서류까지 다 갖춰져 있어요.`
+    : "";
+
+  el("out").innerHTML = 결과.map((r) => 카드(r)).join("") ||
+    `<div class="empty">조건에 맞는 공고가 없어요.</div>`;
+
+  토글연결(el("out"), "▼ 필요 서류와 체크리스트 보기");
+  특이연결(el("out"));
+}
+
+// 폐업(예정) 사장님용 공고만 따로 모아 보여준다.
+// 대조 결과에 섞으면 "장사 접으라"는 말로 읽힐 수 있어, 눌러야 열리는 자리에 뒀다.
+const 폐업공고키워드 = ["희망리턴"];
+function 폐업용인가(g) {
+  return 폐업공고키워드.some(k => g.이름.includes(k));
+}
+function 폐업공고() {
+  return 노출목록().filter(폐업용인가);
+}
+
+// 대조 결과에 쓰는 목록 — 폐업(예정)자용 공고는 뺀다.
+// 전체 목록(#all)과 서류 사전에는 그대로 남아 있고, 위 접힌 링크에서도 볼 수 있다.
+function 대조목록() {
+  return 노출목록().filter(g => !폐업용인가(g));
+}
+
+let 폐업그림 = false;
+function 폐업연결() {
+  const 링크 = el("closing-link"), 상자 = el("closing-box");
+  if (!링크 || !상자) return;
+
+  const 목록 = 폐업공고();
+  if (!목록.length) { 링크.hidden = true; return; }   // 해당 공고가 다 마감되면 링크째 숨긴다
+
+  const 열기 = 켬 => {
+    상자.hidden = !켬;
+    링크.setAttribute("aria-expanded", 켬);
+    if (켬 && !폐업그림) {
+      el("closing-out").innerHTML = 목록.map((g, i) => 전체카드(g, i)).join("");
+      토글연결(el("closing-out"), "▼ 자격 요건과 제출 서류 보기");
+      특이연결(el("closing-out"));
+      폐업그림 = true;
+    }
+    if (켬) 등장(el("closing-out"), "stagger");
+  };
+
+  링크.onclick = () => 열기(상자.hidden);
+  const 닫기 = el("closing-close");
+  if (닫기) 닫기.onclick = () => { 열기(false); 링크.focus(); };
+}
+
+// 카드 안의 '펼치기' 버튼 동작을 특정 영역에만 연결한다
+function 토글연결(root, 접힘문구) {
+  root.querySelectorAll(".toggle").forEach(b => {
+    b.onclick = () => {
+      const body = b.nextElementSibling;
+      const open = body.classList.toggle("open");
+      b.textContent = (open ? "▲ 접기" : 접힘문구);
+      b.setAttribute("aria-expanded", open);
+    };
+  });
+}
+
+function 카드(r) {
+  const 끝남 = 지난날수(r.g);
+  let cls, label;
+  if (끝남) { cls = "v-gone"; label = "접수 마감"; }
+  else if (r.실패 > 0) { cls = "v-fail"; label = "해당 어려움"; }
+  else if (r.확인 > 0) { cls = "v-check"; label = "추가 확인"; }
+  else { cls = "v-pass"; label = "해당 가능"; }
+
+  const 행 = r.행.map(([k, mine, need, ok]) => {
+    const m = ok === null
+      ? '<span class="mark m-check">확인 필요</span>'
+      : ok ? '<span class="mark m-pass">충족</span>'
+           : '<span class="mark m-fail">미충족</span>';
+    return `<tr><th>${k}</th><td class="mine">${mine}</td><td>${need}</td><td>${m}</td></tr>`;
+  }).join("");
+
+  const 서류 = 서류마크업(r.g);
+
+  return `
+  <article class="card ${끝남 ? "gone" : (r.실패 > 0 ? "no" : "")}">
+    <div class="card-head">
+      <div class="verdict ${cls}">${label}</div>
+      <div>
+        <p class="card-title">${r.g.이름}</p>
+        <p class="card-meta">${r.g.기관}</p>
+        ${업종칩(r)}
+        ${마감마크업(r.g)}
+        ${태그마크업(r.g)}
+      </div>
+    </div>
+    <button class="toggle" aria-expanded="false">▼ 필요 서류와 체크리스트 보기</button>
+    <div class="body">
+      <table class="ledger">
+        <caption>자격 요건 대조</caption>
+        <tr class="thead"><th>항목</th><td class="mine">내 가게</td><td>공고 요건</td><td>판정</td></tr>
+        ${행}
+      </table>
+      ${특이마크업(r.g)}
+      <div class="docs">
+        <h4>제출 서류 ${r.g.서류.length}종</h4>
+        ${준비마크업(r.g)}
+        ${서류}
+        <a class="apply-link" href="${r.g.신청링크}" target="_blank" rel="noopener">공고 원문에서 신청하러 가기 →</a>
+      </div>
+    </div>
+  </article>`;
+}
+
+// 공고의 마감 상태를 오늘 날짜 기준으로 계산한다
+function 마감상태(g) {
+  const 지남 = 지난날수(g);
+  if (지남 !== null) return { cls: "d-over", 뱃지: "마감됨", 지남 };
+  if (g.마감유형 === "종료") return { cls: "d-over", 뱃지: "운영 종료" };
+  if (g.마감유형 === "상시") return { cls: "d-open", 뱃지: "상시 접수" };
+  if (g.마감유형 === "소진") return { cls: "d-open", 뱃지: "소진 시 마감" };
+  if (g.마감유형 === "문의") return { cls: "d-ask", 뱃지: "마감일 문의" };
+
+  const 오늘 = new Date(); 오늘.setHours(0, 0, 0, 0);
+  const 끝 = new Date(g.마감일 + "T00:00:00");
+  const 남은날 = Math.round((끝 - 오늘) / 86400000);
+
+  if (남은날 < 0)  return { cls: "d-over",  뱃지: "마감됨" };
+  if (남은날 === 0) return { cls: "d-today", 뱃지: "오늘 마감" };
+  if (남은날 <= 7)  return { cls: "d-soon",  뱃지: `D-${남은날}` };
+  return { cls: "d-ok", 뱃지: `D-${남은날}` };
+}
+
+const 서류사전 = [
+  { 키:"사업자등록증명원", 이름:"사업자등록증명원", 발급처:"홈택스", url:"https://www.hometax.go.kr",
+    온라인:true, 소요:"3분", 수수료:"무료", 유효:30,
+    경로:"홈택스 로그인 → 상단 [증명·등록·신청] → 즉시발급 증명 → 사업자등록증명",
+    주의:["'사업자등록증'과 '사업자등록증명원'은 다릅니다. 증명원이 관공서 제출용이니 증명원으로 떼세요.","대부분 발급 1개월 이내를 요구합니다.","업태·종목이 실제 사업과 맞는지 확인하세요. 업종 제한이 있는 공고에서 여기서 걸립니다."],
+    키워드:["사업자등록증","사업자등록증명"] },
+
+  { 키:"중소기업확인서", 이름:"중소기업(소상공인)확인서", 발급처:"중소기업현황정보시스템", url:"https://sminfo.mss.go.kr",
+    온라인:true, 소요:"10~30분", 수수료:"무료", 유효:null,
+    경로:"sminfo.mss.go.kr 로그인 → 온라인 자가진단 → 확인서 발급 신청",
+    주의:["가장 많은 공고가 요구하는 서류입니다. 없으면 아무것도 신청 못 합니다.","유효기간이 정해져 있고(보통 다음 해 상반기까지) 만료되면 다시 받아야 합니다.","공고에 따라 '2026년 4월 1일 이후 발급분'처럼 발급일 하한을 두는 경우가 있습니다.","재무제표 자료가 국세청과 연계돼 자동으로 채워지지만, 신규 사업자는 반영까지 시간이 걸립니다."],
+    키워드:["중소기업확인서","중소기업(소상공인)확인서","소상공인확인서","소상공인(중소기업)확인서","소기업(소상공인)","소상공인 확인서"] },
+
+  { 키:"국세완납증명서", 이름:"국세 완납증명서(납세증명서)", 발급처:"홈택스", url:"https://www.hometax.go.kr",
+    온라인:true, 소요:"3분", 수수료:"무료", 유효:30,
+    경로:"홈택스 로그인 → [증명·등록·신청] → 즉시발급 증명 → 납세증명서",
+    주의:["법인은 대표자 개인분과 법인분을 각각 요구하는 경우가 많습니다.","체납이 있으면 발급이 안 되고, 그 자체로 지원 대상에서 빠집니다.","지방세는 홈택스가 아니라 위택스에서 따로 받아야 합니다."],
+    키워드:["국세완납","국세 완납","국세·지방세 납세증명","납세증명서"] },
+
+  { 키:"지방세완납증명서", 이름:"지방세 완납증명서", 발급처:"위택스", url:"https://www.wetax.go.kr",
+    온라인:true, 소요:"3분", 수수료:"무료", 유효:30,
+    경로:"위택스 로그인 → 납부결과 → 납세증명서 발급",
+    주의:["국세와 발급처가 다릅니다. 홈택스에서는 못 받습니다.","정부24에서도 발급되지만 위택스가 더 빠릅니다.","법인은 대표자분과 법인분 둘 다 필요한지 확인하세요."],
+    키워드:["지방세완납","지방세 완납"] },
+
+  { 키:"부가세과세표준증명", 이름:"부가가치세 과세표준증명원", 발급처:"홈택스", url:"https://www.hometax.go.kr",
+    온라인:true, 소요:"3분", 수수료:"무료", 유효:null,
+    경로:"홈택스 로그인 → [증명·등록·신청] → 즉시발급 증명 → 부가가치세과세표준증명",
+    주의:["매출 규모를 증명하는 표준 서류입니다. 매출 상한 조건이 있는 공고에서 이걸로 판정합니다.","면세사업자는 '면세사업자 수입금액증명'으로 대체합니다.","확정신고를 마친 기간까지만 나옵니다. 개업 첫해라면 신고 전이라 발급이 안 될 수 있습니다."],
+    키워드:["부가가치세과세표준","부가세과세표준","부가가치세 과세표준","부가가치증명원","수입금액증명","매출액 확인","매출액 등 재무상황","연매출 3억원 이하 증빙","전자세금계산서 합계표"] },
+
+  { 키:"4대보험완납증명", 이름:"4대보험료 완납증명원", 발급처:"4대사회보험 정보연계센터", url:"https://www.4insure.or.kr",
+    온라인:true, 소요:"5분", 수수료:"무료", 유효:30,
+    경로:"4insure.or.kr 로그인 → 증명서 발급 → 4대보험료 완납증명",
+    주의:["주로 법인에게 요구됩니다.","연체가 있으면 발급이 안 되고 지원 대상에서 빠집니다."],
+    키워드:["4대보험료완납","4대보험료 완납"] },
+
+  { 키:"4대보험가입자명부", 이름:"4대보험 사업장 가입자명부", 발급처:"4대사회보험 정보연계센터", url:"https://www.4insure.or.kr",
+    온라인:true, 소요:"5분", 수수료:"무료", 유효:30,
+    경로:"4insure.or.kr 로그인 → 증명서 발급 → 사업장 가입자명부",
+    주의:["상시근로자 수를 증명하는 서류입니다. 근로자 수 조건이 있는 공고에서 씁니다.","다른 직원의 주민번호가 노출되니 가림 처리해서 제출하세요.","직원이 없으면 발급 대상이 아니라 다른 소명자료를 내야 합니다."],
+    키워드:["4대 보험 가입자명부","4대 보험 사업장 가입자","가입자 명부","상시근로자 수 확인","상시근로자 확인","상시근로자수 확인","종업원 수 증빙","상시근로자수 소명"] },
+
+  { 키:"건강보험자격득실", 이름:"건강보험 자격득실확인서", 발급처:"국민건강보험공단", url:"https://www.nhis.or.kr",
+    온라인:true, 소요:"3분", 수수료:"무료", 유효:30,
+    경로:"건강보험공단 홈페이지 또는 The건강보험 앱 → 증명서 발급 → 자격득실확인서 (정부24에서도 가능)",
+    주의:["대표자가 직장가입자인지 지역가입자인지 확인하는 용도로 많이 씁니다.","소득 기준을 보는 공고에서는 보험료 납부확인서를 함께 요구하기도 합니다."],
+    키워드:["건강보험료자격득실","건강보험자격득실","건강보험증"] },
+
+  { 키:"주민등록등본", 이름:"주민등록 등본·초본", 발급처:"정부24", url:"https://www.gov.kr",
+    온라인:true, 소요:"3분", 수수료:"무료(온라인)", 유효:30,
+    경로:"정부24 로그인 → 자주 찾는 서비스 → 주민등록표 등본(초본) 발급",
+    주의:["거주지가 부산인지 확인하는 용도로 씁니다. 예비창업자 자격의 핵심 서류입니다.","등본과 초본은 다릅니다. 공고에 어느 쪽인지 확인하세요.","공고에 따라 발급일 하한을 두는 경우가 있습니다."],
+    키워드:["주민등록등본","주민등록표 등본","주민등록 등본"] },
+
+  { 키:"통신판매업신고증", 이름:"통신판매업 신고증", 발급처:"정부24 또는 관할 구청", url:"https://www.gov.kr",
+    온라인:true, 소요:"신청 후 3~5일", 수수료:"등록면허세 연 4만원대", 유효:null,
+    경로:"정부24 → 통신판매업 신고 → 구매안전서비스 이용확인증 첨부 → 구청 심사 후 발급",
+    주의:["즉시 발급이 아닙니다. 온라인 판매 공고를 노린다면 미리 받아두세요.","먼저 구매안전서비스(에스크로) 이용확인증이 있어야 신고가 됩니다. 은행이나 결제대행사에서 받습니다.","매년 등록면허세를 내야 유지됩니다."],
+    키워드:["통신판매업"] },
+
+  { 키:"등기부등본", 이름:"등기사항전부증명서(법인·부동산)", 발급처:"인터넷등기소", url:"http://www.iros.go.kr",
+    온라인:true, 소요:"3분", 수수료:"1통 700~1,000원", 유효:30,
+    경로:"인터넷등기소 → 등기열람/발급 → 법인 또는 부동산 선택",
+    주의:["법인 사업자만 해당하는 경우가 대부분입니다.","사업장 소재지 증빙으로 부동산 등기부를 요구하기도 합니다.","열람용은 제출용으로 인정되지 않습니다. 발급용으로 받으세요."],
+    키워드:["등기부등본","등기사항전부증명서","법인등기부"] },
+
+  { 키:"폐업사실증명원", 이름:"폐업사실증명원", 발급처:"홈택스", url:"https://www.hometax.go.kr",
+    온라인:true, 소요:"3분", 수수료:"무료", 유효:null,
+    경로:"홈택스 로그인 → [증명·등록·신청] → 즉시발급 증명 → 폐업사실증명",
+    주의:["폐업 신고가 완료된 뒤에만 발급됩니다.","폐업 예정 단계에서는 사업자등록증명원으로 대신합니다."],
+    키워드:["폐업사실증명"] },
+
+  { 키:"사실증명", 이름:"사실증명(총사업자등록내역)", 발급처:"홈택스", url:"https://www.hometax.go.kr",
+    온라인:true, 소요:"5분", 수수료:"무료", 유효:30,
+    경로:"홈택스 로그인 → [증명·등록·신청] → 사실증명 신청 → 총사업자등록내역",
+    주의:["지금까지 낸 모든 사업자등록 이력이 나옵니다. 중복 수혜를 거르는 데 쓰입니다.","즉시발급이 아니라 신청 후 처리되는 경우가 있습니다."],
+    키워드:["사실증명"] },
+
+  { 키:"재무제표증명", 이름:"표준재무제표증명원", 발급처:"홈택스", url:"https://www.hometax.go.kr",
+    온라인:true, 소요:"3분", 수수료:"무료", 유효:null,
+    경로:"홈택스 로그인 → [증명·등록·신청] → 즉시발급 증명 → 표준재무제표증명",
+    주의:["복식부기 신고를 한 사업자만 발급됩니다.","간편장부 대상이면 부가세 과세표준증명으로 대신합니다."],
+    키워드:["표준재무제표"] },
+
+  { 키:"고용보험이력", 이름:"고용보험 피보험자격 이력내역서", 발급처:"근로복지공단 고용·산재보험 토탈서비스", url:"https://total.comwel.or.kr",
+    온라인:true, 소요:"5분", 수수료:"무료", 유효:30,
+    경로:"total.comwel.or.kr 로그인 → 증명원 신청/발급 → 피보험자격 이력내역서",
+    주의:["취업 사실을 증명할 때 씁니다. 전직장려수당 같은 항목에 필요합니다.","사업주용과 근로자용 화면이 다릅니다."],
+    키워드:["고용보험 피보험자격"] },
+
+  { 키:"금융거래확인서", 이름:"금융거래확인서·부채증명서", 발급처:"거래 은행", url:"",
+    온라인:false, 소요:"영업점 방문 또는 앱", 수수료:"1,000원 내외", 유효:30,
+    경로:"대출을 실행한 은행 영업점 또는 인터넷뱅킹에서 발급",
+    주의:["대출 기간·용도·금액·잔액이 표기된 것으로 받아야 합니다.","금융거래확인서와 부채증명서 중 하나만 내면 되는 경우가 많습니다."],
+    키워드:["금융거래확인서","부채증명서"] },
+
+  { 키:"통장사본", 이름:"통장 사본", 발급처:"본인 거래 은행", url:"",
+    온라인:true, 소요:"즉시", 수수료:"무료", 유효:null,
+    경로:"인터넷뱅킹이나 앱에서 통장 표지 캡처, 또는 은행에서 사본 발급",
+    주의:["반드시 신청인 본인 명의여야 합니다. 배우자·가족 명의는 안 됩니다.","계좌번호와 예금주가 선명하게 보여야 합니다.","신청서에 적은 계좌와 일치하는지 확인하세요."],
+    키워드:["통장사본","통장 사본"] },
+
+  { 키:"임대차계약서", 이름:"사업장 임대차계약서", 발급처:"본인 보관 서류", url:"",
+    온라인:false, 소요:"즉시", 수수료:"무료", 유효:null,
+    경로:"계약 당시 받은 원본을 스캔하거나 사진 촬영",
+    주의:["계약 기간이 아직 남아 있어야 합니다.","계약서상 임차인 이름이 사업자와 같아야 합니다.","확정일자가 찍힌 것을 요구하는 경우가 있으니 미리 확인하세요.","자가라면 등기사항전부증명서로 대신합니다."],
+    키워드:["임대차계약서","사업장 소재지 증빙"] },
+
+  { 키:"신분증", 이름:"대표자 신분증", 발급처:"본인 소지", url:"",
+    온라인:false, 소요:"즉시", 수수료:"무료", 유효:null,
+    경로:"주민등록증·운전면허증·여권 중 하나",
+    주의:["유효기간이 지난 신분증은 인정되지 않습니다.","대리인이 갈 때는 위임장과 인감증명서가 추가로 필요합니다."],
+    키워드:["신분증","실명확인 서류"] },
+
+  { 키:"수출실적증명원", 이름:"수출실적증명원", 발급처:"한국무역통계진흥원·무역협회 등", url:"https://www.trass.or.kr",
+    온라인:true, 소요:"1~3일", 수수료:"건당 유료", 유효:null,
+    경로:"한국무역통계진흥원(TRASS) 또는 무역협회, 시중은행에서 발급",
+    주의:["수출 관련 자금·지원사업에서만 요구됩니다.","수출필증(세관 도장)과는 다른 서류입니다."],
+    키워드:["수출실적증명"] }
+];
+
+// 브라우저에 저장. 저장이 막힌 환경(미리보기 등)에서는 메모리로만 굴러간다.
+const 저장소 = (() => {
+  let 가능 = true;
+  try { localStorage.setItem("__t", "1"); localStorage.removeItem("__t"); }
+  catch (e) { 가능 = false; }
+  const 임시 = {};
+  return {
+    가능,
+    읽기(k) { try { return 가능 ? localStorage.getItem(k) : (임시[k] ?? null); } catch (e) { return 임시[k] ?? null; } },
+    쓰기(k, v) { try { 가능 ? localStorage.setItem(k, v) : (임시[k] = v); } catch (e) { 임시[k] = v; } },
+    지우기(k) { try { 가능 ? localStorage.removeItem(k) : delete 임시[k]; } catch (e) { delete 임시[k]; } }
+  };
+})();
+
+// 공고의 서류 이름을 사전 항목에 연결한다
+function 사전찾기(서류이름) {
+  return 서류사전.find(d => d.키워드.some(k => 서류이름.includes(k))) || null;
+}
+
+// 공고마다 적어둔 서류 체크 문장을 서류 기준으로 모은다.
+// 같은 뜻인데 어미만 다른 문장("1개월 이내 발급본" / "1개월 이내 발급본이어야 합니다")이
+// 수십 줄 쌓이면 아무도 안 읽으므로, 뼈대를 뽑아 한 줄로 합친다.
+function 뼈대(글) {
+  let t = 글.replace(/\s+/g, "")
+            .replace(/[\u00b7,\-\u2014()'"\u2018\u2019\u201c\u201d.]/g, "")
+            .replace(/^(반드시|미리|최근|신청일기준|공고일기준)/, "")
+            .replace(/신청자/g, "신청인")
+            .replace(/제출불필요|제출생략가능|생략가능/g, "생략가능");
+  let 전;
+  do {
+    전 = t;
+    t = t.replace(/(인지확인하세요|인지확인|하셔야합니다|해야합니다|여야합니다|이어야합니다|합니다|하세요|필요합니다|가능합니다|입니다|예요|에요|이어야|여야|인지|본$|분$)$/, "");
+  } while (t !== 전);
+  return t;
+}
+
+// 앞부분이 충분히 겹치면 같은 말로 본다
+function 같은말(a, b) {
+  if (a === b) return true;
+  const 짧 = a.length < b.length ? a : b;
+  const 긺 = a.length < b.length ? b : a;
+  if (긺.startsWith(짧)) return true;
+  let i = 0;
+  while (i < 짧.length && 짧[i] === 긺[i]) i++;
+  return i >= 8 && i >= 짧.length * 0.6;
+}
+
+function 서류별체크() {
+  const 표 = {};
+  노출목록().forEach(g => {
+    const 본것 = new Set();
+    g.서류.forEach(s => {
+      const 항목 = 사전찾기(s.이름);
+      if (!항목) return;
+      (s.체크 || []).forEach(c => {
+        const 글 = c.trim(), 뼈 = 뼈대(글);
+        const 열쇠 = 항목.키 + "|" + 뼈;
+        if (본것.has(열쇠)) return;      // 한 공고 안에서 같은 말이 두 번 나오면 한 번만
+        본것.add(열쇠);
+        const 통 = (표[항목.키] = 표[항목.키] || []);
+        const 있 = 통.find(x => 같은말(x.뼈, 뼈));
+        if (있) { 있.수++; 있.후보.push(글); }
+        else 통.push({ 뼈, 수: 1, 후보: [글] });
+      });
+    });
+  });
+
+  const 결과 = {};
+  Object.keys(표).forEach(키 => {
+    const 항목 = 표[키]
+      .map(x => ({ 수: x.수, 글: x.후보.sort((a, b) => a.length - b.length)[0] }))
+      .sort((a, b) => b.수 - a.수 || a.글.length - b.글.length);
+    // 여러 공고가 함께 요구하는 것부터 최대 6줄. 그런 게 적으면 3줄까지는 보여준다
+    let 뽑기 = 항목.filter(x => x.수 >= 2).slice(0, 6);
+    if (뽑기.length < 3) 뽑기 = 항목.slice(0, 3);
+    결과[키] = 뽑기;
+  });
+  return 결과;
+}
+
+function 체크마크업(항목) {
+  if (!항목 || !항목.length) return "";
+  return `
+    <div class="chklist">
+      <h4>뗄 때 확인할 것</h4>
+      <ul>${항목.map(x => `<li>${x.글}</li>`).join("")}</ul>
+    </div>`;
+}
+
+// 서류마다 '이걸 요구하는 공고'를 모아둔다 (화면에 보이는 공고 기준)
+function 서류별공고() {
+  const 표 = {};
+  노출목록().forEach(g => {
+    const 본것 = new Set();
+    g.서류.forEach(d => {
+      const 항목 = 사전찾기(d.이름);
+      if (항목 && !본것.has(항목.키)) {
+        본것.add(항목.키);
+        (표[항목.키] = 표[항목.키] || []).push(g.이름);
+      }
+    });
+  });
+  return 표;
+}
+
+// 마감 후 이 기간까지는 '마감됨'으로 남겨두고, 지나면 목록에서 내린다
+const 삭제유예일 = 7;
+
+// 마감일이 며칠 지났는지 (아직 안 지났거나 마감일이 없으면 null)
+function 지난날수(g) {
+  if (!g.마감일) return null;
+  const 오늘 = new Date(); 오늘.setHours(0, 0, 0, 0);
+  const 차 = Math.round((오늘 - new Date(g.마감일 + "T00:00:00")) / 86400000);
+  return 차 > 0 ? 차 : null;
+}
+
+// 유예 기간까지 지나 화면에서 빼야 하는 공고인지
+function 내려감(g) {
+  const 지남 = 지난날수(g);
+  return 지남 !== null && 지남 > 삭제유예일;
+}
+
+// 화면에 실제로 보여줄 공고만 추린다
+function 노출목록() {
+  return 공고목록.filter(g => !내려감(g));
+}
+
+function 내려가는날(g) {
+  const d = new Date(g.마감일 + "T00:00:00");
+  d.setDate(d.getDate() + 삭제유예일 + 1);
+  return `${d.getMonth() + 1}월 ${d.getDate()}일`;
+}
+
+// 입력한 업종에 특히 도움이 되는 공고인지 (0=맞춤, 1=업종 무관 범용, 2=다른 업종용)
+function 업종순위(g) {
+  if (!g.업종적합) return 1;
+  return g.업종적합.includes(입력.업종) ? 0 : 2;
+}
+
+function 업종칩(r) {
+  return (r.실패 === 0 && !지난날수(r.g) && 업종순위(r.g) === 0)
+    ? `<div><span class="fitchip">★ ${입력.업종}에 특히 도움돼요</span></div>`
+    : "";
+}
+
+// 마감이 급한 순서를 숫자로 (작을수록 급함)
+function 마감순위(g) {
+  if (g.마감유형 === "종료") return 99999;
+  if (g.마감유형 === "상시") return 900;
+  if (g.마감유형 === "문의") return 800;
+  if (g.마감유형 === "소진") return 500;
+  const 오늘 = new Date(); 오늘.setHours(0, 0, 0, 0);
+  const 남은날 = Math.round((new Date(g.마감일 + "T00:00:00") - 오늘) / 86400000);
+  return 남은날 < 0 ? 99000 : 남은날;
+}
+
+function 마감마크업(g) {
+  const s = 마감상태(g);
+  const 안내 = s.지남
+    ? `<span class="dgone">${s.지남}일 전에 접수가 끝났어요 · ${내려가는날(g)}에 목록에서 내려갑니다</span>`
+    : "";
+  return `<div class="dline ${s.cls}">
+      <span class="dbadge">${s.뱃지}</span>
+      <span class="dtext">${g.마감}</span>
+      ${안내}
+    </div>`;
+}
+
+// 특이조건을 ⚠ / ★ 단위로 쪼갠다. 표식이 없는 옛 공고는 문장 단위로 나눈다.
+function 특이조각(글) {
+  if (!글) return [];
+
+  // 1) ⚠ / ★ 표식으로 먼저 나눈다
+  const 덩어리 = 글.split(/(?=[★⚠])/).map(s => s.trim()).filter(Boolean);
+
+  // 2) 그래도 긴 덩어리는 문장 단위로 더 잘게 나눈다 (표식 없이 쓰인 옛 공고 대비)
+  const 조각 = [];
+  덩어리.forEach(덩 => {
+    const 경고 = 덩.startsWith("⚠");
+    const 본문 = 덩.replace(/^[★⚠]\s*/, "");
+    if (본문.length <= 450) { 조각.push({ 경고, 글: 본문 }); return; }
+    let 담기 = "";
+    본문.split(/(?<=[.!?])\s+|(?<=니다)\s+|(?<=습니다\.)\s*/).forEach(문장 => {
+      담기 += (담기 ? " " : "") + 문장.trim();
+      if (담기.length > 240) { 조각.push({ 경고, 글: 담기 }); 담기 = ""; }
+    });
+    if (담기.trim()) 조각.push({ 경고, 글: 담기.trim() });
+  });
+
+  // 3) 경고를 앞으로 (각 그룹 안에서는 원래 순서 유지)
+  return [...조각.filter(x => x.경고), ...조각.filter(x => !x.경고)];
+}
+
+let 조각번호 = 0;
+function 특이마크업(g) {
+  const 조각 = 특이조각(g.요건.특이조건);
+  if (!조각.length) return "";
+  const 보임 = 3;
+  const id = "flags-" + (++조각번호);
+  const 숨김수 = Math.max(0, 조각.length - 보임);
+  const 숨은경고 = 조각.slice(보임).filter(x => x.경고).length;
+
+  return `
+    <div class="flags" id="${id}">
+      <h5>놓치면 안 되는 것 ${조각.length}가지</h5>
+      ${조각.map((x, i) => `
+        <div class="flag ${x.경고 ? "warn" : "tip"} ${i >= 보임 ? "hide" : ""}">
+          <i>${x.경고 ? "⚠" : "★"}</i><span>${x.글}</span>
+        </div>`).join("")}
+      ${숨김수 ? `<button class="flagmore" data-flags="${id}">${숨김수}가지 더 보기${
+        숨은경고 ? ` (경고 ${숨은경고}개 포함)` : ""}</button>` : ""}
+    </div>`;
+}
+
+// '더 보기' 버튼을 연결한다
+function 특이연결(root) {
+  root.querySelectorAll("[data-flags]").forEach(b => {
+    b.onclick = () => {
+      const box = document.getElementById(b.dataset.flags);
+      const 열림 = box.classList.toggle("open");
+      b.textContent = 열림 ? "접기" : b.dataset.label;
+    };
+    b.dataset.label = b.textContent;
+  });
+}
+
+function 태그마크업(g) {
+  return (g.태그 && g.태그.length)
+    ? `<div class="tags">${g.태그.map(t =>
+        `<span class="tag ${태그클래스(t)}">${t}</span>`).join("")}</div>`
+    : "";
+}
+
+function 서류마크업(g) {
+  return g.서류.map(d => {
+    const 링크 = 발급링크(d.출처);
+    return `
+    <div class="doc">
+      <p class="doc-name">${d.이름}</p>
+      <p class="doc-src">받는 곳 · ${d.출처}</p>
+      ${링크.length
+        ? `<p class="doc-links">${링크.map(l =>
+            `<a href="${l.url}" target="_blank" rel="noopener">${l.이름} 바로가기 ↗</a>`).join("")}</p>`
+        : ""}
+      <ul>${d.체크.map(c => `<li>${c}</li>`).join("")}</ul>
+    </div>`;
+  }).join("");
+}
+
+// 내 가게 정보 없이, 공고에 적힌 요건만 요약한다
+function 요건요약(g) {
+  const r = g.요건, 행 = [];
+  if (r.구군) 행.push(["소재지", r.구군.includes("전역") ? "지역 제한 없음" : r.구군.join(", ")]);
+  if (r.업종) {
+    const a = r.업종.allow, e = r.업종.exclude || [];
+    let 글 = (a && a.length) ? a.join(", ") : "제한 없음";
+    if (e.length) 글 += " / " + e.join(", ") + " 제외";
+    행.push(["업종", 글]);
+  }
+  if (r.근로자) 행.push(["근로자", r.근로자.max + "명 미만"]);
+  if (r.매출) 행.push(["연매출", 만원(r.매출.max) + " 이하"]);
+  if (r.업력) {
+    const 글 = [];
+    if (r.업력.min !== null && r.업력.min !== undefined) 글.push(r.업력.min + "년 이상");
+    if (r.업력.max !== null && r.업력.max !== undefined) 글.push(r.업력.max + "년 미만");
+    행.push(["업력", 글.join(" · ")]);
+  }
+  if (r.연령) {
+    const 글 = [];
+    if (r.연령.min !== null && r.연령.min !== undefined) 글.push("만 " + r.연령.min + "세 이상");
+    if (r.연령.max !== null && r.연령.max !== undefined) 글.push("만 " + r.연령.max + "세 이하");
+    행.push(["대표 나이", 글.join(" · ")]);
+  }
+  if (r.특이조건) 행.push(["특이 조건", "아래 설명 참고"]);
+  return 행;
+}
+
+function 전체카드(g, i) {
+  const 행 = 요건요약(g)
+    .map(([k, v]) => `<tr><th>${k}</th><td>${v}</td></tr>`).join("");
+
+  return `
+  <article class="card">
+    <div class="card-head">
+      <div class="verdict v-idx">${String(i + 1).padStart(2, "0")}</div>
+      <div>
+        <p class="card-title">${g.이름}</p>
+        <p class="card-meta">${g.기관}</p>
+        ${마감마크업(g)}
+        ${태그마크업(g)}
+      </div>
+    </div>
+    <button class="toggle" aria-expanded="false">▼ 자격 요건과 제출 서류 보기</button>
+    <div class="body">
+      <table class="ledger">
+        <caption>공고에 적힌 자격 요건</caption>
+        ${행 || `<tr><th>요건</th><td>표준 항목으로 표시할 제한 없음</td></tr>`}
+      </table>
+      ${특이마크업(g)}
+      <div class="docs">
+        <h4>제출 서류 ${g.서류.length}종</h4>
+        ${준비마크업(g)}
+        ${서류마크업(g)}
+        <a class="apply-link" href="${g.신청링크}" target="_blank" rel="noopener">공고 원문에서 신청하러 가기 →</a>
+      </div>
+    </div>
+  </article>`;
+}
+
+function 발급상태(d) {
+  const 날 = 저장소.읽기("발급일:" + d.키);
+  if (!날) return { cls: "none", 글: "아직 발급 전", 날: "" };
+  const 오늘 = new Date(); 오늘.setHours(0, 0, 0, 0);
+  const 지남 = Math.round((오늘 - new Date(날 + "T00:00:00")) / 86400000);
+  if (d.유효 && 지남 > d.유효) {
+    return { cls: "old", 글: `${지남}일 전 발급 · ${d.유효}일이 지나 다시 떼야 해요`, 날 };
+  }
+  const 남음 = d.유효 ? ` · ${d.유효 - 지남}일 더 쓸 수 있어요` : "";
+  return { cls: "ok", 글: `${지남 === 0 ? "오늘" : 지남 + "일 전"} 발급${남음}`, 날 };
+}
+
+function 서류카드(d, 쓰는공고, 체크) {
+  const s = 발급상태(d);
+  const 수 = 쓰는공고.length;
+  return `
+  <article class="card">
+    <div class="card-head">
+      <div class="verdict v-idx">${수}</div>
+      <div>
+        <p class="card-title">${d.이름}</p>
+        <p class="card-meta">${d.발급처}${d.url ? "" : " (직접 준비)"}</p>
+        <div class="docmeta">
+          <span class="${d.온라인 ? "" : "off"}">${d.온라인 ? "온라인 발급" : "방문·직접 준비"}</span>
+          <span>${d.소요}</span>
+          <span>${d.수수료}</span>
+          ${d.유효 ? `<span>발급 후 ${d.유효}일 이내 권장</span>` : ""}
+        </div>
+        <div class="docrow">
+          <label for="발급-${d.키}">발급받은 날</label>
+          <input type="date" id="발급-${d.키}" value="${s.날}" data-key="${d.키}">
+          <button class="clr" data-clear="${d.키}">지우기</button>
+          <span class="dstate ${s.cls}" id="상태-${d.키}">${s.글}</span>
+        </div>
+      </div>
+    </div>
+    <button class="toggle" aria-expanded="false">▼ 발급 방법과 주의점 보기</button>
+    <div class="body">
+      <div class="docpath"><b>발급 경로</b><br>${d.경로}</div>
+      <div class="docs">
+        <h4>알아둘 것</h4>
+        <div class="doc"><ul>${d.주의.map(c => `<li>${c}</li>`).join("")}</ul></div>
+        ${체크마크업(체크)}
+        ${d.url ? `<a class="apply-link" href="${d.url}" target="_blank" rel="noopener">${d.발급처}에서 발급하러 가기 →</a>` : ""}
+      </div>
+    </div>
+  </article>`;
+}
+
+// 한 공고에서 '미리 뗄 수 있는 서류'가 얼마나 준비됐는지
+function 준비상태(g) {
+  const 본것 = new Set(), 필요 = [];
+  g.서류.forEach(s => {
+    const d = 사전찾기(s.이름);
+    if (d && !본것.has(d.키)) { 본것.add(d.키); 필요.push(d); }
+  });
+  if (!필요.length) return null;
+
+  const 가진것 = [], 없는것 = [], 낡은것 = [];
+  필요.forEach(d => {
+    const st = 발급상태(d);
+    if (st.cls === "none") 없는것.push(d);
+    else if (st.cls === "old") { 가진것.push(d); 낡은것.push(d); }
+    else 가진것.push(d);
+  });
+  return { 필요, 가진것, 없는것, 낡은것,
+           완비: 없는것.length === 0 && 낡은것.length === 0 };
+}
+
+function 준비마크업(g) {
+  const p = 준비상태(g);
+  if (!p) return "";
+  const 몇 = `${p.가진것.length} / ${p.필요.length}`;
+  if (p.완비) {
+    return `<div class="prep all"><span class="pbadge">서류 준비 끝</span>
+      <span class="ptext">미리 뗄 수 있는 ${p.필요.length}종을 모두 갖고 계세요. 신청서만 쓰면 됩니다.</span></div>`;
+  }
+  const 조각 = [];
+  if (p.없는것.length) {
+    const 글 = p.없는것.map(d => d.이름).join(", ");
+    조각.push(`아직 <b>${글}</b>${조사(글, "이", "가")} 없어요`);
+  }
+  if (p.낡은것.length) {
+    const 글 = p.낡은것.map(d => d.이름).join(", ");
+    조각.push(`<span class="pold">${글}${조사(글, "은", "는")} 유효기간이 지나 다시 떼야 해요</span>`);
+  }
+  return `<div class="prep"><span class="pbadge">서류 ${몇}</span>
+    <span class="ptext">${조각.join(" · ")} — <a href="#docs">서류 사전에서 발급 방법 보기 →</a></span></div>`;
+}
+
+// 받침 유무에 따라 조사를 고른다
+function 조사(말, 있을때, 없을때) {
+  const c = 말.charCodeAt(말.length - 1);
+  if (c < 0xAC00 || c > 0xD7A3) return 있을때 + "(" + 없을때 + ")";
+  return (c - 0xAC00) % 28 ? 있을때 : 없을때;
+}
+
+// '본인 소지'와 '본인 보관 서류'처럼 사실상 같은 곳은 하나로 합친다
+function 묶음이름(발급처) {
+  if (발급처.includes("정부24")) return "정부24";
+  if (발급처.includes("은행")) return "거래 은행";
+  if (발급처.includes("본인")) return "직접 준비 (발급처 없음)";
+  return 발급처;
+}
+
+// 발급처별로 묶어 '한 번에 몇 장'을 보여준다
+function 준비묶음() {
+  const 표 = 서류별공고();
+  const 대상 = 서류사전
+    .map(d => ({ d, 수: (표[d.키] || []).length }))
+    .filter(x => x.수 > 0);
+
+  const 묶음 = {};
+  대상.forEach(({ d, 수 }) => {
+    const k = 묶음이름(d.발급처);
+    (묶음[k] = 묶음[k] || { 발급처: k, url: d.url, 목록: [], 합: 0 });
+    묶음[k].목록.push(d);
+    묶음[k].합 += 수;
+    if (!묶음[k].url && d.url) 묶음[k].url = d.url;
+  });
+
+  return Object.values(묶음).sort((a, b) => b.합 - a.합 || b.목록.length - a.목록.length);
+}
+
+function 묶음그리기() {
+  const 묶음 = 준비묶음();
+  const 전체 = 묶음.reduce((a, m) => a + m.목록.length, 0);
+  const 가진 = 묶음.reduce((a, m) =>
+    a + m.목록.filter(d => 발급상태(d).cls === "ok").length, 0);
+
+  const 완비 = 노출목록().filter(g => { const p = 준비상태(g); return p && p.완비; }).length;
+
+  el("docs-plan").innerHTML = `
+    <h3>발급처별로 묶으면 몇 번 안 들어가도 돼요</h3>
+    <p class="plead">같은 사이트에서 여러 장이 한 번에 나옵니다. 위에서부터 하나씩 처리하면
+       가장 많은 공고가 빨리 열려요. 발급한 서류는 아래 목록에서 날짜를 넣어두세요.</p>
+    <div class="pbar"><i style="width:${전체 ? Math.round(가진 / 전체 * 100) : 0}%"></i></div>
+    <p class="pnum"><b>${가진}</b> / ${전체}종 준비됨 · 서류가 다 갖춰진 공고 <b>${완비}건</b></p>
+    ${묶음.map(m => {
+      const 다됨 = m.목록.every(d => 발급상태(d).cls === "ok");
+      return `
+      <div class="pstop">
+        <div class="pstop-h">
+          <b>${m.발급처}</b>
+          <span class="cnt ${다됨 ? "done" : ""}">${다됨 ? "완료" : `${m.목록.length}장`}</span>
+          ${m.url ? `<a href="${m.url}" target="_blank" rel="noopener">바로가기 ↗</a>` : ""}
+        </div>
+        <div class="pitems">${m.목록.map(d => {
+          const st = 발급상태(d);
+          return `<span class="pitem ${st.cls === "ok" ? "got" : ""}">${d.이름}</span>`;
+        }).join("")}</div>
+      </div>`;
+    }).join("")}`;
+}
+
+function 사전그리기() {
+  묶음그리기();
+  const 표 = 서류별공고();
+  const 정렬 = 서류사전
+    .map(d => ({ d, 공고: 표[d.키] || [] }))
+    .filter(x => x.공고.length > 0)
+    .sort((a, b) => b.공고.length - a.공고.length);
+
+  el("docs-count").textContent = 정렬.length;
+  el("storenote").hidden = 저장소.가능;
+
+  const 상위 = 정렬.slice(0, 5);
+  el("docs-lead").innerHTML =
+    `공고마다 서류가 달라 보여도 실제로는 같은 것이 계속 나와요. `
+    + `그중 <b>${상위.map(x => x.d.이름).join(", ")}</b> ${상위.length}장이 가장 많이 쓰여요. `
+    + `이 ${상위.length}장만 미리 떼두면 웬만한 공고는 바로 신청할 수 있어요. `
+    + `왼쪽 숫자는 그 서류를 요구하는 공고 수예요.`;
+
+  el("docs-out").classList.remove("stagger");
+  const 체크표 = 서류별체크();
+  el("docs-out").innerHTML =
+    정렬.map(x => 서류카드(x.d, x.공고, 체크표[x.d.키])).join("");
+  토글연결(el("docs-out"), "▼ 발급 방법과 주의점 보기");
+
+  el("docs-out").querySelectorAll("input[type=date]").forEach(i => {
+    i.onchange = () => {
+      const 키 = i.dataset.key;
+      i.value ? 저장소.쓰기("발급일:" + 키, i.value) : 저장소.지우기("발급일:" + 키);
+      상태갱신(키); 묶음그리기(); 실행();
+    };
+  });
+  el("docs-out").querySelectorAll("[data-clear]").forEach(b => {
+    b.onclick = () => {
+      const 키 = b.dataset.clear;
+      저장소.지우기("발급일:" + 키);
+      el("발급-" + 키).value = "";
+      상태갱신(키);
+    };
+  });
+}
+
+function 상태갱신(키) {
+  const d = 서류사전.find(x => x.키 === 키);
+  const s = 발급상태(d);
+  const 칸 = el("상태-" + 키);
+  칸.textContent = s.글;
+  칸.className = "dstate " + s.cls;
+}
+
+// ── 전체 공고 보기 : 한 페이지에 10건씩 ──────────────────────────
+const 쪽당 = 10;
+let 현재쪽 = 1;
+
+function 마지막쪽() {
+  return Math.max(1, Math.ceil(노출목록().length / 쪽당));
+}
+
+function 전체그리기(쪽) {
+  const 끝 = 마지막쪽();
+  현재쪽 = Math.min(Math.max(1, 쪽 || 1), 끝);
+
+  const 보임 = 노출목록();
+  const 시작 = (현재쪽 - 1) * 쪽당;
+  const 조각 = 보임.slice(시작, 시작 + 쪽당);
+
+  el("pagenote").textContent =
+    `전체 ${보임.length}건 중 ${시작 + 1}~${시작 + 조각.length}번째 · ${현재쪽} / ${끝} 쪽`;
+
+  // 번호는 전체 기준으로 이어지게 시작 인덱스를 더한다
+  el("all-out").classList.remove("stagger");
+  el("all-out").innerHTML =
+    조각.map((g, i) => 전체카드(g, 시작 + i)).join("");
+  토글연결(el("all-out"), "▼ 자격 요건과 제출 서류 보기");
+  특이연결(el("all-out"));
+
+  페이저그리기(끝);
+}
+
+function 페이저그리기(끝) {
+  if (끝 <= 1) { el("pager").innerHTML = ""; return; }
+
+  const 칸 = [];
+  칸.push(`<button class="pbtn arrow" data-go="${현재쪽 - 1}" ${현재쪽 === 1 ? "disabled" : ""} aria-label="이전 쪽">‹</button>`);
+  for (let n = 1; n <= 끝; n++) {
+    칸.push(`<button class="pbtn ${n === 현재쪽 ? "on" : ""}" data-go="${n}"${n === 현재쪽 ? ' aria-current="page"' : ""}>${n}</button>`);
+  }
+  칸.push(`<button class="pbtn arrow" data-go="${현재쪽 + 1}" ${현재쪽 === 끝 ? "disabled" : ""} aria-label="다음 쪽">›</button>`);
+  el("pager").innerHTML = 칸.join("");
+
+  el("pager").querySelectorAll(".pbtn").forEach(b => {
+    b.onclick = () => {
+      if (b.disabled) return;
+      전체그리기(Number(b.dataset.go));
+      등장(el("all-out"), "stagger");
+      el("all-view").scrollIntoView({ behavior: "smooth", block: "start" });
+    };
+  });
+}
+
+// 같은 클래스를 다시 붙여 애니메이션을 처음부터 재생시킨다
+function 등장(요소, 클래스) {
+  if (!요소 || !요소.classList) return;
+  요소.classList.remove(클래스);
+  void 요소.offsetWidth;          // 강제 리플로 — 없으면 다시 재생되지 않는다
+  요소.classList.add(클래스);
+}
+
+let 지금화면 = null;
+
+// 상단 메뉴에서 지금 보고 있는 곳을 표시한다
+function 메뉴표시(현재) {
+  document.querySelectorAll(".nav-links a").forEach(a => {
+    const 켬 = a.getAttribute("href") === 현재;
+    a.classList.toggle("on", 켬);
+    if (켬) a.setAttribute("aria-current", "page");
+    else a.removeAttribute("aria-current");
+  });
+}
+
+function 화면전환() {
+  const 어디 = location.hash;
+  const 전체보기 = 어디 === "#all";
+  const 사전보기 = 어디 === "#docs";
+  el("main-view").hidden = 전체보기 || 사전보기;
+  el("all-view").hidden = !전체보기;
+  el("docs-view").hidden = !사전보기;
+  if (전체보기 && !el("all-out").innerHTML) 전체그리기(1);
+  if (사전보기) 사전그리기();
+
+  const 화면 = 전체보기 ? "#all" : 사전보기 ? "#docs" : "#form";
+  메뉴표시(화면);
+
+  // 화면이 실제로 바뀔 때만 위로 올리고 등장 효과를 준다.
+  // (같은 화면 안에서 #form 같은 앵커를 눌렀을 때는 그 자리로 가야 하므로)
+  if (지금화면 === null || 지금화면 !== 화면) {
+    등장(el(전체보기 ? "all-view" : 사전보기 ? "docs-view" : "main-view"), "view-anim");
+    if (전체보기) 등장(el("all-out"), "stagger");
+    if (사전보기) 등장(el("docs-out"), "stagger");
+  }
+  // 스크롤은 화면이 실제로 바뀔 때만 (첫 로드나 같은 화면 앵커 이동에서는 그대로 둔다)
+  if (지금화면 !== null && 지금화면 !== 화면) window.scrollTo(0, 0);
+  지금화면 = 화면;
+}
+
+// 공고 전체를 마지막으로 점검한 날. 갱신 때 이 날짜만 바꾸면 두 화면에 함께 반영된다.
+const 마지막확인일 = "2026-08-10";
+
+function 확인일표시() {
+  const d = new Date(마지막확인일 + "T00:00:00");
+  const 요일 = ["일","월","화","수","목","금","토"][d.getDay()];
+  const 글 = `${d.getFullYear()}년 ${d.getMonth() + 1}월 ${d.getDate()}일 (${요일})`;
+  el("fresh-date").textContent = 글;
+  el("fresh-date-all").textContent = 글;
+}
+확인일표시();
+
+el("hero-count").textContent = 노출목록().length;
+el("notice-count").textContent = 노출목록().length;
+el("all-count").textContent = 노출목록().length;
+
+// 대조하기를 누르면 눈에 보이는 반응이 있어야 눌린 걸 안다
+// 아직 아무것도 안 고른 첫 화면
+function 시작안내() {
+  el("tally").textContent =
+    `장사하는 사장님이 신청할 수 있는 공고 ${대조목록().length}건을 모아뒀어요. `
+    + `위에서 사업장 지역과 업종을 고르고 대조하기를 누르면 내 가게에 해당하는 공고를 골라드려요.`;
+  el("out").innerHTML =
+    `<div class="empty">지역과 업종을 고른 뒤 <b>대조하기</b>를 눌러주세요.<br>`
+    + `조건 없이 전체를 먼저 훑어보고 싶다면 <a href="#all">전체 공고 보기</a>로 가셔도 돼요.</div>`;
+}
+
+el("run").onclick = () => {
+  const 버튼 = el("run");
+  if (!el("gu").value || !el("up").value) {
+    el("tally").textContent = "먼저 사업장 지역과 업종을 골라주세요. 이 두 가지가 있어야 대조할 수 있어요.";
+    등장(el("tally"), "fresh");
+    (!el("gu").value ? el("gu") : el("up")).focus();
+    return;
+  }
+  버튼.classList.add("busy");
+  버튼.disabled = true;
+  el("run-label").textContent = "대조하는 중";
+
+  setTimeout(() => {
+    실행();
+    등장(el("out"), "stagger");
+    등장(el("tally"), "fresh");
+
+    버튼.classList.remove("busy");
+    버튼.disabled = false;
+    el("run-label").textContent = "다시 대조하기";
+
+    el("tally").scrollIntoView({ behavior: "smooth", block: "start" });
+  }, 420);
+};
+window.addEventListener("hashchange", 화면전환);
+시작안내();
+폐업연결();
+화면전환();
+</script>
+</body>
+</html>
